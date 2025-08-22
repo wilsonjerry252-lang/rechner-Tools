@@ -114,7 +114,7 @@ export default function CookieConsent() {
       <div className="fixed inset-0 bg-black/50 z-40" />
       
       {/* Cookie consent banner */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 p-4 bg-black/50">
+      <div className="fixed bottom-0 left-0 right-0 z-50 p-4">
         <Card className="max-w-4xl mx-auto">
           <CardContent className="p-6">
             {!showSettings ? (
