@@ -138,10 +138,10 @@ export default function CookieConsent() {
   return (
     <>
       {/* Gray overlay covering the entire page */}
-      <div className="fixed inset-0 bg-black/50 z-30" />
+      <div className="fixed inset-0 bg-black/50 z-45" />
       
       {/* Cookie consent banner - full width bottom */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-gray-200 shadow-lg">
+      <div className="fixed bottom-0 left-0 right-0 z-55 bg-white border-t border-gray-200 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 py-4 md:py-6">
           {!showSettings ? (
             // Main banner
@@ -162,24 +162,24 @@ export default function CookieConsent() {
                 <Button 
                   variant="outline" 
                   onClick={() => setShowSettings(true)} 
-                  size="sm"
-                  className="w-full sm:w-auto px-4 md:px-6 text-sm md:text-base"
+                  size="lg"
+                  className="w-full sm:w-auto px-6 md:px-8 py-3 md:py-4 text-base md:text-lg"
                 >
-                  <Settings className="h-4 w-4 md:h-5 md:w-5 mr-2" />
+                  <Settings className="h-5 w-5 md:h-6 md:w-6 mr-2" />
                   Einstellungen
                 </Button>
                 <Button 
                   onClick={acceptAll} 
-                  size="sm"
-                  className="w-full sm:w-auto px-4 md:px-8 py-2 md:py-3 bg-green-600 hover:bg-green-700 text-white text-sm md:text-base"
+                  size="lg"
+                  className="w-full sm:w-auto px-8 md:px-10 py-3 md:py-4 bg-green-600 hover:bg-green-700 text-white text-base md:text-lg font-semibold"
                 >
                   Alle akzeptieren
                 </Button>
                 <Button
                   variant="ghost"
                   onClick={rejectAll}
-                  size="sm"
-                  className="w-full sm:w-auto px-4 md:px-6 text-sm md:text-base"
+                  size="lg"
+                  className="w-full sm:w-auto px-6 md:px-8 py-3 md:py-4 text-base md:text-lg"
                 >
                   Alle ablehnen
                 </Button>
@@ -248,16 +248,16 @@ export default function CookieConsent() {
               <div className="flex flex-col sm:flex-row gap-2 md:gap-3 pt-3 md:pt-4 border-t">
                 <Button 
                   onClick={acceptSelected} 
-                  size="sm"
-                  className="w-full sm:w-auto px-4 md:px-8 py-2 md:py-3 bg-green-600 hover:bg-green-700 text-white text-sm md:text-base"
+                  size="lg"
+                  className="w-full sm:w-auto px-6 md:px-8 py-3 md:py-4 bg-green-600 hover:bg-green-700 text-white text-base md:text-lg font-semibold"
                 >
                   Auswahl speichern
                 </Button>
                 <Button
                   variant="outline"
                   onClick={() => setShowSettings(false)}
-                  size="sm"
-                  className="w-full sm:w-auto px-4 md:px-6 text-sm md:text-base"
+                  size="lg"
+                  className="w-full sm:w-auto px-6 md:px-8 py-3 md:py-4 text-base md:text-lg"
                 >
                   Zurück
                 </Button>
