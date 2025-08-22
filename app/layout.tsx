@@ -101,7 +101,7 @@ export default function RootLayout({
         <link rel="icon" href="/logo.png" type="image/png" />
         <link rel="apple-touch-icon" href="/logo.png" />
         
-        {/* Google Analytics */}
+        {/*!-- Google tag (gtag.js) --*/}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-JTK284TTSM"></script>
         <script
           dangerouslySetInnerHTML={{
