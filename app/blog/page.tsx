@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowLeft, Calendar, Clock, ArrowRight, TrendingUp, Calculator, Heart, CreditCard } from "lucide-react"
+import { ArrowLeft, Calendar, Clock, ArrowRight, TrendingUp, Calculator, Heart, CreditCard, Activity, Globe, Download, Apple, RefreshCw } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
@@ -17,10 +17,11 @@ export default function BlogPage() {
       excerpt:
         "Erfahren Sie alles über die unterschiedlichen MwSt-Sätze in den DACH-Ländern und wie Sie diese korrekt berechnen.",
       category: "Steuern",
-      date: "2025-01-15",
+      date: "2024-12-15",
       readTime: "5 Min.",
       icon: Calculator,
       color: "primary",
+      slug: "mehrwertsteuer-deutschland-oesterreich-schweiz"
     },
     {
       id: 2,
@@ -28,10 +29,11 @@ export default function BlogPage() {
       excerpt:
         "Der BMI ist nur ein Richtwert. Lernen Sie, wie Sie Ihren BMI-Wert richtig einordnen und was er über Ihre Gesundheit aussagt.",
       category: "Gesundheit",
-      date: "2025-01-12",
+      date: "2024-12-15",
       readTime: "7 Min.",
       icon: Heart,
       color: "secondary",
+      slug: "bmi-richtig-interpretieren"
     },
     {
       id: 3,
@@ -39,10 +41,11 @@ export default function BlogPage() {
       excerpt:
         "Tipps und Tricks für den Kreditvergleich. Worauf Sie achten sollten und wie Sie Tausende von Euro sparen können.",
       category: "Finanzen",
-      date: "2025-01-10",
+      date: "2024-12-15",
       readTime: "6 Min.",
       icon: CreditCard,
       color: "accent",
+      slug: "kreditvergleich-bester-zinssatz"
     },
     {
       id: 4,
@@ -50,10 +53,11 @@ export default function BlogPage() {
       excerpt:
         "Wann können Sie Kreditzinsen von der Steuer absetzen? Ein Leitfaden für Privatpersonen und Unternehmer.",
       category: "Steuern",
-      date: "2025-01-08",
+      date: "2024-12-15",
       readTime: "8 Min.",
       icon: Calculator,
       color: "primary",
+      slug: "steuerliche-absetzbarkeit-kreditzinsen"
     },
     {
       id: 5,
@@ -61,21 +65,177 @@ export default function BlogPage() {
       excerpt:
         "Warum der BMI allein nicht ausreicht und welche anderen Faktoren für eine gesunde Gewichtsabnahme wichtig sind.",
       category: "Gesundheit",
-      date: "2025-01-05",
+      date: "2024-12-15",
       readTime: "9 Min.",
       icon: Heart,
       color: "secondary",
+      slug: "gesunde-gewichtsabnahme-bmi"
     },
     {
       id: 6,
       title: "Sondertilgung bei Krediten: Wann lohnt es sich?",
       excerpt: "Erfahren Sie, wann eine Sondertilgung sinnvoll ist und wie Sie dabei vorgehen sollten.",
       category: "Finanzen",
-      date: "2025-01-03",
+      date: "2024-12-15",
       readTime: "5 Min.",
       icon: CreditCard,
       color: "accent",
+      slug: "sondertilgung-kredite"
     },
+    {
+      id: 7,
+      title: "Mehrwertsteuer berechnen: Methoden und Beispiele",
+      excerpt: "Lernen Sie verschiedene Methoden zur MwSt.-Berechnung kennen und sehen Sie praktische Beispiele.",
+      category: "Steuern",
+      date: "2024-12-15",
+      readTime: "6 Min.",
+      icon: Calculator,
+      color: "primary",
+      slug: "mehrwertsteuer-berechnung"
+    },
+    {
+      id: 8,
+      title: "BMI und Gesundheitsrisiken: Was Sie wissen sollten",
+      excerpt: "Verstehen Sie die gesundheitlichen Risiken verschiedener BMI-Werte und wie Sie diese minimieren können.",
+      category: "Gesundheit",
+      date: "2024-12-15",
+      readTime: "8 Min.",
+      icon: Heart,
+      color: "secondary",
+      slug: "bmi-gesundheitsrisiken"
+    },
+    {
+      id: 9,
+      title: "Kreditarten im Vergleich: Welcher Kredit passt zu Ihnen?",
+      excerpt: "Ein umfassender Überblick über verschiedene Kreditarten und deren Vor- und Nachteile.",
+      category: "Finanzen",
+      date: "2024-12-15",
+      readTime: "7 Min.",
+      icon: CreditCard,
+      color: "accent",
+      slug: "kreditarten-vergleich"
+    },
+    {
+      id: 10,
+      title: "Mehrwertsteuer für Unternehmer: Ein umfassender Leitfaden",
+      excerpt: "Alles was Unternehmer über MwSt., Vorsteuerabzug und korrekte Abrechnung wissen müssen.",
+      category: "Steuern",
+      date: "2024-12-15",
+      readTime: "10 Min.",
+      icon: Calculator,
+      color: "primary",
+      slug: "mehrwertsteuer-unternehmer"
+    },
+    {
+      id: 11,
+      title: "BMI, Ernährung und Training: Der perfekte Plan",
+      excerpt: "Kombinieren Sie BMI, Ernährung und Training für optimale Gesundheit und Ihr Wunschgewicht.",
+      category: "Gesundheit",
+      date: "2024-12-15",
+      readTime: "9 Min.",
+      icon: Heart,
+      color: "secondary",
+      slug: "bmi-ernaehrung-training"
+    },
+    {
+      id: 12,
+      title: "Kreditzinsen berechnen: Von einfachen Formeln bis zur Tilgungstabelle",
+      excerpt: "Lernen Sie, wie Sie Kreditzinsen korrekt berechnen und verstehen Sie Tilgungspläne.",
+      category: "Finanzen",
+      date: "2024-12-15",
+      readTime: "8 Min.",
+      icon: CreditCard,
+      color: "accent",
+      slug: "kredit-zinsen-berechnen"
+    },
+    {
+      id: 13,
+      title: "Mehrwertsteuer-Ausnahmen: Wann gilt welcher Satz?",
+      excerpt: "Erfahren Sie alles über MwSt.-Ausnahmen, ermäßigte Sätze und steuerfreie Leistungen.",
+      category: "Steuern",
+      date: "2024-12-15",
+      readTime: "8 Min.",
+      icon: Calculator,
+      color: "primary",
+      slug: "mehrwertsteuer-ausnahmen"
+    },
+    {
+      id: 14,
+      title: "Idealgewicht berechnen: BMI und gesunde Gewichtsziele",
+      excerpt: "Erfahren Sie, wie Sie Ihr Idealgewicht berechnen und gesunde Gewichtsziele setzen.",
+      category: "Gesundheit",
+      date: "2024-12-15",
+      readTime: "7 Min.",
+      icon: Heart,
+      color: "secondary",
+      slug: "bmi-idealgewicht"
+    },
+    {
+      id: 15,
+      title: "Kredit aufnehmen: Der komplette Leitfaden",
+      excerpt: "Erfahren Sie alles über Kreditaufnahme: Voraussetzungen, Dokumente, Zinsen und Tipps.",
+      category: "Finanzen",
+      date: "2024-12-15",
+      readTime: "9 Min.",
+      icon: CreditCard,
+      color: "accent",
+      slug: "kredit-aufnehmen"
+    },
+    {
+      id: 16,
+      title: "Mehrwertsteuer bei Exporten: Steuerfreie Ausfuhren",
+      excerpt: "Erfahren Sie alles über MwSt.-freie Exporte, Ausfuhrlieferungen und grenzüberschreitende Geschäfte.",
+      category: "Steuern",
+      date: "2024-12-15",
+      readTime: "8 Min.",
+      icon: Globe,
+      color: "primary",
+      slug: "mehrwertsteuer-export"
+    },
+    {
+      id: 17,
+      title: "BMI für Sportler: Warum der BMI bei Athleten irreführend ist",
+      excerpt: "Erfahren Sie, warum der BMI bei Sportlern oft irreführend ist und welche Alternativen es gibt.",
+      category: "Gesundheit",
+      date: "2024-12-15",
+      readTime: "7 Min.",
+      icon: Activity,
+      color: "secondary",
+      slug: "bmi-sportler"
+    },
+    {
+      id: 18,
+      title: "Kredit umschulden: Wann lohnt sich eine Umschuldung?",
+      excerpt: "Erfahren Sie alles über Kreditumschuldung: Wann sie sinnvoll ist und wie Sie sparen können.",
+      category: "Finanzen",
+      date: "2024-12-15",
+      readTime: "8 Min.",
+      icon: RefreshCw,
+      color: "accent",
+      slug: "kredit-umschuldung"
+    },
+    {
+      id: 19,
+      title: "Mehrwertsteuer bei Importen: Einfuhrumsatzsteuer verstehen",
+      excerpt: "Erfahren Sie alles über Einfuhrumsatzsteuer, Zollabfertigung und Importgeschäfte.",
+      category: "Steuern",
+      date: "2024-12-15",
+      readTime: "9 Min.",
+      icon: Download,
+      color: "primary",
+      slug: "mehrwertsteuer-import"
+    },
+    {
+      id: 20,
+      title: "BMI und Ernährung: Der perfekte Ernährungsplan für Ihr Gewicht",
+      excerpt: "Erfahren Sie, wie Sie Ihre Ernährung optimal an Ihren BMI anpassen und gesundes Gewicht erreichen.",
+      category: "Gesundheit",
+      date: "2024-12-15",
+      readTime: "8 Min.",
+      icon: Apple,
+      color: "secondary",
+      slug: "bmi-ernaehrung"
+    }
   ]
 
   const categories = [
@@ -90,11 +250,15 @@ export default function BlogPage() {
       <header className="bg-gradient-to-r from-primary to-primary/90 text-primary-foreground shadow-lg">
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 logo-container">
               <img src="/logo.png" alt="Rechner Tools Logo" className="h-12 w-12 rounded-full shadow-md" />
-              <div>
-                <h1 className="text-2xl font-bold font-serif">Rechner Tools</h1>
-                <p className="text-sm opacity-90 font-medium">Professionelle Online-Rechner</p>
+              <div className="flex flex-col">
+                <h1 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
+                  Rechner Tools
+                </h1>
+                <p className="text-sm logo-subtitle text-blue-100 tracking-wide">
+                  Professionelle Online-Rechner
+                </p>
               </div>
             </div>
             <Link href="/">
@@ -197,10 +361,12 @@ export default function BlogPage() {
                     </div>
                   </div>
 
-                  <Button variant="ghost" className="w-full group-hover:bg-primary/5 transition-colors">
-                    Artikel lesen
-                    <ArrowRight className="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                  </Button>
+                  <Link href={`/blog/${post.slug}`}>
+                    <Button variant="ghost" className="w-full group-hover:bg-primary/5 transition-colors">
+                      Artikel lesen
+                      <ArrowRight className="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                  </Link>
                 </div>
               </article>
             )

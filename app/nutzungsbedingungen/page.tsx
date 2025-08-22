@@ -107,6 +107,12 @@ export default function NutzungsbedingungenPage() {
                   Nicht gestattet ist die automatisierte Abfrage der Rechner durch Bots oder andere Programme sowie die
                   Einbindung der Rechner in andere Websites ohne unsere ausdrückliche Zustimmung.
                 </p>
+                <p>
+                  <strong>Tracking und Analytics:</strong> Diese Website verwendet Google Analytics und Google Search
+                  Console zur Verbesserung der Benutzerfreundlichkeit und Website-Performance. Durch die Nutzung der
+                  Website stimmen Sie der Verwendung dieser Dienste zu, sofern Sie nicht der Verwendung von Cookies
+                  widersprechen.
+                </p>
               </div>
             </div>
 
@@ -139,7 +145,48 @@ export default function NutzungsbedingungenPage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-3">5. Änderungen</h3>
+              <h3 className="font-semibold mb-3">5. Drittanbieter-Dienste</h3>
+              <div className="space-y-3 text-sm text-muted-foreground">
+                <div>
+                  <h4 className="font-medium text-foreground">Google Analytics</h4>
+                  <p>
+                    Diese Website nutzt Google Analytics, einen Webanalysedienst der Google LLC. Google Analytics
+                    verwendet Cookies, um die Nutzung der Website zu analysieren. Die durch Cookies erzeugten
+                    Informationen über Ihre Nutzung dieser Website werden an einen Google-Server in den USA übertragen
+                    und dort gespeichert.
+                  </p>
+                  <p>
+                    <strong>Zweck:</strong> Die Nutzung von Google Analytics dient der Analyse und regelmäßigen
+                    Verbesserung der Nutzbarkeit unserer Website. Durch die gewonnenen Statistiken können wir unser
+                    Angebot verbessern und für Sie als Nutzer interessanter gestalten.
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-medium text-foreground">Google Search Console</h4>
+                  <p>
+                    Wir nutzen Google Search Console, um die Performance unserer Website in den Google-Suchergebnissen
+                    zu überwachen und zu optimieren. Dieser Dienst hilft uns dabei, technische Probleme zu identifizieren
+                    und die Sichtbarkeit unserer Website zu verbessern.
+                  </p>
+                  <p>
+                    <strong>Datenschutz:</strong> Beide Google-Dienste unterliegen den Google-Datenschutzrichtlinien.
+                    Wir haben entsprechende Datenschutzmaßnahmen implementiert, um Ihre Privatsphäre zu schützen.
+                    Detaillierte Informationen finden Sie in unserer{" "}
+                    <Link href="/datenschutz" className="text-primary hover:underline">
+                      Datenschutzerklärung
+                    </Link>{" "}
+                    und{" "}
+                    <Link href="/cookie-richtlinie" className="text-primary hover:underline">
+                      Cookie-Richtlinie
+                    </Link>
+                    .
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="font-semibold mb-3">6. Änderungen</h3>
               <p className="text-sm text-muted-foreground">
                 Wir behalten uns vor, diese Nutzungsbedingungen jederzeit zu ändern. Änderungen werden auf dieser Seite
                 veröffentlicht und treten mit der Veröffentlichung in Kraft.
@@ -147,7 +194,7 @@ export default function NutzungsbedingungenPage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-3">6. Anwendbares Recht</h3>
+              <h3 className="font-semibold mb-3">7. Anwendbares Recht</h3>
               <p className="text-sm text-muted-foreground">
                 Es gilt deutsches Recht unter Ausschluss des UN-Kaufrechts. Gerichtsstand ist der Wohnsitz des Betreibers,
                 soweit gesetzlich zulässig.
@@ -155,7 +202,7 @@ export default function NutzungsbedingungenPage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-3">7. Kontakt</h3>
+              <h3 className="font-semibold mb-3">8. Kontakt</h3>
               <p className="text-sm text-muted-foreground">
                 Bei Fragen zu diesen Nutzungsbedingungen wenden Sie sich bitte an: muk.kt199@gmail.com
               </p>

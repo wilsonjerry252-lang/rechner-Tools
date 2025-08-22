@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://rechner-tools.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Allow all important directories
+Allow: /blog/
+Allow: /ueber-uns/
+Allow: /api/
+
+# Disallow admin or private areas (if any exist in future)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Allow all file types
+Allow: /*.html
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.ico
+Allow: /*.svg

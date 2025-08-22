@@ -3,6 +3,44 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* Custom Logo Styling */
+.logo-text {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: -0.02em;
+  transition: all 0.3s ease;
+}
+
+.logo-subtitle {
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.logo-gradient {
+  background: linear-gradient(135deg, #ffffff 0%, #e3f2fd 25%, #bbdefb 50%, #90caf9 75%, #64b5f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.logo-glow {
+  filter: drop-shadow(0 0 8px rgba(100, 181, 246, 0.6));
+  transition: all 0.3s ease;
+}
+
+.logo-container:hover .logo-glow {
+  filter: drop-shadow(0 0 12px rgba(100, 181, 246, 0.8));
+  transform: scale(1.02);
+}
+
+.logo-container:hover .logo-subtitle {
+  color: #ffffff !important;
+  transform: translateY(-1px);
+}
+
 :root {
   /* Enhanced color scheme with better contrast and modern feel */
   --background: oklch(0.99 0.002 106.423); /* Slightly brighter background */
@@ -189,4 +227,12 @@
   .hover-lift:hover {
     transform: translateY(-2px);
   }
+}
+
+#v0-built-with-button-9e6f75ca-72d5-4a58-8878-b70a4089d3ab {
+  display: none !important;
+}
+
+[id^="v0-built-with-button"] {
+  display: none !important;
 }

@@ -1,68 +1,35 @@
-"use client"
-
-import type React from "react"
 import Link from "next/link"
-import { ArrowLeft, Mail, MessageSquare, Send, MapPin, Clock } from "lucide-react"
+import { ArrowLeft, Mail, MapPin, Phone, Clock, MessageSquare, Calculator, Heart, CreditCard } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { useState } from "react"
+import ContactForm from "@/components/ContactForm"
+
+export const metadata = {
+  title: "Kontakt - Rechner Tools | Professionelle Online-Rechner",
+  description:
+    "Kontaktieren Sie uns für Fragen zu unseren Rechnern, Support oder Feedback. Wir sind für Sie da und helfen Ihnen gerne weiter.",
+  keywords: "kontakt, support, hilfe, feedback, rechner tools, online rechner",
+  openGraph: {
+    title: "Kontakt - Rechner Tools",
+    description: "Kontaktieren Sie uns für Fragen zu unseren Rechnern, Support oder Feedback.",
+    type: "website",
+  },
+}
 
 export default function ContactPage() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  })
-  const [loading, setLoading] = useState(false)
-    const [successMessage, setSuccessMessage] = useState("") // <-- added state
-  const [errorMessage, setErrorMessage] = useState("")
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setLoading(true)
-
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      })
-
-      const data = await res.json()
-
-       if (!res.ok) {
-        setErrorMessage("E-Mail konnte nicht gesendet werden")
-      } else {
-        setSuccessMessage("Vielen Dank für Ihre Nachricht! Wir werden uns bald bei Ihnen melden.")
-        setFormData({ name: "", email: "", subject: "", message: "" })
-      }
-    } catch (error) {
-      alert("Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.")
-      console.error(error)
-    } finally {
-      setLoading(false)
-    }
-  }
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    })
-  }
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-secondary/5 to-accent/5">
       <header className="bg-gradient-to-r from-primary to-primary/90 text-primary-foreground shadow-lg">
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 logo-container">
               <img src="/logo.png" alt="Rechner Tools Logo" className="h-12 w-12 rounded-full shadow-md" />
-              <div>
-                <h1 className="text-2xl font-bold font-serif">Rechner Tools</h1>
-                <p className="text-sm opacity-90 font-medium">Professionelle Online-Rechner</p>
+              <div className="flex flex-col">
+                <h1 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
+                  Rechner Tools
+                </h1>
+                <p className="text-sm logo-subtitle text-blue-100 tracking-wide">
+                  Professionelle Online-Rechner
+                </p>
               </div>
             </div>
             <Link href="/">
@@ -75,175 +42,142 @@ export default function ContactPage() {
         </div>
       </header>
 
-      <main className="max-w-6xl mx-auto px-4 py-12">
+      <main className="max-w-7xl mx-auto px-4 py-12">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold font-serif text-foreground mb-4">Kontakt</h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Haben Sie Fragen, Anregungen oder Feedback? Wir freuen uns auf Ihre Nachricht!
+          <h1 className="text-4xl font-bold font-serif text-foreground mb-4">Kontaktieren Sie uns</h1>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Haben Sie Fragen zu unseren Rechnern oder benötigen Sie Unterstützung? 
+            Wir sind für Sie da und helfen Ihnen gerne weiter.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
-          {/* Contact Form */}
-          <div className="bg-card rounded-2xl shadow-xl p-8">
-            <div className="flex items-center gap-3 mb-6">
-              <MessageSquare className="h-6 w-6 text-primary" />
-              <h2 className="text-2xl font-bold font-serif text-foreground">Nachricht senden</h2>
-            </div>
-
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-4">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                    Name *
-                  </label>
-                  <Input
-                    id="name"
-                    name="name"
-                    type="text"
-                    required
-                    value={formData.name}
-                    onChange={handleChange}
-                    placeholder="Ihr vollständiger Name"
-                    className="border-2 border-border"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                    E-Mail *
-                  </label>
-                  <Input
-                    id="email"
-                    name="email"
-                    type="email"
-                    required
-                    value={formData.email}
-                    onChange={handleChange}
-                    placeholder="ihre.email@beispiel.de"
-                    className="border-2 border-border"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <label htmlFor="subject" className="block text-sm font-medium text-foreground mb-2">
-                  Betreff *
-                </label>
-                <Input
-                  id="subject"
-                  name="subject"
-                  type="text"
-                  required
-                  value={formData.subject}
-                  onChange={handleChange}
-                  placeholder="Worum geht es in Ihrer Nachricht?"
-                  className="border-2 border-border"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                  Nachricht *
-                </label>
-                <Textarea
-                  id="message"
-                  name="message"
-                  required
-                  value={formData.message}
-                  onChange={handleChange}
-                  placeholder="Teilen Sie uns Ihre Fragen, Anregungen oder Ihr Feedback mit..."
-                  rows={6}
-                  className="border-2 border-border resize-none"
-                />
-              </div>
-               {successMessage && (
-                <div className="p-4 text-green-800 bg-green-100 rounded-lg text-center">
-                  {successMessage}
-                </div>
-              )}
-
-              {errorMessage && (
-                <div className="p-4 text-red-800 bg-red-100 rounded-lg text-center">
-                  {errorMessage}
-                </div>
-              )}
-
-
-              <Button
-                type="submit"
-                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground"
-                disabled={loading}
-              >
-                {loading ? "Wird gesendet..." : (
-                  <>
-                    <Send className="h-4 w-4 mr-2" />
-                    Nachricht senden
-                  </>
-                )}
-              </Button>
-            </form>
-          </div>
-
+        <div className="grid lg:grid-cols-3 gap-8 mb-16">
           {/* Contact Information */}
-          <div className="space-y-8">
-            <div className="bg-card rounded-2xl shadow-xl p-8">
-              <div className="flex items-center gap-3 mb-6">
-                <Mail className="h-6 w-6 text-primary" />
-                <h2 className="text-2xl font-bold font-serif text-foreground">Kontaktinformationen</h2>
-              </div>
-
+          <div className="lg:col-span-1 space-y-6">
+            <div className="bg-card rounded-2xl shadow-lg p-6">
+              <h2 className="text-2xl font-bold text-foreground mb-6">Kontaktinformationen</h2>
+              
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <Mail className="h-5 w-5 text-primary mt-1" />
+                  <div className="p-3 bg-primary/10 rounded-lg">
+                    <Mail className="h-6 w-6 text-primary" />
+                  </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">E-Mail</h3>
-                    <p className="text-muted-foreground">kontakt@rechner-tools.de</p>
+                    <a 
+                      href="mailto:muk.kt199@gmail.com" 
+                      className="text-primary hover:underline font-medium"
+                    >
+                      muk.kt199@gmail.com
+                    </a>
                     <p className="text-sm text-muted-foreground mt-1">
-                      Wir antworten in der Regel innerhalb von 24 Stunden
+                      Antwort innerhalb von 24 Stunden
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <Clock className="h-5 w-5 text-secondary mt-1" />
+                  <div className="p-3 bg-secondary/10 rounded-lg">
+                    <MapPin className="h-6 w-6 text-secondary" />
+                  </div>
                   <div>
-                    <h3 className="font-semibold text-foreground mb-1">Antwortzeiten</h3>
-                    <p className="text-muted-foreground">Montag - Freitag: 9:00 - 18:00 Uhr</p>
-                    <p className="text-sm text-muted-foreground mt-1">Wochenende: Verlängerte Antwortzeiten möglich</p>
+                    <h3 className="font-semibold text-foreground mb-1">Standort</h3>
+                    <p className="text-foreground">Deutschland</p>
+                    <p className="text-sm text-muted-foreground mt-1">
+                      Online-Service weltweit verfügbar
+                    </p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <MapPin className="h-5 w-5 text-accent mt-1" />
+                  <div className="p-3 bg-accent/10 rounded-lg">
+                    <Clock className="h-6 w-6 text-accent" />
+                  </div>
                   <div>
-                    <h3 className="font-semibold text-foreground mb-1">Service-Bereich</h3>
-                    <p className="text-muted-foreground">Deutschland, Österreich, Schweiz</p>
-                    <p className="text-sm text-muted-foreground mt-1">Optimiert für den deutschsprachigen Raum</p>
+                    <h3 className="font-semibold text-foreground mb-1">Antwortzeit</h3>
+                    <p className="text-foreground">24 Stunden</p>
+                    <p className="text-sm text-muted-foreground mt-1">
+                      Montag - Freitag
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-2xl p-8">
-              <h3 className="text-xl font-bold text-foreground mb-4">Häufige Anfragen</h3>
-              <ul className="space-y-3 text-sm">
-                <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-primary rounded-full"></span>
-                  <span>Fragen zu Berechnungen und Formeln</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-secondary rounded-full"></span>
-                  <span>Vorschläge für neue Rechner</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-accent rounded-full"></span>
-                  <span>Technische Probleme oder Bugs</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-primary rounded-full"></span>
-                  <span>Partnerschaften und Kooperationen</span>
-                </li>
-              </ul>
+            {/* Quick Support */}
+            <div className="bg-gradient-to-br from-primary/5 to-secondary/5 rounded-2xl p-6 border border-primary/20">
+              <h3 className="text-lg font-semibold text-foreground mb-4">Schnelle Hilfe</h3>
+              <div className="space-y-3">
+                <Link 
+                  href="/" 
+                  className="flex items-center gap-3 p-3 bg-white/50 rounded-lg hover:bg-white/70 transition-colors"
+                >
+                  <Calculator className="h-5 w-5 text-primary" />
+                  <span className="text-sm font-medium">Rechner nutzen</span>
+                </Link>
+                <Link 
+                  href="/blog" 
+                  className="flex items-center gap-3 p-3 bg-white/50 rounded-lg hover:bg-white/70 transition-colors"
+                >
+                  <MessageSquare className="h-5 w-5 text-secondary" />
+                  <span className="text-sm font-medium">Blog durchsuchen</span>
+                </Link>
+                <Link 
+                  href="/ueber-uns" 
+                  className="flex items-center gap-3 p-3 bg-white/50 rounded-lg hover:bg-white/70 transition-colors"
+                >
+                  <Heart className="h-5 w-5 text-accent" />
+                  <span className="text-sm font-medium">Über uns</span>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Contact Form */}
+          <div className="lg:col-span-2">
+            <ContactForm />
+          </div>
+        </div>
+
+        {/* FAQ Section */}
+        <div className="bg-card rounded-2xl shadow-lg p-8">
+          <h2 className="text-2xl font-bold text-foreground mb-6 text-center">Häufig gestellte Fragen</h2>
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="space-y-4">
+              <div className="border-l-4 border-primary pl-4">
+                <h3 className="font-semibold text-foreground mb-2">Wie funktionieren die Rechner?</h3>
+                <p className="text-muted-foreground text-sm">
+                  Alle unsere Rechner sind kostenlos und funktionieren direkt im Browser. 
+                  Geben Sie einfach Ihre Daten ein und erhalten Sie sofort das Ergebnis.
+                </p>
+              </div>
+              
+              <div className="border-l-4 border-secondary pl-4">
+                <h3 className="font-semibold text-foreground mb-2">Sind die Berechnungen genau?</h3>
+                <p className="text-muted-foreground text-sm">
+                  Ja, alle Berechnungen basieren auf offiziellen Formeln und werden 
+                  mit hoher Präzision durchgeführt. Die Ergebnisse sind zuverlässig.
+                </p>
+              </div>
+            </div>
+            
+            <div className="space-y-4">
+              <div className="border-l-4 border-accent pl-4">
+                <h3 className="font-semibold text-foreground mb-2">Kann ich die Rechner auf dem Handy nutzen?</h3>
+                <p className="text-muted-foreground text-sm">
+                  Absolut! Alle Rechner sind vollständig mobil-optimiert und 
+                  funktionieren perfekt auf Smartphones und Tablets.
+                </p>
+              </div>
+              
+              <div className="border-l-4 border-primary pl-4">
+                <h3 className="font-semibold text-foreground mb-2">Gibt es weitere Rechner geplant?</h3>
+                <p className="text-muted-foreground text-sm">
+                  Ja, wir arbeiten kontinuierlich an neuen Rechnern. 
+                  Haben Sie Vorschläge? Schreiben Sie uns gerne!
+                </p>
+              </div>
             </div>
           </div>
         </div>

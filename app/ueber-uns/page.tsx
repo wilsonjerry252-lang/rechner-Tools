@@ -15,11 +15,15 @@ export default function AboutPage() {
       <header className="bg-gradient-to-r from-primary to-primary/90 text-primary-foreground shadow-lg">
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 logo-container">
               <img src="/logo.png" alt="Rechner Tools Logo" className="h-12 w-12 rounded-full shadow-md" />
               <div>
-                <h1 className="text-2xl font-bold font-serif">Rechner Tools</h1>
-                <p className="text-sm opacity-90 font-medium">Professionelle Online-Rechner</p>
+                <h1 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
+                  Rechner Tools
+                </h1>
+                <p className="text-sm logo-subtitle text-blue-100 tracking-wide">
+                  Professionelle Online-Rechner
+                </p>
               </div>
             </div>
             <Link href="/">

@@ -391,8 +391,8 @@ export default function HomePage() {
             "@type": "WebApplication",
             name: "Rechner Tools",
             description: "Professionelle Online-Rechner für Mehrwertsteuer, BMI und Kredite",
-            url: typeof window !== "undefined" ? window.location.origin : "",
-            logo: "/logo.png",
+            url: "https://rechner-tools.com",
+            logo: "https://rechner-tools.com/logo.png",
             applicationCategory: "FinanceApplication",
             operatingSystem: "Web Browser",
             offers: {
@@ -405,6 +405,81 @@ export default function HomePage() {
               "BMI-Rechner mit metrischen und imperialen Einheiten",
               "Kreditrechner mit Tilgungsplan",
             ],
+            author: {
+              "@type": "Organization",
+              name: "Rechner Tools",
+              url: "https://rechner-tools.com"
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "Rechner Tools",
+              url: "https://rechner-tools.com"
+            },
+            inLanguage: ["de-DE", "de-AT", "de-CH"],
+            audience: {
+              "@type": "Audience",
+              audienceType: "Business professionals, individuals, entrepreneurs"
+            }
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Wie berechne ich die Mehrwertsteuer?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Geben Sie den Betrag ein, wählen Sie das Land (Deutschland 19%, Österreich 20%, Schweiz 7.7%) und ob Sie von Netto zu Brutto oder umgekehrt rechnen möchten."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Wie berechne ich meinen BMI?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Geben Sie Ihr Gewicht in kg und Ihre Größe in cm ein. Der BMI wird automatisch berechnet und kategorisiert."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Wie funktioniert der Kreditrechner?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Geben Sie Kreditsumme, Zinssatz und Laufzeit ein. Sie erhalten sofort die monatliche Rate und den Tilgungsplan."
+                }
+              }
+            ]
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Startseite",
+                item: "https://rechner-tools.com"
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Rechner",
+                item: "https://rechner-tools.com#rechner"
+              }
+            ]
           }),
         }}
       />
@@ -413,15 +488,19 @@ export default function HomePage() {
         <header className="bg-gradient-to-r from-primary to-primary/90 text-primary-foreground shadow-lg sticky top-0 z-40 backdrop-blur-sm">
           <div className="max-w-7xl mx-auto px-4 py-6">
             <div className="flex items-center justify-between">
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-4 logo-container">
                 <img
                   src="/logo.png"
                   alt="Rechner Tools Logo"
                   className="h-12 w-12 rounded-full shadow-md hover:shadow-lg transition-shadow"
                 />
                 <div>
-                  <h1 className="text-2xl font-bold font-serif">Rechner Tools</h1>
-                  <p className="text-sm opacity-90 font-medium">Professionelle Online-Rechner</p>
+                  <h1 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
+                    Rechner Tools
+                  </h1>
+                  <p className="text-sm logo-subtitle text-blue-100 tracking-wide">
+                    Professionelle Online-Rechner
+                  </p>
                 </div>
               </div>
               <div className="flex items-center gap-6">
@@ -955,7 +1034,9 @@ export default function HomePage() {
                   <div>
                     <div className="flex items-center gap-3 mb-4">
                       <img src="/logo.png" alt="Rechner Tools Logo" className="h-10 w-10 rounded-full" />
-                      <h5 className="font-bold text-xl font-serif">Rechner Tools</h5>
+                      <h5 className="text-xl logo-text logo-gradient">
+                        Rechner Tools
+                      </h5>
                     </div>
                     <p className="text-sm opacity-90 leading-relaxed">
                       Professionelle Online-Rechner für den deutschsprachigen Raum. Kostenlos, sicher und immer aktuell.
@@ -1018,6 +1099,11 @@ export default function HomePage() {
                       <li>
                         <Link href="/datenschutz" className="opacity-90 hover:opacity-100 transition-opacity">
                           Datenschutz
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/cookie-richtlinie" className="opacity-90 hover:opacity-100 transition-opacity">
+                          Cookie-Richtlinie
                         </Link>
                       </li>
                       <li>
