@@ -290,7 +290,7 @@ export default function BMIIdealgewichtPage() {
                     <div className="w-6 h-6 rounded-full bg-primary text-primary-foreground text-xs flex items-center justify-center font-bold mt-0.5">S</div>
                     <div>
                       <p className="text-sm font-medium text-foreground">Spezifisch:</p>
-                      <p className="text-sm text-muted-foreground">"Ich möchte 10 kg abnehmen" statt "Ich möchte abnehmen"</p>
+                      <p className="text-sm text-muted-foreground">&quot;Ich möchte 10 kg abnehmen&quot; statt &quot;Ich möchte abnehmen&quot;</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">

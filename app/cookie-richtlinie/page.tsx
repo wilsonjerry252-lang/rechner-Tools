@@ -83,9 +83,9 @@ export default function CookieRichtliniePage() {
                   zu machen, sowie um dem Websitebetreiber Informationen zu liefern.
                 </p>
                 <p>
-                  Cookies können von der Website gesetzt werden, die Sie besuchen (sogenannte "First-Party-Cookies"),
+                  Cookies können von der Website gesetzt werden, die Sie besuchen (sogenannte &quot;First-Party-Cookies&quot;),
                   oder von anderen Websites oder Servern, die Inhalte auf der von Ihnen besuchten Website bereitstellen
-                  (sogenannte "Third-Party-Cookies").
+                  (sogenannte &quot;Third-Party-Cookies&quot;).
                 </p>
               </div>
             </div>
@@ -158,8 +158,8 @@ export default function CookieRichtliniePage() {
                 </div>
                 <p>
                   <strong>Datenschutz:</strong> Google Analytics verwendet IP-Anonymisierung, um Ihre IP-Adresse zu
-                  anonymisieren, bevor sie an Google übertragen wird. Wir haben auch die Funktion "Demografische
-                  Merkmale und Interessen" deaktiviert.
+                  anonymisieren, bevor sie an Google übertragen wird. Wir haben auch die Funktion &quot;Demografische
+                  Merkmale und Interessen&quot; deaktiviert.
                 </p>
               </div>
             </div>
