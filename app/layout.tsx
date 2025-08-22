@@ -90,7 +90,6 @@ export default function RootLayout({
         
         {/* Preload critical resources */}
         <link rel="preload" href="/logo.png" as="image" />
-        <link rel="preload" href="/fonts/inter-var.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
         
         {/* PWA manifest */}
         <link rel="manifest" href="/manifest.json" />
