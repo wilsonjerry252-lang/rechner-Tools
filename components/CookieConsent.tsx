@@ -35,6 +35,12 @@ export default function CookieConsent() {
     const consent = localStorage.getItem("cookie-consent")
     if (!consent) {
       setShowBanner(true)
+      // Set default consent to denied for analytics
+      if (typeof window !== 'undefined' && window.gtag) {
+        window.gtag('consent', 'default', {
+          'analytics_storage': 'denied'
+        })
+      }
     } else {
       const savedPreferences = JSON.parse(consent)
       setPreferences(savedPreferences)
@@ -42,39 +48,26 @@ export default function CookieConsent() {
       // Apply saved preferences
       if (savedPreferences.analytics) {
         enableGoogleAnalytics()
+      } else {
+        disableGoogleAnalytics()
       }
     }
   }, [])
 
   const enableGoogleAnalytics = () => {
-    // This would typically load Google Analytics
-    // For now, we'll just set a flag
-    if (typeof window !== 'undefined') {
-      if (!window.gtag) {
-        window.gtag = function(...args: unknown[]) {
-          if (!window.gtag.q) {
-            window.gtag.q = []
-          }
-          window.gtag.q.push(args)
-        }
-      }
+    // Enable Google Analytics when user consents
+    if (typeof window !== 'undefined' && window.gtag) {
       window.gtag('consent', 'update', {
         'analytics_storage': 'granted'
       })
+      // Send a pageview event to track the current page
+      window.gtag('event', 'page_view')
     }
   }
 
   const disableGoogleAnalytics = () => {
-    // This would typically disable Google Analytics
-    if (typeof window !== 'undefined') {
-      if (!window.gtag) {
-        window.gtag = function(...args: unknown[]) {
-          if (!window.gtag.q) {
-            window.gtag.q = []
-          }
-          window.gtag.q.push(args)
-        }
-      }
+    // Disable Google Analytics when user withdraws consent
+    if (typeof window !== 'undefined' && window.gtag) {
       window.gtag('consent', 'update', {
         'analytics_storage': 'denied'
       })
