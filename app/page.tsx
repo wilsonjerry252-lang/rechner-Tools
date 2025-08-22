@@ -485,7 +485,7 @@ export default function HomePage() {
       />
 
       <div className="min-h-screen bg-background">
-        <header className="bg-gradient-to-r from-primary to-primary/90 text-primary-foreground shadow-lg sticky top-0 z-40 backdrop-blur-sm">
+        <header className="bg-gradient-to-r from-primary to-primary/90 text-primary-foreground shadow-lg sticky top-0 z-50 backdrop-blur-sm">
           <div className="max-w-7xl mx-auto px-4 py-6">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-4 logo-container">
@@ -518,8 +518,16 @@ export default function HomePage() {
         </header>
 
         <div className="flex">
+          {/* Mobile overlay for sidebar */}
+          {sidebarOpen && (
+            <div 
+              className="fixed inset-0 bg-black/50 z-30 md:hidden"
+              onClick={() => setSidebarOpen(false)}
+            />
+          )}
+          
           <nav
-            className={`fixed md:sticky top-20 left-0 h-[calc(100vh-5rem)] w-72 bg-sidebar/95 backdrop-blur-sm border-r border-sidebar-border z-30 transform transition-all duration-300 ease-in-out ${
+            className={`fixed md:sticky top-0 md:top-20 left-0 h-screen md:h-[calc(100vh-5rem)] w-72 bg-sidebar/95 backdrop-blur-sm border-r border-sidebar-border z-40 transform transition-all duration-300 ease-in-out ${
               sidebarOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"
             }`}
           >
@@ -1126,14 +1134,6 @@ export default function HomePage() {
             </footer>
           </main>
         </div>
-
-        {/* Mobile Sidebar Overlay */}
-        {sidebarOpen && (
-          <div
-            className="fixed inset-0 bg-black/50 z-20 md:hidden transition-opacity"
-            onClick={() => setSidebarOpen(false)}
-          />
-        )}
       </div>
     </>
   )
