@@ -5,19 +5,21 @@ const nextConfig = {
     optimizePackageImports: ['lucide-react'],
   },
 
-  // Image optimization
+  // Mobile-first image optimization
   images: {
     formats: ['image/webp', 'image/avif'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    deviceSizes: [320, 375, 414, 768, 1024, 1200, 1920], // Mobile-first sizes
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-    minimumCacheTTL: 60,
+    minimumCacheTTL: 31536000, // 1 year cache
+    dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
 
   // Compression and optimization
   compress: true,
   poweredByHeader: false,
 
-  // Headers for better performance and security
+  // Performance headers for mobile
   async headers() {
     return [
       {
@@ -39,6 +41,15 @@ const nextConfig = {
             key: 'Referrer-Policy',
             value: 'strict-origin-when-cross-origin',
           },
+          // Mobile performance headers
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+          {
+            key: 'Accept-Encoding',
+            value: 'gzip, deflate, br',
+          },
         ],
       },
       {
@@ -56,6 +67,25 @@ const nextConfig = {
           {
             key: 'Cache-Control',
             value: 'public, max-age=0, must-revalidate',
+          },
+        ],
+      },
+      // CSS and JS optimization
+      {
+        source: '/(.*).css',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+      {
+        source: '/(.*).js',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
           },
         ],
       },
