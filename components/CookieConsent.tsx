@@ -45,9 +45,12 @@ export default function CookieConsent() {
     
     if (!consent) {
       setShowBanner(true)
-      // Set default consent to denied for analytics
+      // Set default consent to denied for all parameters (Consent Mode v2)
       if (window.gtag) {
         window.gtag('consent', 'default', {
+          'ad_storage': 'denied',
+          'ad_user_data': 'denied',
+          'ad_personalization': 'denied',
           'analytics_storage': 'denied'
         })
       }
@@ -73,9 +76,12 @@ export default function CookieConsent() {
   }, [])
 
   const enableGoogleAnalytics = () => {
-    // Enable Google Analytics when user consents
+    // Enable Google Analytics and advertising when user consents (Consent Mode v2)
     if (typeof window !== 'undefined' && window.gtag) {
       window.gtag('consent', 'update', {
+        'ad_storage': 'granted',
+        'ad_user_data': 'granted',
+        'ad_personalization': 'granted',
         'analytics_storage': 'granted'
       })
       // Send a pageview event to track the current page
@@ -84,9 +90,12 @@ export default function CookieConsent() {
   }
 
   const disableGoogleAnalytics = () => {
-    // Disable Google Analytics when user withdraws consent
+    // Disable Google Analytics and advertising when user withdraws consent (Consent Mode v2)
     if (typeof window !== 'undefined' && window.gtag) {
       window.gtag('consent', 'update', {
+        'ad_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
         'analytics_storage': 'denied'
       })
     }
