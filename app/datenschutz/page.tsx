@@ -130,7 +130,7 @@ export default function DatenschutzPage() {
               <div className="space-y-3 text-sm text-muted-foreground">
                 <p>
                   Diese Website nutzt Google Analytics, einen Webanalysedienst der Google LLC, 1600 Amphitheatre Parkway,
-                  Mountain View, CA 94043, USA (&quot;Google&quot;). Google Analytics verwendet Cookies, um die Nutzung der Website
+                  Mountain View, CA 94043, USA ("Google"). Google Analytics verwendet Cookies, um die Nutzung der Website
                   zu analysieren.
                 </p>
                 <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">

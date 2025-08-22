@@ -2,6 +2,7 @@
 const nextConfig = {
   // Enable experimental features for better performance
   experimental: {
+    optimizeCss: true,
     optimizePackageImports: ['lucide-react'],
   },
 
@@ -119,6 +120,9 @@ const nextConfig = {
 
   // Trailing slash for better SEO
   trailingSlash: false,
+
+  // Enable SWC minification
+  swcMinify: true,
 }
 
 module.exports = nextConfig
