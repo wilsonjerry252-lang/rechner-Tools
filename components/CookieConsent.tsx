@@ -6,6 +6,17 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Cookie, Settings, X, CheckCircle, AlertTriangle } from "lucide-react"
 import Link from "next/link"
 
+// Extend Window interface for gtag
+declare global {
+  interface Window {
+    gtag: {
+      (command: string, action: string, params?: Record<string, unknown>): void
+      (command: string, action: string, params?: Record<string, unknown>, callback?: () => void): void
+      q?: unknown[]
+    }
+  }
+}
+
 interface CookiePreferences {
   necessary: boolean
   analytics: boolean
@@ -38,22 +49,36 @@ export default function CookieConsent() {
   const enableGoogleAnalytics = () => {
     // This would typically load Google Analytics
     // For now, we'll just set a flag
-    window.gtag = window.gtag || function() {
-      (window.gtag.q = window.gtag.q || []).push(arguments)
+    if (typeof window !== 'undefined') {
+      if (!window.gtag) {
+        window.gtag = function(...args: unknown[]) {
+          if (!window.gtag.q) {
+            window.gtag.q = []
+          }
+          window.gtag.q.push(args)
+        }
+      }
+      window.gtag('consent', 'update', {
+        'analytics_storage': 'granted'
+      })
     }
-    window.gtag('consent', 'update', {
-      'analytics_storage': 'granted'
-    })
   }
 
   const disableGoogleAnalytics = () => {
     // This would typically disable Google Analytics
-    window.gtag = window.gtag || function() {
-      (window.gtag.q = window.gtag.q || []).push(arguments)
+    if (typeof window !== 'undefined') {
+      if (!window.gtag) {
+        window.gtag = function(...args: unknown[]) {
+          if (!window.gtag.q) {
+            window.gtag.q = []
+          }
+          window.gtag.q.push(args)
+        }
+      }
+      window.gtag('consent', 'update', {
+        'analytics_storage': 'denied'
+      })
     }
-    window.gtag('consent', 'update', {
-      'analytics_storage': 'denied'
-    })
   }
 
   const acceptAll = () => {
