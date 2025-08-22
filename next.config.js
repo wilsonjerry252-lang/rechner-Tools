@@ -3,6 +3,16 @@ const nextConfig = {
   // Enable experimental features for better performance
   experimental: {
     optimizePackageImports: ['lucide-react'],
+    // Performance optimizations
+    optimizeCss: false, // Disable to avoid build issues
+    turbo: {
+      rules: {
+        '*.svg': {
+          loaders: ['@svgr/webpack'],
+          as: '*.js',
+        },
+      },
+    },
   },
 
   // Mobile-first image optimization
@@ -13,11 +23,15 @@ const nextConfig = {
     minimumCacheTTL: 31536000, // 1 year cache
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    // Better image optimization
+    unoptimized: false,
+    loader: 'default',
   },
 
   // Compression and optimization
   compress: true,
   poweredByHeader: false,
+  generateEtags: false, // Reduce ETag generation overhead
 
   // Performance headers for mobile
   async headers() {

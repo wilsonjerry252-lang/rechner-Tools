@@ -89,7 +89,19 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         
         {/* Preload critical resources */}
-        <link rel="preload" href="/logo.png" as="image" />
+        <link rel="preload" href="/logo.png" as="image" type="image/png" />
+        
+        {/* Critical CSS for above-the-fold content */}
+        <style dangerouslySetInnerHTML={{
+          __html: `
+            /* Critical CSS to reduce render blocking */
+            body { margin: 0; font-family: system-ui, -apple-system, sans-serif; }
+            .logo-text { font-weight: bold; }
+            .logo-subtitle { font-size: 0.875rem; }
+            header { background: linear-gradient(to right, #007bff, #0056b3); }
+            nav { position: fixed; z-index: 40; }
+          `
+        }} />
         
         {/* PWA manifest */}
         <link rel="manifest" href="/manifest.json" />
@@ -97,6 +109,14 @@ export default function RootLayout({
         {/* DNS prefetch for external resources */}
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
         <link rel="dns-prefetch" href="//www.google-analytics.com" />
+        
+        {/* Preconnect to critical external origins */}
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
+        
+        {/* Resource hints for better performance */}
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
         
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-JTK284TTSM"></script>

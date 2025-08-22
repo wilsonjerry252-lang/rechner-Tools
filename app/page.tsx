@@ -493,6 +493,9 @@ export default function HomePage() {
                   src="/logo.png"
                   alt="Rechner Tools Logo"
                   className="h-12 w-12 rounded-full shadow-md hover:shadow-lg transition-shadow"
+                  width="48"
+                  height="48"
+                  loading="eager"
                 />
                 <div>
                   <h1 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
