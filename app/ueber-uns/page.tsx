@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { ArrowLeft, Calculator, Heart, CreditCard, Users, Target, Award } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export const metadata = {
   title: "Über uns - Rechner Tools | Professionelle Online-Rechner",
@@ -16,7 +17,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4 logo-container">
-              <img src="/logo.png" alt="Rechner Tools Logo" className="h-12 w-12 rounded-full shadow-md" />
+              <Image src="/logo.png" alt="Rechner Tools Logo" width={48} height={48} className="h-12 w-12 rounded-full shadow-md" />
               <div>
                 <h1 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
                   Rechner Tools

@@ -353,6 +353,8 @@ export default function HomePage() {
 
   // Handle scroll to update active section
   useEffect(() => {
+    if (typeof window === 'undefined') return
+    
     const handleScroll = () => {
       const sections = ["vat", "bmi", "loan"]
       const scrollPosition = window.scrollY + 100
@@ -374,6 +376,8 @@ export default function HomePage() {
   }, [])
 
   const scrollToSection = (sectionId: string) => {
+    if (typeof document === 'undefined') return
+    
     const element = document.getElementById(sectionId)
     if (element) {
       element.scrollIntoView({ behavior: "smooth" })
@@ -493,9 +497,6 @@ export default function HomePage() {
                   src="/logo.png"
                   alt="Rechner Tools Logo"
                   className="h-12 w-12 rounded-full shadow-md hover:shadow-lg transition-shadow"
-                  width="48"
-                  height="48"
-                  loading="eager"
                 />
                 <div>
                   <h1 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
@@ -1051,9 +1052,9 @@ export default function HomePage() {
                   <div>
                     <div className="flex items-center gap-3 mb-4">
                       <img src="/logo.png" alt="Rechner Tools Logo" className="h-10 w-10 rounded-full" />
-                      <h5 className="text-xl logo-text logo-gradient">
+                      <h2 className="text-xl logo-text logo-gradient">
                         Rechner Tools
-                      </h5>
+                      </h2>
                     </div>
                     <p className="text-sm opacity-90 leading-relaxed">
                       Professionelle Online-Rechner für den deutschsprachigen Raum. Kostenlos, sicher und immer aktuell.

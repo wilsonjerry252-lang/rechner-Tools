@@ -1,6 +1,7 @@
 import Link from "next/link"
-import { ArrowLeft, AlertTriangle, Shield, Info } from "lucide-react"
+import { ArrowLeft, Shield, AlertTriangle, FileText, CheckCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export const metadata = {
   title: "Haftungsausschluss - Rechner Tools | Rechtliche Hinweise",
@@ -15,7 +16,7 @@ export default function DisclaimerPage() {
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <img src="/logo.png" alt="Rechner Tools Logo" className="h-12 w-12 rounded-full shadow-md" />
+              <Image src="/logo.png" alt="Rechner Tools Logo" width={48} height={48} className="rounded-full shadow-md" />
               <div>
                 <h1 className="text-2xl font-bold font-serif">Rechner Tools</h1>
                 <p className="text-sm opacity-90 font-medium">Professionelle Online-Rechner</p>
@@ -40,7 +41,7 @@ export default function DisclaimerPage() {
 
           <div className="bg-orange-50 border border-orange-200 rounded-lg p-4 mb-8">
             <div className="flex items-start gap-3">
-              <Info className="h-5 w-5 text-orange-600 mt-0.5" />
+              <Shield className="h-5 w-5 text-orange-600 mt-0.5" />
               <div>
                 <h3 className="font-semibold text-orange-800 mb-1">Wichtiger Hinweis</h3>
                 <p className="text-orange-700 text-sm">

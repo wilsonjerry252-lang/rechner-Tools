@@ -1,6 +1,8 @@
-import Link from "next/link"
-import { ArrowLeft, Calendar, Clock, ArrowRight, TrendingUp, Calculator, Heart, CreditCard, Activity, Globe, Download, Apple, RefreshCw } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { ArrowLeft, Calendar, Clock, ArrowRight, TrendingUp, Calculator, Heart, CreditCard, Activity, Globe, Download, Apple, RefreshCw } from "lucide-react"
+import Link from "next/link"
+import Image from "next/image"
 
 export const metadata = {
   title: "Blog - Rechner Tools | Tipps und Ratgeber zu Finanzen und Gesundheit",
@@ -251,7 +253,13 @@ export default function BlogPage() {
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4 logo-container">
-              <img src="/logo.png" alt="Rechner Tools Logo" className="h-12 w-12 rounded-full shadow-md" />
+              <Image
+                src="/logo.png"
+                alt="Rechner Tools Logo"
+                width={48}
+                height={48}
+                className="h-12 w-12 rounded-full shadow-md"
+              />
               <div className="flex flex-col">
                 <h1 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
                   Rechner Tools

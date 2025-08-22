@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export const metadata = {
   title: "Mehrwertsteuer in Deutschland, Österreich und der Schweiz: Ein Vergleich | Rechner Tools",
@@ -22,7 +23,7 @@ export default function MehrwertsteuerVergleichPage() {
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <img src="/logo.png" alt="Rechner Tools Logo" className="h-12 w-12 rounded-full shadow-md" />
+              <Image src="/logo.png" alt="Rechner Tools Logo" width={48} height={48} className="rounded-full shadow-md" />
               <div>
                 <h1 className="text-2xl font-bold font-serif">Rechner Tools</h1>
                 <p className="text-sm opacity-90 font-medium">Professionelle Online-Rechner</p>
