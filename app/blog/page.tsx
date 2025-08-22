@@ -381,7 +381,6 @@ export default function BlogPage() {
               Verpassen Sie keine neuen Artikel! Wir veröffentlichen regelmäßig hilfreiche Ratgeber und Tipps zu
               Steuern, Gesundheit und Finanzen.
             </p>
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">Newsletter abonnieren</Button>
           </div>
         </div>
       </main>
