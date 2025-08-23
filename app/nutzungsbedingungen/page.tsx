@@ -16,7 +16,11 @@ export default function NutzungsbedingungenPage() {
       {/* Header */}
       <header className="bg-primary text-primary-foreground shadow-sm">
         <div className="max-w-4xl mx-auto px-4 py-4">
-          <div className="flex items-center gap-4">
+          <div className="flex items-center justify-between">
+            <div>
+              <h1 className="text-xl font-serif font-bold">Nutzungsbedingungen</h1>
+              <p className="text-sm opacity-90">Bedingungen für die Nutzung</p>
+            </div>
             <Button
               variant="ghost"
               size="sm"
@@ -28,10 +32,6 @@ export default function NutzungsbedingungenPage() {
                 Zurück
               </Link>
             </Button>
-            <div>
-              <h1 className="text-xl font-serif font-bold">Nutzungsbedingungen</h1>
-              <p className="text-sm opacity-90">Bedingungen für die Nutzung</p>
-            </div>
           </div>
         </div>
       </header>

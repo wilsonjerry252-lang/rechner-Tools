@@ -14,10 +14,14 @@ export const metadata: Metadata = {
 export default function DatenschutzPage() {
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
+      {/* Page Header */}
       <header className="bg-primary text-primary-foreground shadow-sm">
         <div className="max-w-4xl mx-auto px-4 py-4">
-          <div className="flex items-center gap-4">
+          <div className="flex items-center justify-between">
+            <div>
+              <h1 className="text-xl font-serif font-bold">Datenschutzerklärung</h1>
+              <p className="text-sm opacity-90">Schutz Ihrer Daten</p>
+            </div>
             <Button
               variant="ghost"
               size="sm"
@@ -29,10 +33,6 @@ export default function DatenschutzPage() {
                 Zurück
               </Link>
             </Button>
-            <div>
-              <h1 className="text-xl font-serif font-bold">Datenschutzerklärung</h1>
-              <p className="text-sm opacity-90">Schutz Ihrer Daten</p>
-            </div>
           </div>
         </div>
       </header>

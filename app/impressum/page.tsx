@@ -17,7 +17,11 @@ export default function ImpressumPage() {
       {/* Header */}
       <header className="bg-primary text-primary-foreground shadow-sm">
         <div className="max-w-4xl mx-auto px-4 py-4">
-          <div className="flex items-center gap-4">
+          <div className="flex items-center justify-between">
+            <div>
+              <h1 className="text-xl font-serif font-bold">Impressum</h1>
+              <p className="text-sm opacity-90">Rechtliche Angaben</p>
+            </div>
             <Button
               variant="ghost"
               size="sm"
@@ -29,10 +33,6 @@ export default function ImpressumPage() {
                 Zurück
               </Link>
             </Button>
-            <div>
-              <h1 className="text-xl font-serif font-bold">Impressum</h1>
-              <p className="text-sm opacity-90">Rechtliche Angaben</p>
-            </div>
           </div>
         </div>
       </header>
