@@ -107,7 +107,7 @@ export default function GesundeGewichtsabnahmePage() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Wichtige Faktoren für gesunde Gewichtsabnahme</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Faktoren für gesunde Gewichtsabnahme</h2>
             
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div className="bg-primary/5 p-6 rounded-xl border border-primary/20">
@@ -175,7 +175,7 @@ export default function GesundeGewichtsabnahmePage() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Training: Mehr als nur Kalorien verbrennen</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Training: Mehr als Kalorien verbrennen</h2>
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-accent/5 p-6 rounded-xl border border-accent/20">

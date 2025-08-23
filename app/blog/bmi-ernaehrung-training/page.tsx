@@ -202,7 +202,7 @@ export default function BMIErnaehrungTrainingPage() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Wochenplan: Ernährung und Training kombinieren</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Wochenplan: Ernährung & Training</h2>
             
             <div className="bg-muted/30 p-6 rounded-xl mb-6">
               <h3 className="text-lg font-bold text-foreground mb-4">Beispiel-Wochenplan für Gewichtsabnahme:</h3>
@@ -264,7 +264,7 @@ export default function BMIErnaehrungTrainingPage() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Ernährungsbeispiele für verschiedene Ziele</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Ernährungsbeispiele nach Zielen</h2>
             
             <div className="space-y-6 mb-8">
               <div className="bg-green-50 p-6 rounded-xl border border-green-200">

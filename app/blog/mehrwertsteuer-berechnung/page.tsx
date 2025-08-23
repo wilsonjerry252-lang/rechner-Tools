@@ -101,7 +101,7 @@ export default function MehrwertsteuerBerechnungPage() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Methode 1: Netto zu Brutto (MwSt. aufschlagen)</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Methode 1: Netto zu Brutto</h2>
             <p className="mb-6">
               Diese Methode wird verwendet, wenn Sie von einem Nettobetrag ausgehen und den Bruttobetrag berechnen möchten.
             </p>
@@ -120,7 +120,7 @@ export default function MehrwertsteuerBerechnungPage() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Methode 2: Brutto zu Netto (MwSt. abziehen)</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Methode 2: Brutto zu Netto</h2>
             <p className="mb-6">
               Diese Methode wird verwendet, wenn Sie von einem Bruttobetrag ausgehen und den Nettobetrag berechnen möchten.
             </p>

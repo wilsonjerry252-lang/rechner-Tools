@@ -271,7 +271,7 @@ export default function KreditzinsenBerechnenPage() {
               </p>
             </div>
 
-            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Faktoren, die die Zinskosten beeinflussen</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Faktoren für Zinskosten</h2>
             
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div className="bg-primary/5 p-6 rounded-xl border border-primary/20">

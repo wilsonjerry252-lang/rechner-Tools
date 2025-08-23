@@ -79,7 +79,7 @@ export default function BMIErnaehrungPage() {
               Eine ausgewogene Ernährung ist der Schlüssel zu einem gesunden BMI und Wohlbefinden. In diesem umfassenden Leitfaden erfahren Sie, wie Sie Ihre Ernährung optimal an Ihren Body-Mass-Index anpassen und nachhaltig Ihr Gewicht optimieren.
             </p>
 
-            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Grundlagen der BMI-optimierten Ernährung</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">BMI-optimierte Ernährung</h2>
             
             <p className="mb-6">
               Der BMI gibt Ihnen einen ersten Anhaltspunkt für Ihre Gewichtssituation. Basierend darauf können Sie Ihre Ernährung gezielt anpassen, um Ihr Wunschgewicht zu erreichen oder zu halten.
@@ -154,7 +154,7 @@ export default function BMIErnaehrungPage() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Makronährstoffe optimal verteilen</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Makronährstoffe verteilen</h2>
             
             <div className="space-y-6 mb-8">
               <div className="bg-muted/30 p-6 rounded-xl">
@@ -306,7 +306,7 @@ export default function BMIErnaehrungPage() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Lebensmittel nach BMI optimieren</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Lebensmittel nach BMI</h2>
             
             <div className="space-y-6 mb-8">
               <div className="bg-green-50 p-6 rounded-xl border border-green-200">
@@ -382,7 +382,7 @@ export default function BMIErnaehrungPage() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Mahlzeitenfrequenz und Timing</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Mahlzeitenfrequenz & Timing</h2>
             
             <div className="space-y-6 mb-8">
               <div className="bg-muted/30 p-6 rounded-xl">
@@ -453,7 +453,7 @@ export default function BMIErnaehrungPage() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Praktische Tipps für die Umsetzung</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Praktische Tipps</h2>
             
             <div className="space-y-6 mb-8">
               <div className="bg-green-50 p-6 rounded-xl border border-green-200">
@@ -490,7 +490,7 @@ export default function BMIErnaehrungPage() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Wichtige Nährstoffe für BMI-Optimierung</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Nährstoffe für BMI-Optimierung</h2>
             
             <div className="bg-muted/30 p-6 rounded-xl mb-6">
               <h3 className="text-lg font-bold text-foreground mb-4">Vitamine und Mineralstoffe</h3>
