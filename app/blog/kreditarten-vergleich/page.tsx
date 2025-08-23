@@ -4,14 +4,20 @@ import { Button } from "@/components/ui/button"
 
 export const metadata = {
   title: "Kreditarten im Vergleich: Welcher Kredit passt zu Ihnen? | Rechner Tools",
-  description: "Vergleichen Sie verschiedene Kreditarten: Ratenkredit, Autokredit, Baufinanzierung und mehr. Finden Sie den passenden Kredit für Ihre Bedürfnisse.",
-  keywords: "kreditarten, ratenkredit, autokredit, baufinanzierung, hypothek, kreditvergleich, finanzierung",
+  description: "Vergleichen Sie verschiedene Kreditarten und finden Sie den passenden Kredit für Ihre Bedürfnisse. Ein umfassender Überblick.",
+  keywords: "kreditarten vergleich, kredit typen, kreditarten, kredit wahl, kredit vergleich, beste kreditart",
   openGraph: {
     title: "Kreditarten im Vergleich: Welcher Kredit passt zu Ihnen?",
-    description: "Vergleichen Sie verschiedene Kreditarten: Ratenkredit, Autokredit, Baufinanzierung und mehr. Finden Sie den passenden Kredit für Ihre Bedürfnisse.",
+    description: "Vergleichen Sie verschiedene Kreditarten und finden Sie den passenden Kredit für Ihre Bedürfnisse. Ein umfassender Überblick.",
     type: "article",
-    publishedTime: "2024-12-25T10:00:00Z",
+    publishedTime: "2024-12-15T10:00:00Z",
     authors: ["Rechner Tools"],
+  },
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/blog/kreditarten-vergleich",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/blog/kreditarten-vergleich",
+    },
   },
 }
 

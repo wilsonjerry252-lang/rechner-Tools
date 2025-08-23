@@ -5,14 +5,20 @@ import Image from "next/image"
 
 export const metadata = {
   title: "BMI, Ernährung und Training: Der perfekte Plan | Rechner Tools",
-  description: "Erstellen Sie Ihren persönlichen Plan mit BMI-Berechnung, ausgewogener Ernährung und effektivem Training. Erreichen Sie Ihre Gesundheitsziele nachhaltig.",
-  keywords: "bmi ernährung training, gesundheitsplan, fitness plan, gewichtsabnahme, muskelaufbau, gesunde ernährung",
+  description: "Kombinieren Sie BMI, Ernährung und Training für optimale Ergebnisse. Ein umfassender Leitfaden für Gesundheit und Fitness.",
+  keywords: "bmi ernährung training, fitness plan, gesundheit, gewicht optimieren, sport ernährung, bmi fitness",
   openGraph: {
     title: "BMI, Ernährung und Training: Der perfekte Plan",
-    description: "Erstellen Sie Ihren persönlichen Plan mit BMI-Berechnung, ausgewogener Ernährung und effektivem Training. Erreichen Sie Ihre Gesundheitsziele nachhaltig.",
+    description: "Kombinieren Sie BMI, Ernährung und Training für optimale Ergebnisse. Ein umfassender Leitfaden für Gesundheit und Fitness.",
     type: "article",
-    publishedTime: "2024-12-20T10:00:00Z",
+    publishedTime: "2024-12-15T10:00:00Z",
     authors: ["Rechner Tools"],
+  },
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/blog/bmi-ernaehrung-training",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/blog/bmi-ernaehrung-training",
+    },
   },
 }
 

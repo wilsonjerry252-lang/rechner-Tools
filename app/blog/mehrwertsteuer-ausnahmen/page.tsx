@@ -4,14 +4,20 @@ import { Button } from "@/components/ui/button"
 
 export const metadata = {
   title: "Mehrwertsteuer-Ausnahmen: Wann gilt welcher Satz? | Rechner Tools",
-  description: "Erfahren Sie alles über MwSt.-Ausnahmen, ermäßigte Sätze und steuerfreie Leistungen. Ein umfassender Leitfaden für Unternehmer und Verbraucher.",
-  keywords: "mehrwertsteuer ausnahmen, mwst ermäßigt, steuerfreie leistungen, mwst sätze, steuerausnahmen",
+  description: "Erfahren Sie alles über MwSt.-Ausnahmen und reduzierte Steuersätze. Ein Leitfaden für besondere Fälle und Ausnahmeregelungen.",
+  keywords: "mehrwertsteuer ausnahmen, mwst ausnahmen, reduzierte steuersätze, mwst sonderfälle, steuerausnahmen, mwst regeln",
   openGraph: {
     title: "Mehrwertsteuer-Ausnahmen: Wann gilt welcher Satz?",
-    description: "Erfahren Sie alles über MwSt.-Ausnahmen, ermäßigte Sätze und steuerfreie Leistungen. Ein umfassender Leitfaden für Unternehmer und Verbraucher.",
+    description: "Erfahren Sie alles über MwSt.-Ausnahmen und reduzierte Steuersätze. Ein Leitfaden für besondere Fälle und Ausnahmeregelungen.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",
     authors: ["Rechner Tools"],
+  },
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/blog/mehrwertsteuer-ausnahmen",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/blog/mehrwertsteuer-ausnahmen",
+    },
   },
 }
 

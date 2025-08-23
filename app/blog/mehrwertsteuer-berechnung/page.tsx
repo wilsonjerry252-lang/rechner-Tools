@@ -4,14 +4,20 @@ import { Button } from "@/components/ui/button"
 
 export const metadata = {
   title: "Mehrwertsteuer berechnen: Methoden und Beispiele | Rechner Tools",
-  description: "Lernen Sie verschiedene Methoden zur MwSt-Berechnung kennen. Von Netto zu Brutto, Brutto zu Netto und praktischen Beispielen.",
-  keywords: "mehrwertsteuer berechnen, mwst berechnung, netto brutto, steuerberechnung, mwst formel",
+  description: "Lernen Sie verschiedene Methoden zur MwSt.-Berechnung kennen und sehen Sie praktische Beispiele für Brutto-zu-Netto und Netto-zu-Brutto Berechnungen.",
+  keywords: "mehrwertsteuer berechnen, mwst berechnung, brutto netto, steuerberechnung, mwst formel, steuerrechner",
   openGraph: {
     title: "Mehrwertsteuer berechnen: Methoden und Beispiele",
-    description: "Lernen Sie verschiedene Methoden zur MwSt-Berechnung kennen. Von Netto zu Brutto, Brutto zu Netto und praktischen Beispielen.",
+    description: "Lernen Sie verschiedene Methoden zur MwSt.-Berechnung kennen und sehen Sie praktische Beispiele für Brutto-zu-Netto und Netto-zu-Brutto Berechnungen.",
     type: "article",
-    publishedTime: "2024-12-30T10:00:00Z",
+    publishedTime: "2024-12-15T10:00:00Z",
     authors: ["Rechner Tools"],
+  },
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/blog/mehrwertsteuer-berechnung",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/blog/mehrwertsteuer-berechnung",
+    },
   },
 }
 

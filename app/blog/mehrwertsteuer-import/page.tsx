@@ -4,14 +4,20 @@ import { Button } from "@/components/ui/button"
 
 export const metadata = {
   title: "Mehrwertsteuer bei Importen: Einfuhrumsatzsteuer verstehen | Rechner Tools",
-  description: "Erfahren Sie alles über Einfuhrumsatzsteuer, Zollabfertigung und die korrekte Behandlung von Importgeschäften. Ein umfassender Leitfaden für Unternehmer.",
-  keywords: "mehrwertsteuer import, einfuhrumsatzsteuer, zollabfertigung, import mwst, einfuhr steuern, grenzüberschreitender handel",
+  description: "Alles über MwSt. bei Importen: Einfuhrumsatzsteuer, Zollabfertigung und steuerliche Behandlung von Einfuhren. Ein Leitfaden für Importeure.",
+  keywords: "mehrwertsteuer import, einfuhrumsatzsteuer, mwst einfuhr, zollabfertigung, import steuern, einfuhr steuern",
   openGraph: {
     title: "Mehrwertsteuer bei Importen: Einfuhrumsatzsteuer verstehen",
-    description: "Erfahren Sie alles über Einfuhrumsatzsteuer, Zollabfertigung und die korrekte Behandlung von Importgeschäften. Ein umfassender Leitfaden für Unternehmer.",
+    description: "Alles über MwSt. bei Importen: Einfuhrumsatzsteuer, Zollabfertigung und steuerliche Behandlung von Einfuhren. Ein Leitfaden für Importeure.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",
     authors: ["Rechner Tools"],
+  },
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/blog/mehrwertsteuer-import",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/blog/mehrwertsteuer-import",
+    },
   },
 }
 

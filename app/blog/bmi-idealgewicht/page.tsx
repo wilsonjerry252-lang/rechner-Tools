@@ -4,14 +4,20 @@ import { Button } from "@/components/ui/button"
 
 export const metadata = {
   title: "Idealgewicht berechnen: BMI und gesunde Gewichtsziele | Rechner Tools",
-  description: "Erfahren Sie, wie Sie Ihr Idealgewicht berechnen und gesunde Gewichtsziele setzen. Ein umfassender Leitfaden zu BMI, Körperfett und nachhaltiger Gewichtsabnahme.",
-  keywords: "idealgewicht berechnen, bmi idealgewicht, gesundes gewicht, körperfett, gewichtsziele, gesunde gewichtsabnahme",
+  description: "Berechnen Sie Ihr Idealgewicht mit dem BMI und setzen Sie sich gesunde Gewichtsziele. Ein Leitfaden für nachhaltige Gewichtsoptimierung.",
+  keywords: "idealgewicht berechnen, bmi idealgewicht, gesunde gewichtsziele, gewicht optimieren, bmi ziele, idealgewicht formel",
   openGraph: {
     title: "Idealgewicht berechnen: BMI und gesunde Gewichtsziele",
-    description: "Erfahren Sie, wie Sie Ihr Idealgewicht berechnen und gesunde Gewichtsziele setzen. Ein umfassender Leitfaden zu BMI, Körperfett und nachhaltiger Gewichtsabnahme.",
+    description: "Berechnen Sie Ihr Idealgewicht mit dem BMI und setzen Sie sich gesunde Gewichtsziele. Ein Leitfaden für nachhaltige Gewichtsoptimierung.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",
     authors: ["Rechner Tools"],
+  },
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/blog/bmi-idealgewicht",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/blog/bmi-idealgewicht",
+    },
   },
 }
 

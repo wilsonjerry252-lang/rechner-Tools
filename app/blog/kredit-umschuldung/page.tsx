@@ -4,14 +4,20 @@ import { Button } from "@/components/ui/button"
 
 export const metadata = {
   title: "Kredit umschulden: Wann lohnt sich eine Umschuldung? | Rechner Tools",
-  description: "Erfahren Sie alles über Kreditumschuldung: Wann sie sinnvoll ist, wie Sie sparen können und welche Fallstricke Sie vermeiden sollten. Ein umfassender Ratgeber.",
-  keywords: "kredit umschulden, umschuldung kredit, kredit refinanzierung, kredit sparen, kredit vergleich, zinsen senken",
+  description: "Erfahren Sie, wann sich eine Kreditumschuldung lohnt und wie Sie dabei vorgehen sollten. Sparen Sie Tausende von Euro an Zinsen.",
+  keywords: "kredit umschulden, umschuldung, kreditzinsen sparen, kredit wechseln, umschuldung lohnt, kredit optimieren",
   openGraph: {
     title: "Kredit umschulden: Wann lohnt sich eine Umschuldung?",
-    description: "Erfahren Sie alles über Kreditumschuldung: Wann sie sinnvoll ist, wie Sie sparen können und welche Fallstricke Sie vermeiden sollten. Ein umfassender Ratgeber.",
+    description: "Erfahren Sie, wann sich eine Kreditumschuldung lohnt und wie Sie dabei vorgehen sollten. Sparen Sie Tausende von Euro an Zinsen.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",
     authors: ["Rechner Tools"],
+  },
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/blog/kredit-umschuldung",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/blog/kredit-umschuldung",
+    },
   },
 }
 

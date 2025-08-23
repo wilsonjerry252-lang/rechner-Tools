@@ -4,14 +4,20 @@ import { Button } from "@/components/ui/button"
 
 export const metadata = {
   title: "Kredit aufnehmen: Der komplette Leitfaden | Rechner Tools",
-  description: "Erfahren Sie alles über Kreditaufnahme: Voraussetzungen, Dokumente, Zinsen und Tipps für die beste Kondition. Ein umfassender Ratgeber für Kreditnehmer.",
-  keywords: "kredit aufnehmen, kredit beantragen, kreditvoraussetzungen, kreditdokumente, kreditzinsen, kreditvergleich",
+  description: "Alles über Kredite: Arten, Voraussetzungen, Dokumente und Tipps für die erfolgreiche Kreditaufnahme. Ihr Wegweiser zum optimalen Kredit.",
+  keywords: "kredit aufnehmen, kredit beantragen, kreditarten, kreditvoraussetzungen, kredit dokumente, kredit tipps",
   openGraph: {
     title: "Kredit aufnehmen: Der komplette Leitfaden",
-    description: "Erfahren Sie alles über Kreditaufnahme: Voraussetzungen, Dokumente, Zinsen und Tipps für die beste Kondition. Ein umfassender Ratgeber für Kreditnehmer.",
+    description: "Alles über Kredite: Arten, Voraussetzungen, Dokumente und Tipps für die erfolgreiche Kreditaufnahme. Ihr Wegweiser zum optimalen Kredit.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",
     authors: ["Rechner Tools"],
+  },
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/blog/kredit-aufnehmen",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/blog/kredit-aufnehmen",
+    },
   },
 }
 

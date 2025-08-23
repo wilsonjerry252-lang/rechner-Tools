@@ -5,14 +5,20 @@ import Image from "next/image"
 
 export const metadata = {
   title: "BMI und Ernährung: Der perfekte Ernährungsplan für Ihr Gewicht | Rechner Tools",
-  description: "Erfahren Sie, wie Sie Ihre Ernährung optimal an Ihren BMI anpassen. Ein umfassender Leitfaden mit Ernährungsplänen, Rezepten und Tipps für gesundes Gewicht.",
-  keywords: "bmi ernährung, ernährungsplan, gesunde ernährung, gewicht abnehmen, gesundes essen, bmi optimieren",
+  description: "Erfahren Sie, wie Sie Ihren BMI mit der richtigen Ernährung optimieren können. Praktische Tipps und Ernährungspläne für verschiedene BMI-Kategorien.",
+  keywords: "bmi ernährung, ernährungsplan, gewicht optimieren, gesunde ernährung, bmi kategorien, diät plan",
   openGraph: {
     title: "BMI und Ernährung: Der perfekte Ernährungsplan für Ihr Gewicht",
-    description: "Erfahren Sie, wie Sie Ihre Ernährung optimal an Ihren BMI anpassen. Ein umfassender Leitfaden mit Ernährungsplänen, Rezepten und Tipps für gesundes Gewicht.",
+    description: "Erfahren Sie, wie Sie Ihren BMI mit der richtigen Ernährung optimieren können. Praktische Tipps und Ernährungspläne für verschiedene BMI-Kategorien.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",
     authors: ["Rechner Tools"],
+  },
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/blog/bmi-ernaehrung",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/blog/bmi-ernaehrung",
+    },
   },
 }
 

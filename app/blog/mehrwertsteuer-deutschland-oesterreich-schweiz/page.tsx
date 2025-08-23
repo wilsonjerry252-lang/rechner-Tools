@@ -5,14 +5,20 @@ import Image from "next/image"
 
 export const metadata = {
   title: "Mehrwertsteuer in Deutschland, Österreich und der Schweiz: Ein Vergleich | Rechner Tools",
-  description: "Vergleichen Sie die MwSt-Sätze in den DACH-Ländern. Erfahren Sie alles über Steuersätze, Berechnungsmethoden und praktische Anwendungen.",
-  keywords: "mehrwertsteuer, mwst, deutschland, österreich, schweiz, steuersätze, steuerberechnung, dach-länder",
+  description: "Vergleichen Sie die MwSt.-Sätze in den DACH-Ländern: Deutschland 19%, Österreich 20%, Schweiz 7.7%. Ein umfassender Überblick.",
+  keywords: "mehrwertsteuer deutschland, mwst österreich, mwst schweiz, dach länder, mwst vergleich, steuersätze",
   openGraph: {
     title: "Mehrwertsteuer in Deutschland, Österreich und der Schweiz: Ein Vergleich",
-    description: "Vergleichen Sie die MwSt-Sätze in den DACH-Ländern. Erfahren Sie alles über Steuersätze, Berechnungsmethoden und praktische Anwendungen.",
+    description: "Vergleichen Sie die MwSt.-Sätze in den DACH-Ländern: Deutschland 19%, Österreich 20%, Schweiz 7.7%. Ein umfassender Überblick.",
     type: "article",
-    publishedTime: "2025-01-15T10:00:00Z",
+    publishedTime: "2024-12-15T10:00:00Z",
     authors: ["Rechner Tools"],
+  },
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/blog/mehrwertsteuer-deutschland-oesterreich-schweiz",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/blog/mehrwertsteuer-deutschland-oesterreich-schweiz",
+    },
   },
 }
 

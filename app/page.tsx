@@ -11,8 +11,13 @@ export default function HomePage() {
       {/* Canonical URL for homepage */}
       <link rel="canonical" href="https://www.rechnerjetzt.de" />
       
-      {/* Hreflang return links for all pages */}
+      {/* Self-referencing hreflang for homepage - each language/region only once */}
       <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de" />
+      <link rel="alternate" hrefLang="de-AT" href="https://www.rechnerjetzt.de" />
+      <link rel="alternate" hrefLang="de-CH" href="https://www.rechnerjetzt.de" />
+      <link rel="alternate" hrefLang="x-default" href="https://www.rechnerjetzt.de" />
+      
+      {/* Hreflang return links for all pages - ensuring consistency */}
       <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/kontakt" />
       <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/ueber-uns" />
       <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/impressum" />
@@ -21,7 +26,28 @@ export default function HomePage() {
       <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/haftungsausschluss" />
       <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/nutzungsbedingungen" />
       <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog" />
-      <link rel="alternate" hrefLang="x-default" href="https://www.rechnerjetzt.de" />
+      
+      {/* Blog post hreflang return links - each with unique de-DE */}
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/mehrwertsteuer-export" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/mehrwertsteuer-import" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/mehrwertsteuer-berechnung" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/mehrwertsteuer-deutschland-oesterreich-schweiz" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/mehrwertsteuer-unternehmer" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/mehrwertsteuer-ausnahmen" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/bmi-ernaehrung" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/bmi-ernaehrung-training" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/bmi-gesundheitsrisiken" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/bmi-idealgewicht" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/bmi-richtig-interpretieren" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/bmi-sportler" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/gesunde-gewichtsabnahme-bmi" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/kredit-aufnehmen" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/kredit-umschuldung" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/kredit-zinsen-berechnen" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/kreditarten-vergleich" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/kreditvergleich-bester-zinssatz" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/sondertilgung-kredite" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/steuerliche-absetzbarkeit-kreditzinsen" />
       
       <script
         type="application/ld+json"

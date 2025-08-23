@@ -13,6 +13,12 @@ export const metadata = {
     publishedTime: "2024-12-22T10:00:00Z",
     authors: ["Rechner Tools"],
   },
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/blog/mehrwertsteuer-unternehmer",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/blog/mehrwertsteuer-unternehmer",
+    },
+  },
 }
 
 export default function MehrwertsteuerUnternehmerPage() {

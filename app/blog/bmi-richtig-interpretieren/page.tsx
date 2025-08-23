@@ -5,14 +5,20 @@ import Image from "next/image"
 
 export const metadata = {
   title: "BMI richtig interpretieren: Was die Zahlen wirklich bedeuten | Rechner Tools",
-  description: "Der BMI ist nur ein Richtwert. Lernen Sie, wie Sie Ihren BMI-Wert richtig einordnen und was er über Ihre Gesundheit aussagt.",
-  keywords: "bmi, body mass index, gesundheit, gewicht, größe, bmi-berechnung, gesundheitsbewertung, fitness",
+  description: "Lernen Sie, Ihren BMI-Wert richtig zu interpretieren und zu verstehen, was die Zahlen wirklich über Ihre Gesundheit aussagen.",
+  keywords: "bmi interpretieren, bmi bedeutung, bmi verstehen, bmi bewertung, bmi gesundheit, bmi erklärung",
   openGraph: {
     title: "BMI richtig interpretieren: Was die Zahlen wirklich bedeuten",
-    description: "Der BMI ist nur ein Richtwert. Lernen Sie, wie Sie Ihren BMI-Wert richtig einordnen und was er über Ihre Gesundheit aussagt.",
+    description: "Lernen Sie, Ihren BMI-Wert richtig zu interpretieren und zu verstehen, was die Zahlen wirklich über Ihre Gesundheit aussagen.",
     type: "article",
-    publishedTime: "2025-01-12T10:00:00Z",
+    publishedTime: "2024-12-15T10:00:00Z",
     authors: ["Rechner Tools"],
+  },
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/blog/bmi-richtig-interpretieren",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/blog/bmi-richtig-interpretieren",
+    },
   },
 }
 

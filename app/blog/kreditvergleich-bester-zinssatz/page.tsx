@@ -5,13 +5,19 @@ import { Button } from "@/components/ui/button"
 export const metadata = {
   title: "Kreditvergleich: So finden Sie den besten Zinssatz | Rechner Tools",
   description: "Tipps und Tricks für den Kreditvergleich. Worauf Sie achten sollten und wie Sie Tausende von Euro sparen können.",
-  keywords: "kreditvergleich, zinssatz, kredit, kreditrechner, kreditberechnung, finanzierung, kreditzinsen, kreditkosten",
+  keywords: "kreditvergleich, bester zinssatz, kredit sparen, kredit vergleichen, günstiger kredit, kredit optimieren",
   openGraph: {
     title: "Kreditvergleich: So finden Sie den besten Zinssatz",
     description: "Tipps und Tricks für den Kreditvergleich. Worauf Sie achten sollten und wie Sie Tausende von Euro sparen können.",
     type: "article",
-    publishedTime: "2025-01-10T10:00:00Z",
+    publishedTime: "2024-12-15T10:00:00Z",
     authors: ["Rechner Tools"],
+  },
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/blog/kreditvergleich-bester-zinssatz",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/blog/kreditvergleich-bester-zinssatz",
+    },
   },
 }
 

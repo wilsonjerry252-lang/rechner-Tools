@@ -13,6 +13,12 @@ export const metadata = {
     publishedTime: "2024-12-15T10:00:00Z",
     authors: ["Rechner Tools"],
   },
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/blog/mehrwertsteuer-export",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/blog/mehrwertsteuer-export",
+    },
+  },
 }
 
 export default function MehrwertsteuerExportPage() {

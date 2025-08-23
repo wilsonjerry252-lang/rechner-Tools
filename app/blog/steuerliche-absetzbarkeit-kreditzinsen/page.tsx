@@ -3,15 +3,21 @@ import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap } from 
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Steuerliche Absetzbarkeit von Kreditzinsen: Leitfaden 2025 | Rechner Tools",
-  description: "Wann können Sie Kreditzinsen von der Steuer absetzen? Ein umfassender Leitfaden für Privatpersonen und Unternehmer.",
-  keywords: "kreditzinsen steuer absetzen, steuerabzug kredit, steuerliche absetzbarkeit, kredit steuer, finanzierung steuern",
+  title: "Steuerliche Absetzbarkeit von Kreditzinsen | Rechner Tools",
+  description: "Erfahren Sie, wann und wie Sie Kreditzinsen steuerlich absetzen können. Ein Leitfaden für Privatpersonen und Unternehmer.",
+  keywords: "steuerliche absetzbarkeit, kreditzinsen absetzen, kredit steuer, steuer sparen, kreditzinsen steuerlich, steuerabzug",
   openGraph: {
-    title: "Steuerliche Absetzbarkeit von Kreditzinsen: Leitfaden 2025",
-    description: "Wann können Sie Kreditzinsen von der Steuer absetzen? Ein umfassender Leitfaden für Privatpersonen und Unternehmer.",
+    title: "Steuerliche Absetzbarkeit von Kreditzinsen",
+    description: "Erfahren Sie, wann und wie Sie Kreditzinsen steuerlich absetzen können. Ein Leitfaden für Privatpersonen und Unternehmer.",
     type: "article",
-    publishedTime: "2025-01-08T10:00:00Z",
+    publishedTime: "2024-12-15T10:00:00Z",
     authors: ["Rechner Tools"],
+  },
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/blog/steuerliche-absetzbarkeit-kreditzinsen",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/blog/steuerliche-absetzbarkeit-kreditzinsen",
+    },
   },
 }
 

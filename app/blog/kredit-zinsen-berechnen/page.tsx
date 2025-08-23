@@ -4,14 +4,20 @@ import { Button } from "@/components/ui/button"
 
 export const metadata = {
   title: "Kreditzinsen berechnen: So funktioniert es | Rechner Tools",
-  description: "Lernen Sie, wie Sie Kreditzinsen korrekt berechnen. Von einfachen Formeln bis zu komplexen Tilgungsplänen - alles verständlich erklärt.",
-  keywords: "kreditzinsen berechnen, zinsberechnung, tilgungsplan, kreditkosten, zinsformel, finanzmathematik",
+  description: "Lernen Sie, wie Sie Kreditzinsen berechnen und verstehen Sie die verschiedenen Zinsarten und Berechnungsmethoden.",
+  keywords: "kreditzinsen berechnen, zinsen kredit, kredit zinsen, zinsberechnung, kreditzinsen verstehen, zinsarten",
   openGraph: {
     title: "Kreditzinsen berechnen: So funktioniert es",
-    description: "Lernen Sie, wie Sie Kreditzinsen korrekt berechnen. Von einfachen Formeln bis zu komplexen Tilgungsplänen - alles verständlich erklärt.",
+    description: "Lernen Sie, wie Sie Kreditzinsen berechnen und verstehen Sie die verschiedenen Zinsarten und Berechnungsmethoden.",
     type: "article",
-    publishedTime: "2024-12-18T10:00:00Z",
+    publishedTime: "2024-12-15T10:00:00Z",
     authors: ["Rechner Tools"],
+  },
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/blog/kredit-zinsen-berechnen",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/blog/kredit-zinsen-berechnen",
+    },
   },
 }
 

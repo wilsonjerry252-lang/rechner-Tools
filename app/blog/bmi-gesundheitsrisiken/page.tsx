@@ -4,14 +4,20 @@ import { Button } from "@/components/ui/button"
 
 export const metadata = {
   title: "BMI und Gesundheitsrisiken: Was Sie wissen müssen | Rechner Tools",
-  description: "Erfahren Sie, welche Gesundheitsrisiken mit verschiedenen BMI-Werten verbunden sind und wie Sie diese minimieren können.",
-  keywords: "bmi gesundheitsrisiken, übergewicht gesundheit, adipositas folgen, bmi krankheiten, gesundheitsrisiken gewicht",
+  description: "Verstehen Sie die Gesundheitsrisiken verschiedener BMI-Kategorien. Ein Leitfaden für Prävention und gesundheitsbewusstes Handeln.",
+  keywords: "bmi gesundheitsrisiken, bmi kategorien, gesundheit risiken, bmi bewertung, gesundheitsgefahren, bmi prävention",
   openGraph: {
     title: "BMI und Gesundheitsrisiken: Was Sie wissen müssen",
-    description: "Erfahren Sie, welche Gesundheitsrisiken mit verschiedenen BMI-Werten verbunden sind und wie Sie diese minimieren können.",
+    description: "Verstehen Sie die Gesundheitsrisiken verschiedener BMI-Kategorien. Ein Leitfaden für Prävention und gesundheitsbewusstes Handeln.",
     type: "article",
-    publishedTime: "2024-12-28T10:00:00Z",
+    publishedTime: "2024-12-15T10:00:00Z",
     authors: ["Rechner Tools"],
+  },
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/blog/bmi-gesundheitsrisiken",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/blog/bmi-gesundheitsrisiken",
+    },
   },
 }
 

@@ -4,14 +4,20 @@ import { Button } from "@/components/ui/button"
 
 export const metadata = {
   title: "Gesunde Gewichtsabnahme: Mehr als nur der BMI | Rechner Tools",
-  description: "Warum der BMI allein nicht ausreicht und welche anderen Faktoren für eine gesunde Gewichtsabnahme wichtig sind.",
-  keywords: "gesunde gewichtsabnahme, gewicht verlieren, fitness, ernährung, training, gesundheit, bmi alternative",
+  description: "Erfahren Sie, warum der BMI allein nicht ausreicht und welche anderen Faktoren für eine gesunde Gewichtsabnahme wichtig sind.",
+  keywords: "gesunde gewichtsabnahme, bmi gewicht, gewicht abnehmen, gesund abnehmen, bmi diät, nachhaltige gewichtsabnahme",
   openGraph: {
     title: "Gesunde Gewichtsabnahme: Mehr als nur der BMI",
-    description: "Warum der BMI allein nicht ausreicht und welche anderen Faktoren für eine gesunde Gewichtsabnahme wichtig sind.",
+    description: "Erfahren Sie, warum der BMI allein nicht ausreicht und welche anderen Faktoren für eine gesunde Gewichtsabnahme wichtig sind.",
     type: "article",
-    publishedTime: "2025-01-05T10:00:00Z",
+    publishedTime: "2024-12-15T10:00:00Z",
     authors: ["Rechner Tools"],
+  },
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/blog/gesunde-gewichtsabnahme-bmi",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/blog/gesunde-gewichtsabnahme-bmi",
+    },
   },
 }
 

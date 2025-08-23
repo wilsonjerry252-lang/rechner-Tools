@@ -116,8 +116,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
         
-        {/* Minimal hreflang - only for homepage */}
-        <link rel="alternate" hrefLang="x-default" href="https://www.rechnerjetzt.de" />
+        {/* Hreflang removed to prevent conflicts with page-specific implementations */}
         
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-JTK284TTSM"></script>
