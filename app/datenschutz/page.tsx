@@ -96,14 +96,14 @@ export default function DatenschutzPage() {
               <h2 className="text-2xl font-bold text-foreground mb-4">Datenerfassung auf dieser Website</h2>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <div>
-                  <h4 className="font-medium text-foreground">Wer ist verantwortlich für die Datenerfassung?</h4>
+                  <h3 className="font-medium text-foreground">Wer ist verantwortlich für die Datenerfassung?</h3>
                   <p>
                     Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten
                     können Sie dem Impressum dieser Website entnehmen.
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-medium text-foreground">Wie erfassen wir Ihre Daten?</h4>
+                  <h3 className="font-medium text-foreground">Wie erfassen wir Ihre Daten?</h3>
                   <p>
                     Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z.B.
                     um Daten handeln, die Sie in ein Kontaktformular eingeben. Andere Daten werden automatisch oder nach
@@ -140,7 +140,7 @@ export default function DatenschutzPage() {
                   zu analysieren.
                 </p>
                 <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                  <h4 className="font-medium text-blue-900 mb-2">Was wird erfasst?</h4>
+                  <h3 className="font-medium text-blue-900 mb-2">Was wird erfasst?</h3>
                   <ul className="list-disc list-inside space-y-1 text-blue-800">
                     <li>Seitenaufrufe und Verweildauer</li>
                     <li>Verwendete Browser und Geräte</li>
@@ -177,7 +177,7 @@ export default function DatenschutzPage() {
                   überwachen und zu optimieren. Diese Dienstleistung wird von Google LLC bereitgestellt.
                 </p>
                 <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-                  <h4 className="font-medium text-green-900 mb-2">Erfasste Daten:</h4>
+                  <h3 className="font-medium text-green-900 mb-2">Erfasste Daten:</h3>
                   <ul className="list-disc list-inside space-y-1 text-green-800">
                     <li>Suchanfragen, die zu unserer Website führen</li>
                     <li>Klickraten in den Suchergebnissen</li>

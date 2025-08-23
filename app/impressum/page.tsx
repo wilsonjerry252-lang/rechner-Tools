@@ -122,7 +122,7 @@ export default function ImpressumPage() {
               <h2 className="text-2xl font-bold text-foreground mb-4">Haftungsausschluss</h2>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <div>
-                  <h4 className="font-medium text-foreground">Haftung für Inhalte</h4>
+                  <h3 className="font-medium text-foreground">Haftung für Inhalte</h3>
                   <p>
                     Als Diensteanbieter bin ich gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den
                     allgemeinen Gesetzen verantwortlich. Die Berechnungen dienen nur zur Orientierung und ersetzen keine
@@ -130,7 +130,7 @@ export default function ImpressumPage() {
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-medium text-foreground">Haftung für Links</h4>
+                  <h3 className="font-medium text-foreground">Haftung für Links</h3>
                   <p>
                     Mein Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte ich keinen Einfluss habe.
                     Deshalb kann ich für diese fremden Inhalte auch keine Gewähr übernehmen. Bei Bekanntwerden von 
@@ -138,7 +138,7 @@ export default function ImpressumPage() {
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-medium text-foreground">Urheberrecht</h4>
+                  <h3 className="font-medium text-foreground">Urheberrecht</h3>
                   <p>
                     Die durch den Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem
                     deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung
@@ -151,7 +151,7 @@ export default function ImpressumPage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-2">Datenschutz und Cookies</h3>
+              <h2 className="text-2xl font-bold text-foreground mb-4">Datenschutz und Cookies</h2>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <p>
                   Der Schutz Ihrer persönlichen Daten ist uns wichtig. Unsere Website verwendet nur technisch notwendige 

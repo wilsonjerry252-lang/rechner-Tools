@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Über uns - Rechner Tools | Kostenlose Online-Rechner für DACH",
+  title: "Über uns - Rechner Tools | Kostenlose Rechner",
   description:
     "Erfahren Sie mehr über Rechner Tools - Ihre vertrauenswürdige Quelle für kostenlose, professionelle Online-Rechner im deutschsprachigen Raum.",
   keywords: "über uns, rechner tools, online rechner, deutschland, österreich, schweiz",
@@ -53,6 +53,8 @@ export default function AboutPage() {
               Willkommen bei <strong className="text-foreground">Rechner Tools</strong> – Ihrer vertrauenswürdigen
               Quelle für professionelle Online-Rechner im deutschsprachigen Raum.
             </p>
+
+            <h2 className="text-2xl font-bold text-foreground mb-6">Über Rechner Tools</h2>
 
             <div className="grid md:grid-cols-3 gap-6 my-12">
               <div className="text-center p-6 bg-gradient-to-br from-primary/10 to-secondary/10 rounded-xl">
