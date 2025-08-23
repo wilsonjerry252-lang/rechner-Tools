@@ -58,9 +58,9 @@ export default function Header() {
                 style={{ width: '48px', height: '48px' }}
               />
               <div className="flex flex-col">
-                <h1 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
+                <h2 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
                   Rechner Tools
-                </h1>
+                </h2>
                 <p className="text-sm logo-subtitle text-blue-100 tracking-wide">
                   Professionelle Online-Rechner
                 </p>

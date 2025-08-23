@@ -267,9 +267,9 @@ export default function BlogPage() {
                 className="h-12 w-12 rounded-full shadow-md"
               />
               <div className="flex flex-col">
-                <h1 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
-                  Rechner Tools
-                </h1>
+                            <h2 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
+              Rechner Tools
+            </h2>
                 <p className="text-sm logo-subtitle text-blue-100 tracking-wide">
                   Professionelle Online-Rechner
                 </p>

@@ -1,54 +1,52 @@
 "use client"
 
 import type React from "react"
+import type { Metadata } from "next"
 import Layout from "@/components/Layout"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 
+export const metadata: Metadata = {
+  title: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
+  description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI und Kredite. Optimiert für Deutschland, Österreich und die Schweiz.",
+  keywords: "Online-Rechner, Mehrwertsteuer, BMI-Rechner, Kreditrechner, Deutschland, Österreich, Schweiz, Steuerrechner, Finanzrechner, Gesundheitsrechner",
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de",
+      "de-AT": "https://www.rechnerjetzt.de", 
+      "de-CH": "https://www.rechnerjetzt.de",
+      "x-default": "https://www.rechnerjetzt.de",
+    },
+  },
+  openGraph: {
+    title: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
+    description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI und Kredite. Optimiert für den deutschsprachigen Raum.",
+    url: "https://www.rechnerjetzt.de",
+    siteName: "Rechner Tools",
+    locale: "de_DE",
+    type: "website",
+    images: [
+      {
+        url: "https://www.rechnerjetzt.de/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
+    description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI und Kredite.",
+    images: ["https://www.rechnerjetzt.de/og-image.jpg"],
+  },
+}
+
 export default function HomePage() {
   return (
     <>
-      {/* Canonical URL for homepage */}
-      <link rel="canonical" href="https://www.rechnerjetzt.de" />
-      
-      {/* Self-referencing hreflang for homepage - each language/region only once */}
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de" />
-      <link rel="alternate" hrefLang="de-AT" href="https://www.rechnerjetzt.de" />
-      <link rel="alternate" hrefLang="de-CH" href="https://www.rechnerjetzt.de" />
-      <link rel="alternate" hrefLang="x-default" href="https://www.rechnerjetzt.de" />
-      
-      {/* Hreflang return links for all pages - ensuring consistency */}
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/kontakt" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/ueber-uns" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/impressum" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/datenschutz" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/cookie-richtlinie" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/haftungsausschluss" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/nutzungsbedingungen" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog" />
-      
-      {/* Blog post hreflang return links - each with unique de-DE */}
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/mehrwertsteuer-export" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/mehrwertsteuer-import" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/mehrwertsteuer-berechnung" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/mehrwertsteuer-deutschland-oesterreich-schweiz" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/mehrwertsteuer-unternehmer" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/mehrwertsteuer-ausnahmen" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/bmi-ernaehrung" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/bmi-ernaehrung-training" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/bmi-gesundheitsrisiken" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/bmi-idealgewicht" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/bmi-richtig-interpretieren" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/bmi-sportler" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/gesunde-gewichtsabnahme-bmi" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/kredit-aufnehmen" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/kredit-umschuldung" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/kredit-zinsen-berechnen" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/kreditarten-vergleich" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/kreditvergleich-bester-zinssatz" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/sondertilgung-kredite" />
-      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog/steuerliche-absetzbarkeit-kreditzinsen" />
-      
+      {/* Structured Data for SEO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -150,13 +148,8 @@ export default function HomePage() {
       />
 
       <div className="min-h-screen bg-background">
-        {/* Header Component */}
         <Header />
-
-        {/* Layout with Main Content */}
         <Layout />
-
-        {/* Footer Component */}
         <Footer />
       </div>
     </>

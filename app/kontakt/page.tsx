@@ -32,9 +32,9 @@ export default function ContactPage() {
             <div className="flex items-center gap-4 logo-container">
               <Image src="/logo.png" alt="Rechner Tools Logo" width={48} height={48} className="h-12 w-12 rounded-full shadow-md" />
               <div>
-                <h1 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
-                  Rechner Tools
-                </h1>
+                        <h2 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
+          Rechner Tools
+        </h2>
                 <p className="text-sm logo-subtitle text-blue-100 tracking-wide">
                   Professionelle Online-Rechner
                 </p>
