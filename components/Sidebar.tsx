@@ -2,7 +2,7 @@
 
 import React from "react"
 import Link from "next/link"
-import { Calculator, Heart, CreditCard, FileText, User, Mail, Home } from "lucide-react"
+import { Calculator, FileText, User, Mail, Home, Percent, Calendar, TrendingUp } from "lucide-react"
 
 interface SidebarProps {
   activeSection: string
@@ -26,17 +26,24 @@ export default function Sidebar({ activeSection, scrollToSection }: SidebarProps
       type: "scroll"
     },
     {
-      id: "bmi",
-      label: "BMI-Rechner",
-      icon: Heart,
-      action: () => scrollToSection("bmi"),
+      id: "percentage",
+      label: "Prozentrechner",
+      icon: Percent,
+      action: () => scrollToSection("percentage"),
       type: "scroll"
     },
     {
-      id: "loan",
-      label: "Kreditrechner",
-      icon: CreditCard,
-      action: () => scrollToSection("loan"),
+      id: "workdays",
+      label: "Arbeitstage-Rechner",
+      icon: Calendar,
+      action: () => scrollToSection("workdays"),
+      type: "scroll"
+    },
+    {
+      id: "inflation",
+      label: "Inflationsrechner",
+      icon: TrendingUp,
+      action: () => scrollToSection("inflation"),
       type: "scroll"
     }
   ]

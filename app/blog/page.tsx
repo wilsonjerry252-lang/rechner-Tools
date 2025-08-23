@@ -1,14 +1,14 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { ArrowLeft, Calendar, Clock, ArrowRight, TrendingUp, Calculator, Heart, CreditCard, Activity, Globe, Download, Apple, RefreshCw } from "lucide-react"
+import { ArrowLeft, Calendar, Clock, ArrowRight, TrendingUp, Calculator, Activity, Globe, Download, Apple, RefreshCw } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Blog - Rechner Tools | Finanzen & Gesundheit",
+  title: "Blog - Rechner Tools | Steuern, Finanzen, Prozente & Arbeitstage",
   description:
-    "Entdecken Sie hilfreiche Artikel zu Steuern, BMI, Krediten und mehr. Praktische Tipps und Ratgeber für den deutschsprachigen Raum.",
-  keywords: "blog, ratgeber, steuern, bmi, kredite, finanzen, gesundheit, tipps",
+    "Entdecken Sie hilfreiche Artikel zu Steuern, Prozentrechnung, Arbeitstagen und Inflation. Praktische Tipps und Ratgeber für den deutschsprachigen Raum.",
+  keywords: "blog, ratgeber, steuern, mehrwertsteuer, prozentrechnung, arbeitstage, inflation, finanzen, tipps",
   alternates: {
     canonical: "https://www.rechnerjetzt.de/blog",
     languages: {
@@ -34,65 +34,6 @@ export default function BlogPage() {
     },
     {
       id: 2,
-      title: "BMI richtig interpretieren: Was die Zahlen wirklich bedeuten",
-      excerpt:
-        "Der BMI ist nur ein Richtwert. Lernen Sie, wie Sie Ihren BMI-Wert richtig einordnen und was er über Ihre Gesundheit aussagt.",
-      category: "Gesundheit",
-      date: "2024-12-15",
-      readTime: "7 Min.",
-      icon: Heart,
-      color: "secondary",
-      slug: "bmi-richtig-interpretieren"
-    },
-    {
-      id: 3,
-      title: "Kreditvergleich: So finden Sie den besten Zinssatz",
-      excerpt:
-        "Tipps und Tricks für den Kreditvergleich. Worauf Sie achten sollten und wie Sie Tausende von Euro sparen können.",
-      category: "Finanzen",
-      date: "2024-12-15",
-      readTime: "6 Min.",
-      icon: CreditCard,
-      color: "accent",
-      slug: "kreditvergleich-bester-zinssatz"
-    },
-    {
-      id: 4,
-      title: "Steuerliche Absetzbarkeit von Kreditzinsen",
-      excerpt:
-        "Wann können Sie Kreditzinsen von der Steuer absetzen? Ein Leitfaden für Privatpersonen und Unternehmer.",
-      category: "Steuern",
-      date: "2024-12-15",
-      readTime: "8 Min.",
-      icon: Calculator,
-      color: "primary",
-      slug: "steuerliche-absetzbarkeit-kreditzinsen"
-    },
-    {
-      id: 5,
-      title: "Gesunde Gewichtsabnahme: Mehr als nur der BMI",
-      excerpt:
-        "Warum der BMI allein nicht ausreicht und welche anderen Faktoren für eine gesunde Gewichtsabnahme wichtig sind.",
-      category: "Gesundheit",
-      date: "2024-12-15",
-      readTime: "9 Min.",
-      icon: Heart,
-      color: "secondary",
-      slug: "gesunde-gewichtsabnahme-bmi"
-    },
-    {
-      id: 6,
-      title: "Sondertilgung bei Krediten: Wann lohnt es sich?",
-      excerpt: "Erfahren Sie, wann eine Sondertilgung sinnvoll ist und wie Sie dabei vorgehen sollten.",
-      category: "Finanzen",
-      date: "2024-12-15",
-      readTime: "5 Min.",
-      icon: CreditCard,
-      color: "accent",
-      slug: "sondertilgung-kredite"
-    },
-    {
-      id: 7,
       title: "Mehrwertsteuer berechnen: Methoden und Beispiele",
       excerpt: "Lernen Sie verschiedene Methoden zur MwSt.-Berechnung kennen und sehen Sie praktische Beispiele.",
       category: "Steuern",
@@ -103,29 +44,7 @@ export default function BlogPage() {
       slug: "mehrwertsteuer-berechnung"
     },
     {
-      id: 8,
-      title: "BMI und Gesundheitsrisiken: Was Sie wissen sollten",
-      excerpt: "Verstehen Sie die gesundheitlichen Risiken verschiedener BMI-Werte und wie Sie diese minimieren können.",
-      category: "Gesundheit",
-      date: "2024-12-15",
-      readTime: "8 Min.",
-      icon: Heart,
-      color: "secondary",
-      slug: "bmi-gesundheitsrisiken"
-    },
-    {
-      id: 9,
-      title: "Kreditarten im Vergleich: Welcher Kredit passt zu Ihnen?",
-      excerpt: "Ein umfassender Überblick über verschiedene Kreditarten und deren Vor- und Nachteile.",
-      category: "Finanzen",
-      date: "2024-12-15",
-      readTime: "7 Min.",
-      icon: CreditCard,
-      color: "accent",
-      slug: "kreditarten-vergleich"
-    },
-    {
-      id: 10,
+      id: 3,
       title: "Mehrwertsteuer für Unternehmer: Ein umfassender Leitfaden",
       excerpt: "Alles was Unternehmer über MwSt., Vorsteuerabzug und korrekte Abrechnung wissen müssen.",
       category: "Steuern",
@@ -136,62 +55,7 @@ export default function BlogPage() {
       slug: "mehrwertsteuer-unternehmer"
     },
     {
-      id: 11,
-      title: "BMI, Ernährung und Training: Der perfekte Plan",
-      excerpt: "Kombinieren Sie BMI, Ernährung und Training für optimale Gesundheit und Ihr Wunschgewicht.",
-      category: "Gesundheit",
-      date: "2024-12-15",
-      readTime: "9 Min.",
-      icon: Heart,
-      color: "secondary",
-      slug: "bmi-ernaehrung-training"
-    },
-    {
-      id: 12,
-      title: "Kreditzinsen berechnen: Von einfachen Formeln bis zur Tilgungstabelle",
-      excerpt: "Lernen Sie, wie Sie Kreditzinsen korrekt berechnen und verstehen Sie Tilgungspläne.",
-      category: "Finanzen",
-      date: "2024-12-15",
-      readTime: "8 Min.",
-      icon: CreditCard,
-      color: "accent",
-      slug: "kredit-zinsen-berechnen"
-    },
-    {
-      id: 13,
-      title: "Mehrwertsteuer-Ausnahmen: Wann gilt welcher Satz?",
-      excerpt: "Erfahren Sie alles über MwSt.-Ausnahmen, ermäßigte Sätze und steuerfreie Leistungen.",
-      category: "Steuern",
-      date: "2024-12-15",
-      readTime: "8 Min.",
-      icon: Calculator,
-      color: "primary",
-      slug: "mehrwertsteuer-ausnahmen"
-    },
-    {
-      id: 14,
-      title: "Idealgewicht berechnen: BMI und gesunde Gewichtsziele",
-      excerpt: "Erfahren Sie, wie Sie Ihr Idealgewicht berechnen und gesunde Gewichtsziele setzen.",
-      category: "Gesundheit",
-      date: "2024-12-15",
-      readTime: "7 Min.",
-      icon: Heart,
-      color: "secondary",
-      slug: "bmi-idealgewicht"
-    },
-    {
-      id: 15,
-      title: "Kredit aufnehmen: Der komplette Leitfaden",
-      excerpt: "Erfahren Sie alles über Kreditaufnahme: Voraussetzungen, Dokumente, Zinsen und Tipps.",
-      category: "Finanzen",
-      date: "2024-12-15",
-      readTime: "9 Min.",
-      icon: CreditCard,
-      color: "accent",
-      slug: "kredit-aufnehmen"
-    },
-    {
-      id: 16,
+      id: 4,
       title: "Mehrwertsteuer bei Exporten: Steuerfreie Ausfuhren",
       excerpt: "Erfahren Sie alles über MwSt.-freie Exporte, Ausfuhrlieferungen und grenzüberschreitende Geschäfte.",
       category: "Steuern",
@@ -202,50 +66,61 @@ export default function BlogPage() {
       slug: "mehrwertsteuer-export"
     },
     {
-      id: 17,
-      title: "BMI für Sportler: Warum der BMI bei Athleten irreführend ist",
-      excerpt: "Erfahren Sie, warum der BMI bei Sportlern oft irreführend ist und welche Alternativen es gibt.",
-      category: "Gesundheit",
-      date: "2024-12-15",
-      readTime: "7 Min.",
-      icon: Activity,
-      color: "secondary",
-      slug: "bmi-sportler"
-    },
-    {
-      id: 18,
-      title: "Kredit umschulden: Wann lohnt sich eine Umschuldung?",
-      excerpt: "Erfahren Sie alles über Kreditumschuldung: Wann sie sinnvoll ist und wie Sie sparen können.",
-      category: "Finanzen",
-      date: "2024-12-15",
-      readTime: "8 Min.",
-      icon: RefreshCw,
-      color: "accent",
-      slug: "kredit-umschuldung"
-    },
-    {
-      id: 19,
-      title: "Mehrwertsteuer bei Importen: Einfuhrumsatzsteuer verstehen",
-      excerpt: "Erfahren Sie alles über Einfuhrumsatzsteuer, Zollabfertigung und Importgeschäfte.",
+      id: 5,
+      title: "Mehrwertsteuer bei Importen: Was Sie beachten müssen",
+      excerpt: "Alles über MwSt. bei Importen, Einfuhrumsatzsteuer und grenzüberschreitenden Geschäften.",
       category: "Steuern",
       date: "2024-12-15",
-      readTime: "9 Min.",
-      icon: Download,
+      readTime: "7 Min.",
+      icon: Globe,
       color: "primary",
       slug: "mehrwertsteuer-import"
     },
-    {
-      id: 20,
-      title: "BMI und Ernährung: Der perfekte Ernährungsplan für Ihr Gewicht",
-      excerpt: "Erfahren Sie, wie Sie Ihre Ernährung optimal an Ihren BMI anpassen und gesundes Gewicht erreichen.",
-      category: "Gesundheit",
-      date: "2024-12-15",
-      readTime: "8 Min.",
-      icon: Apple,
-      color: "secondary",
-      slug: "bmi-ernaehrung"
-    }
-  ]
+          {
+        id: 6,
+        title: "Mehrwertsteuer-Ausnahmen: Wann gilt welcher Satz?",
+        excerpt: "Erfahren Sie alles über MwSt.-Ausnahmen, ermäßigte Sätze und steuerfreie Leistungen.",
+        category: "Steuern",
+        date: "2024-12-15",
+        readTime: "8 Min.",
+        icon: Calculator,
+        color: "primary",
+        slug: "mehrwertsteuer-ausnahmen"
+      },
+      {
+        id: 7,
+        title: "Wie berechnet man Prozente richtig? Praktische Beispiele mit Prozentrechner",
+        excerpt: "Lernen Sie Prozentrechnung mit praktischen Beispielen. Formeln für Rabatt, Mehrwertsteuer, Trinkgeld und mehr.",
+        category: "Finanzen",
+        date: "2024-12-15",
+        readTime: "8 Min.",
+        icon: Calculator,
+        color: "secondary",
+        slug: "prozentrechner-anleitung"
+      },
+      {
+        id: 8,
+        title: "Arbeitstage 2025 in Deutschland, Österreich und der Schweiz - vollständiger Überblick",
+        excerpt: "Komplette Übersicht aller Arbeitstage 2025 für Deutschland, Österreich und Schweiz. Inklusive Feiertage und Planungstipps.",
+        category: "Planung",
+        date: "2024-12-15",
+        readTime: "12 Min.",
+        icon: Calendar,
+        color: "accent",
+        slug: "arbeitstage-2025-uebersicht"
+      },
+      {
+        id: 9,
+        title: "Inflation einfach erklärt: So verändert sich Ihre Kaufkraft",
+        excerpt: "Verstehen Sie Inflation: Ursachen, Auswirkungen und wie Sie Ihr Geld schützen. Mit historischen Daten und Beispielen.",
+        category: "Finanzen",
+        date: "2024-12-15",
+        readTime: "15 Min.",
+        icon: TrendingUp,
+        color: "primary",
+        slug: "inflation-einfach-erklaert"
+      }
+    ]
 
   const categories = [
     { name: "Alle", count: blogPosts.length },

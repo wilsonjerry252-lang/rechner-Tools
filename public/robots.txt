@@ -12,6 +12,11 @@ Allow: /nutzungsbedingungen
 Allow: /blog/
 Allow: /blog/*
 
+# Allow all calculator pages
+Allow: /prozentrechner
+Allow: /arbeitstage-rechner
+Allow: /inflationsrechner
+
 # Allow all blog posts
 Allow: /blog/mehrwertsteuer-export
 Allow: /blog/mehrwertsteuer-import
@@ -19,20 +24,9 @@ Allow: /blog/mehrwertsteuer-berechnung
 Allow: /blog/mehrwertsteuer-deutschland-oesterreich-schweiz
 Allow: /blog/mehrwertsteuer-unternehmer
 Allow: /blog/mehrwertsteuer-ausnahmen
-Allow: /blog/bmi-ernaehrung
-Allow: /blog/bmi-ernaehrung-training
-Allow: /blog/bmi-gesundheitsrisiken
-Allow: /blog/bmi-idealgewicht
-Allow: /blog/bmi-richtig-interpretieren
-Allow: /blog/bmi-sportler
-Allow: /blog/gesunde-gewichtsabnahme-bmi
-Allow: /blog/kredit-aufnehmen
-Allow: /blog/kredit-umschuldung
-Allow: /blog/kredit-zinsen-berechnen
-Allow: /blog/kreditarten-vergleich
-Allow: /blog/kreditvergleich-bester-zinssatz
-Allow: /blog/sondertilgung-kredite
-Allow: /blog/steuerliche-absetzbarkeit-kreditzinsen
+Allow: /blog/prozentrechner-anleitung
+Allow: /blog/arbeitstage-2025-uebersicht
+Allow: /blog/inflation-einfach-erklaert
 
 # Sitemap
 Sitemap: https://www.rechnerjetzt.de/sitemap.xml

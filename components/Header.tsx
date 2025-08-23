@@ -3,7 +3,7 @@
 import React, { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { Menu, X, FileText, User, Mail, Home, Calculator } from "lucide-react"
+import { Menu, X, FileText, User, Mail, Home, Calculator, Percent, Calendar, TrendingUp } from "lucide-react"
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -82,6 +82,31 @@ export default function Header() {
                 </Link>
               )
             })}
+            
+            {/* Quick Access Buttons */}
+            <div className="flex items-center space-x-2 ml-4 pl-4 border-l border-primary-foreground/20">
+              <Link
+                href="#percentage"
+                className="flex items-center gap-2 px-3 py-2 bg-primary-foreground/10 rounded-lg text-xs font-medium text-primary-foreground hover:bg-primary-foreground/20 transition-all-smooth"
+              >
+                <Percent className="h-4 w-4" />
+                Prozent
+              </Link>
+              <Link
+                href="#workdays"
+                className="flex items-center gap-2 px-3 py-2 bg-primary-foreground/10 rounded-lg text-xs font-medium text-primary-foreground hover:bg-primary-foreground/20 transition-all-smooth"
+              >
+                <Calendar className="h-4 w-4" />
+                Arbeitstage
+              </Link>
+              <Link
+                href="#inflation"
+                className="flex items-center gap-2 px-3 py-2 bg-primary-foreground/10 rounded-lg text-xs font-medium text-primary-foreground hover:bg-primary-foreground/20 transition-all-smooth"
+              >
+                <TrendingUp className="h-4 w-4" />
+                Inflation
+              </Link>
+            </div>
           </div>
 
           {/* Mobile menu button */}
@@ -121,19 +146,35 @@ export default function Header() {
                 <div className="grid grid-cols-2 gap-3 px-4">
                   <Link
                     href="#vat"
-                    className="flex items-center justify-center gap-2 px-4 py-3 bg-primary-foreground/10 rounded-lg text-sm font-medium hover:bg-primary-foreground/20 transition-all-smooth"
+                    className="flex items-center justify-center gap-2 px-3 py-2 bg-primary-foreground/10 rounded-lg text-xs font-medium hover:bg-primary-foreground/20 transition-all-smooth"
                     onClick={handleMobileMenuClose}
                   >
-                    <Calculator className="h-4 w-4" />
-                    MwSt-Rechner
+                    <Calculator className="h-3 w-3" />
+                    MwSt
                   </Link>
                   <Link
-                    href="#bmi"
-                    className="flex items-center justify-center gap-2 px-4 py-3 bg-primary-foreground/10 rounded-lg text-sm font-medium hover:bg-primary-foreground/20 transition-all-smooth"
+                    href="#percentage"
+                    className="flex items-center justify-center gap-2 px-3 py-2 bg-primary-foreground/10 rounded-lg text-xs font-medium hover:bg-primary-foreground/20 transition-all-smooth"
                     onClick={handleMobileMenuClose}
                   >
-                    <FileText className="h-4 w-4" />
-                    BMI-Rechner
+                    <FileText className="h-3 w-3" />
+                    Prozente
+                  </Link>
+                  <Link
+                    href="#workdays"
+                    className="flex items-center justify-center gap-2 px-3 py-2 bg-primary-foreground/10 rounded-lg text-xs font-medium hover:bg-primary-foreground/20 transition-all-smooth"
+                    onClick={handleMobileMenuClose}
+                  >
+                    <Calendar className="h-3 w-3" />
+                    Arbeitstage
+                  </Link>
+                  <Link
+                    href="#inflation"
+                    className="flex items-center justify-center gap-2 px-3 py-2 bg-primary-foreground/10 rounded-lg text-xs font-medium hover:bg-primary-foreground/20 transition-all-smooth"
+                    onClick={handleMobileMenuClose}
+                  >
+                    <TrendingUp className="h-3 w-3" />
+                    Inflation
                   </Link>
                 </div>
               </div>

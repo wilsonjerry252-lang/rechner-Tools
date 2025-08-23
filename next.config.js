@@ -120,16 +120,6 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/bmi-rechner',
-        destination: '/',
-        permanent: true,
-      },
-      {
-        source: '/kredit-rechner',
-        destination: '/',
-        permanent: true,
-      },
-      {
         source: '/mwst-rechner',
         destination: '/',
         permanent: true,
@@ -140,16 +130,6 @@ const nextConfig = {
         permanent: true,
       },
       // Fix 4xx errors - redirect old calculator URLs
-      {
-        source: '/loan-calculator',
-        destination: '/#loan',
-        permanent: true,
-      },
-      {
-        source: '/bmi-calculator',
-        destination: '/#bmi',
-        permanent: true,
-      },
       {
         source: '/vat-calculator',
         destination: '/#vat',

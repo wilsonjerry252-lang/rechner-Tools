@@ -82,7 +82,7 @@ export default function NutzungsbedingungenPage() {
               <h2 className="text-2xl font-bold text-foreground mb-4">Geltungsbereich</h2>
               <p className="text-sm text-muted-foreground">
                 Diese Nutzungsbedingungen gelten für die Nutzung der Website "Rechner Tools" und aller darauf
-                verfügbaren Online-Rechner (Mehrwertsteuerrechner, BMI-Rechner, Kreditrechner). Betreiber der Website
+                verfügbaren Online-Rechner (Mehrwertsteuerrechner). Betreiber der Website
                 ist MUHAMMAD USMAN KHAN, Mithrasstraße 16, 60439 Frankfurt am Main, Deutschland.
               </p>
             </div>
@@ -96,8 +96,6 @@ export default function NutzungsbedingungenPage() {
                 </p>
                 <ul className="list-disc list-inside space-y-1 ml-4">
                   <li>Mehrwertsteuerberechnungen für Deutschland, Österreich und die Schweiz</li>
-                  <li>BMI-Berechnungen mit Gesundheitsempfehlungen</li>
-                  <li>Kreditberechnungen für verschiedene Darlehensarten</li>
                 </ul>
               </div>
             </div>

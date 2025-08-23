@@ -18,9 +18,9 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
-  description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI und Kredite. Optimiert für Deutschland, Österreich und die Schweiz.",
-  keywords: "Online-Rechner, Mehrwertsteuer, BMI-Rechner, Kreditrechner, Deutschland, Österreich, Schweiz, Steuerrechner, Finanzrechner, Gesundheitsrechner",
+  title: "Rechner Tools - Online-Rechner für MwSt, Prozente, Arbeitstage & Inflation",
+  description: "Kostenlose Online-Rechner für Mehrwertsteuer, Prozentrechnung, Arbeitstage und Inflation. Optimiert für Deutschland, Österreich und die Schweiz.",
+  keywords: "Online-Rechner, Mehrwertsteuer, Prozentrechner, Arbeitstage, Inflation, Deutschland, Österreich, Schweiz, Steuerrechner, Finanzrechner",
   robots: "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
   authors: [{ name: "Rechner Tools", url: "https://www.rechnerjetzt.de" }],
   generator: "Next.js",
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
     yandex: "verification_token",
   },
   openGraph: {
-    title: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
-    description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI und Kredite. Optimiert für den deutschsprachigen Raum.",
+    title: "Rechner Tools - Online-Rechner für MwSt, Prozente, Arbeitstage & Inflation",
+    description: "Kostenlose Online-Rechner für Mehrwertsteuer, Prozentrechnung, Arbeitstage und Inflation. Optimiert für den deutschsprachigen Raum.",
     url: "https://www.rechnerjetzt.de",
     siteName: "Rechner Tools",
     locale: "de_DE",
@@ -40,14 +40,14 @@ export const metadata: Metadata = {
         url: "https://www.rechnerjetzt.de/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
+        alt: "Rechner Tools - Online-Rechner für MwSt, Prozente, Arbeitstage & Inflation",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
-    description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI und Kredite.",
+    title: "Rechner Tools - Online-Rechner für MwSt, Prozente, Arbeitstage & Inflation",
+    description: "Kostenlose Online-Rechner für Mehrwertsteuer, Prozentrechnung, Arbeitstage und Inflation.",
     images: ["https://www.rechnerjetzt.de/og-image.jpg"],
   },
   category: "Tools & Utilities",

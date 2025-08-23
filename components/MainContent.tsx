@@ -3,8 +3,9 @@
 import React from "react"
 import Hero from "./Hero"
 import VATCalculator from "./VATCalculator"
-import BMICalculator from "./BMICalculator"
-import LoanCalculator from "./LoanCalculator"
+import PercentageCalculator from "./PercentageCalculator"
+import WorkdaysCalculator from "./WorkdaysCalculator"
+import InflationCalculator from "./InflationCalculator"
 
 export default function MainContent() {
   return (
@@ -14,8 +15,9 @@ export default function MainContent() {
 
       {/* Tool Components */}
       <VATCalculator />
-      <BMICalculator />
-      <LoanCalculator />
+      <PercentageCalculator />
+      <WorkdaysCalculator />
+      <InflationCalculator />
     </main>
   )
 }

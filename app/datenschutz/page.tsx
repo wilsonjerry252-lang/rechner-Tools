@@ -117,12 +117,12 @@ export default function DatenschutzPage() {
               <h2 className="text-2xl font-bold text-foreground mb-4">Rechner-Funktionen</h2>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <p>
-                  <strong>Wichtiger Hinweis:</strong> Alle Berechnungen (VAT, BMI, Kredite) werden ausschließlich lokal
+                  <strong>Wichtiger Hinweis:</strong> Alle Berechnungen (VAT) werden ausschließlich lokal
                   in Ihrem Browser durchgeführt. Die von Ihnen eingegebenen Werte werden nicht an unsere Server
                   übertragen, gespeichert oder anderweitig verarbeitet.
                 </p>
                 <p>
-                  Dies bedeutet, dass Ihre persönlichen Daten wie Gewicht, Größe, Kreditsummen oder andere
+                  Dies bedeutet, dass Ihre persönlichen Daten wie Beträge oder andere
                   Berechnungsparameter vollständig privat bleiben und nur auf Ihrem Gerät verarbeitet werden.
                 </p>
               </div>

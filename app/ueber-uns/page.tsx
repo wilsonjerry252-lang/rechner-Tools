@@ -87,28 +87,6 @@ export default function AboutPage() {
                   </p>
                 </div>
               </div>
-
-              <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-secondary/5 to-transparent rounded-lg">
-                <Heart className="h-8 w-8 text-secondary mt-1" />
-                <div>
-                  <h3 className="font-semibold text-foreground mb-2">BMI-Rechner</h3>
-                  <p>
-                    Berechnen Sie Ihren Body-Mass-Index mit metrischen oder imperialen Einheiten. Inklusive
-                    WHO-Kategorisierung und Gesundheitsempfehlungen.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-accent/5 to-transparent rounded-lg">
-                <CreditCard className="h-8 w-8 text-accent mt-1" />
-                <div>
-                  <h3 className="font-semibold text-foreground mb-2">Kreditrechner</h3>
-                  <p>
-                    Berechnen Sie Ihre monatlichen Raten für Privatkredite, Autokredite und Hypotheken. Mit
-                    detailliertem Tilgungsplan und Zinsübersicht.
-                  </p>
-                </div>
-              </div>
             </div>
 
             <h2 className="text-2xl font-bold text-foreground mt-12 mb-6">Warum Rechner Tools?</h2>

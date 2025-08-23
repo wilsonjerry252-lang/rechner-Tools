@@ -88,24 +88,6 @@ export default function DisclaimerPage() {
                 <li>• Für steuerliche Beratung wenden Sie sich an einen Steuerberater oder das zuständige Finanzamt</li>
                 <li>• Besondere Regelungen und Ausnahmen werden nicht berücksichtigt</li>
               </ul>
-
-              <h3 className="text-xl font-semibold text-foreground mb-3 mt-6">BMI-Rechner</h3>
-              <ul className="space-y-2 ml-6">
-                <li>• Der BMI ist nur ein Richtwert und ersetzt keine medizinische Untersuchung</li>
-                <li>• Individuelle Faktoren wie Muskelmasse, Alter und Geschlecht werden nicht berücksichtigt</li>
-                <li>• Bei gesundheitlichen Fragen konsultieren Sie einen Arzt oder Ernährungsberater</li>
-                <li>• Die WHO-Kategorien sind allgemeine Richtwerte und können individuell abweichen</li>
-              </ul>
-
-              <h3 className="text-xl font-semibold text-foreground mb-3 mt-6">Kreditrechner</h3>
-              <ul className="space-y-2 ml-6">
-                <li>
-                  • Die Berechnungen basieren auf vereinfachten Formeln und können von tatsächlichen Angeboten abweichen
-                </li>
-                <li>• Zusätzliche Kosten wie Bearbeitungsgebühren oder Versicherungen werden nicht berücksichtigt</li>
-                <li>• Für verbindliche Kreditangebote wenden Sie sich an Ihre Bank oder einen Kreditvermittler</li>
-                <li>• Zinssätze können je nach Bonität und Marktlage erheblich variieren</li>
-              </ul>
             </section>
 
             <section>

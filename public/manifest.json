@@ -1,7 +1,7 @@
 {
-  "name": "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
-  "short_name": "Rechner Tools",
-  "description": "Kostenlose Online-Rechner für Mehrwertsteuer, BMI und Kredite",
+  "name": "Rechner Tools - Online-Rechner für MwSt, Prozente, Arbeitstage & Inflation",
+  "short_name": "Rechner Tools", 
+  "description": "Kostenlose Online-Rechner für Mehrwertsteuer, Prozente, Arbeitstage und Inflation",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -9,7 +9,7 @@
   "orientation": "portrait-primary",
   "scope": "/",
   "lang": "de",
-  "categories": ["utilities", "finance", "health"],
+  "categories": ["utilities", "finance"],
   "icons": [
     {
       "src": "/logo.png",
@@ -39,17 +39,24 @@
       "icons": [{ "src": "/logo.png", "sizes": "48x48" }]
     },
     {
-      "name": "BMI-Rechner",
-      "short_name": "BMI",
-      "description": "Body-Mass-Index berechnen",
-      "url": "/#bmi",
+      "name": "Prozentrechner",
+      "short_name": "Prozent",
+      "description": "Prozente und Rabatte berechnen",
+      "url": "/#percentage",
       "icons": [{ "src": "/logo.png", "sizes": "48x48" }]
     },
     {
-      "name": "Kreditrechner",
-      "short_name": "Kredit",
-      "description": "Kreditraten berechnen",
-      "url": "/#loan",
+      "name": "Arbeitstage-Rechner",
+      "short_name": "Arbeitstage",
+      "description": "Arbeitstage berechnen",
+      "url": "/#workdays",
+      "icons": [{ "src": "/logo.png", "sizes": "48x48" }]
+    },
+    {
+      "name": "Inflationsrechner",
+      "short_name": "Inflation",
+      "description": "Kaufkraft berechnen",
+      "url": "/#inflation",
       "icons": [{ "src": "/logo.png", "sizes": "48x48" }]
     }
   ]

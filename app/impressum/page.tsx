@@ -64,7 +64,7 @@ export default function ImpressumPage() {
               </div>
               <p className="text-sm text-muted-foreground mt-2">
                 Rechner Tools ist ein privates Projekt, das kostenlose Online-Rechner für den deutschsprachigen Raum bereitstellt. 
-                Unser Ziel ist es, präzise und benutzerfreundliche Tools für Mehrwertsteuer, BMI und Kreditberechnungen anzubieten.
+                Unser Ziel ist es, präzise und benutzerfreundliche Tools für Mehrwertsteuerberechnungen anzubieten.
               </p>
             </div>
 

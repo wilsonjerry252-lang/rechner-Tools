@@ -5,8 +5,8 @@ import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 
 export const metadata: Metadata = {
-  title: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
-  description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI und Kredite. Optimiert für Deutschland, Österreich und die Schweiz.",
+  title: "Rechner Tools - Online-Rechner für MwSt, Prozente, Arbeitstage & Inflation",
+  description: "Kostenlose Online-Rechner für Mehrwertsteuer, Prozentrechnung, Arbeitstage und Inflation. Optimiert für Deutschland, Österreich und die Schweiz.",
   alternates: {
     canonical: "https://www.rechnerjetzt.de",
     languages: {
@@ -29,7 +29,7 @@ export default function HomePage() {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "Rechner Tools",
-            description: "Professionelle Online-Rechner für Mehrwertsteuer, BMI und Kredite. Optimiert für Deutschland, Österreich und die Schweiz.",
+            description: "Professionelle Online-Rechner für Mehrwertsteuer, Prozente, Arbeitstage und Inflation. Optimiert für Deutschland, Österreich und die Schweiz.",
             url: "https://www.rechnerjetzt.de",
             applicationCategory: "FinanceApplication",
             operatingSystem: "Web Browser",
@@ -40,8 +40,9 @@ export default function HomePage() {
             },
             featureList: [
               "Mehrwertsteuerrechner für Deutschland, Österreich, Schweiz",
-              "BMI-Rechner mit metrischen und imperialen Einheiten",
-              "Kreditrechner mit Tilgungsplan",
+              "Prozentrechner für Rabatte, Aufschläge und Änderungen",
+              "Arbeitstage-Rechner mit Feiertagen für 2025/2026",
+              "Inflationsrechner mit historischen Daten seit 1991",
             ],
             author: {
               "@type": "Organization",
@@ -75,22 +76,6 @@ export default function HomePage() {
                 acceptedAnswer: {
                   "@type": "Answer",
                   text: "Geben Sie den Betrag ein, wählen Sie das Land (Deutschland 19%, Österreich 20%, Schweiz 7.7%) und ob Sie von Netto zu Brutto oder umgekehrt rechnen möchten."
-                }
-              },
-              {
-                "@type": "Question",
-                name: "Wie berechne ich meinen BMI?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Geben Sie Ihr Gewicht in kg und Ihre Größe in cm ein. Der BMI wird automatisch berechnet und kategorisiert."
-                }
-              },
-              {
-                "@type": "Question",
-                name: "Wie funktioniert der Kreditrechner?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Geben Sie Kreditsumme, Zinssatz und Laufzeit ein. Sie erhalten sofort die monatliche Rate und den Tilgungsplan."
                 }
               }
             ]
