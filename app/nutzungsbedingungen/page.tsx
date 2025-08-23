@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     canonical: "https://www.rechnerjetzt.de/nutzungsbedingungen",
     languages: {
       "de-DE": "https://www.rechnerjetzt.de/nutzungsbedingungen",
+      "x-default": "https://www.rechnerjetzt.de/nutzungsbedingungen",
     },
   },
 }

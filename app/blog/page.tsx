@@ -13,6 +13,7 @@ export const metadata = {
     canonical: "https://www.rechnerjetzt.de/blog",
     languages: {
       "de-DE": "https://www.rechnerjetzt.de/blog",
+      "x-default": "https://www.rechnerjetzt.de/blog",
     },
   },
 }
@@ -267,9 +268,9 @@ export default function BlogPage() {
                 className="h-12 w-12 rounded-full shadow-md"
               />
               <div className="flex flex-col">
-                            <h2 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
+                            <h3 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
               Rechner Tools
-            </h2>
+            </h3>
                 <p className="text-sm logo-subtitle text-blue-100 tracking-wide">
                   Professionelle Online-Rechner
                 </p>

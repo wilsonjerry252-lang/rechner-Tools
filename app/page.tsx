@@ -1,7 +1,22 @@
 import type React from "react"
+import type { Metadata } from "next"
 import Layout from "@/components/Layout"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
+
+export const metadata: Metadata = {
+  title: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
+  description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI und Kredite. Optimiert für Deutschland, Österreich und die Schweiz.",
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de",
+      "de-AT": "https://www.rechnerjetzt.de",
+      "de-CH": "https://www.rechnerjetzt.de",
+      "x-default": "https://www.rechnerjetzt.de",
+    },
+  },
+}
 
 export default function HomePage() {
   return (

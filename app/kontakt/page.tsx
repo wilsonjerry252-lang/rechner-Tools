@@ -18,6 +18,7 @@ export const metadata = {
     canonical: "https://www.rechnerjetzt.de/kontakt",
     languages: {
       "de-DE": "https://www.rechnerjetzt.de/kontakt",
+      "x-default": "https://www.rechnerjetzt.de/kontakt",
     },
   },
 }
@@ -32,9 +33,9 @@ export default function ContactPage() {
             <div className="flex items-center gap-4 logo-container">
               <Image src="/logo.png" alt="Rechner Tools Logo" width={48} height={48} className="h-12 w-12 rounded-full shadow-md" />
               <div>
-                        <h2 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
+                        <h3 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
           Rechner Tools
-        </h2>
+        </h3>
                 <p className="text-sm logo-subtitle text-blue-100 tracking-wide">
                   Professionelle Online-Rechner
                 </p>

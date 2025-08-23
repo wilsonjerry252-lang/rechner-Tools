@@ -7,11 +7,20 @@ export default function Hero() {
   return (
     <section className="py-16 px-4 bg-gradient-to-br from-background to-muted/30">
       <div className="max-w-5xl mx-auto text-center">
+        {/* Main H1 Tag for SEO */}
+        <h1 className="text-5xl md:text-6xl font-bold font-serif text-foreground mb-6 leading-tight">
+          Professionelle Online-Rechner für
+          <br />
+          <span className="text-primary">Mehrwertsteuer, BMI & Kredite</span>
+        </h1>
+        
+        {/* Secondary H2 Tag */}
         <h2 className="text-4xl md:text-5xl font-bold font-serif text-foreground mb-6 leading-tight">
           Präzise Rechner für Ihre
           <br />
           <span className="text-primary">täglichen Bedürfnisse</span>
         </h2>
+        
         <p className="text-xl text-muted-foreground mb-10 max-w-3xl mx-auto leading-relaxed">
           Nutzen Sie unsere professionellen Online-Rechner für Mehrwertsteuer, BMI und Kredite. Optimiert für
           Deutschland, Österreich und die Schweiz mit aktuellen Bestimmungen.

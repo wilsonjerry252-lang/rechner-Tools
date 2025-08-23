@@ -17,6 +17,7 @@ export const metadata = {
     canonical: "https://www.rechnerjetzt.de/blog/mehrwertsteuer-ausnahmen",
     languages: {
       "de-DE": "https://www.rechnerjetzt.de/blog/mehrwertsteuer-ausnahmen",
+      "x-default": "https://www.rechnerjetzt.de/blog/mehrwertsteuer-ausnahmen",
     },
   },
 }
@@ -30,7 +31,7 @@ export default function MehrwertsteuerAusnahmenPage() {
             <div className="flex items-center gap-4">
               <img src="/logo.png" alt="Rechner Tools Logo" className="h-12 w-12 rounded-md" />
               <div>
-                <h2 className="text-2xl font-bold font-serif">Rechner Tools</h2>
+                <h3 className="text-2xl font-bold font-serif">Rechner Tools</h3>
                 <p className="text-sm opacity-90 font-medium">Professionelle Online-Rechner</p>
               </div>
             </div>

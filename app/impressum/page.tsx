@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     canonical: "https://www.rechnerjetzt.de/impressum",
     languages: {
       "de-DE": "https://www.rechnerjetzt.de/impressum",
+      "x-default": "https://www.rechnerjetzt.de/impressum",
     },
   },
 }

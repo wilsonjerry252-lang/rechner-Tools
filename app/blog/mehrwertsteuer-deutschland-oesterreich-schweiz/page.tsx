@@ -18,6 +18,7 @@ export const metadata = {
     canonical: "https://www.rechnerjetzt.de/blog/mehrwertsteuer-deutschland-oesterreich-schweiz",
     languages: {
       "de-DE": "https://www.rechnerjetzt.de/blog/mehrwertsteuer-deutschland-oesterreich-schweiz",
+      "x-default": "https://www.rechnerjetzt.de/blog/mehrwertsteuer-deutschland-oesterreich-schweiz",
     },
   },
 }
@@ -31,7 +32,7 @@ export default function MehrwertsteuerVergleichPage() {
             <div className="flex items-center gap-4">
               <Image src="/logo.png" alt="Rechner Tools Logo" width={48} height={48} className="rounded-full shadow-md" />
               <div>
-                <h2 className="text-2xl font-bold font-serif">Rechner Tools</h2>
+                <h3 className="text-2xl font-bold font-serif">Rechner Tools</h3>
                 <p className="text-sm opacity-90 font-medium">Professionelle Online-Rechner</p>
               </div>
             </div>

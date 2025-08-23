@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     canonical: "https://www.rechnerjetzt.de/cookie-richtlinie",
     languages: {
       "de-DE": "https://www.rechnerjetzt.de/cookie-richtlinie",
+      "x-default": "https://www.rechnerjetzt.de/cookie-richtlinie",
     },
   },
 }
