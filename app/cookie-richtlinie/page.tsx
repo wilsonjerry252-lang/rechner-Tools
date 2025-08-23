@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   description:
     "Cookie-Richtlinie von Rechner Tools - Informationen über die Verwendung von Cookies und Tracking-Technologien.",
   robots: "noindex, nofollow",
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/cookie-richtlinie",
+  },
 }
 
 export default function CookieRichtliniePage() {

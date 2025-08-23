@@ -6,8 +6,10 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Nutzungsbedingungen - Rechner Tools",
-  description: "Nutzungsbedingungen für Rechner Tools - Bedingungen für die Verwendung unserer Online-Rechner.",
-  robots: "noindex, nofollow",
+  description: "Nutzungsbedingungen für die Verwendung von Rechner Tools.",
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/nutzungsbedingungen",
+  },
 }
 
 export default function NutzungsbedingungenPage() {
