@@ -6,9 +6,10 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Impressum - Rechner Tools",
-  description:
-    "Impressum und Kontaktdaten von Rechner Tools - Professionelle Online-Rechner für Deutschland, Österreich und die Schweiz.",
-  robots: "noindex, nofollow",
+  description: "Rechtliche Angaben und Impressum von Rechner Tools.",
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/impressum",
+  },
 }
 
 export default function ImpressumPage() {

@@ -8,6 +8,9 @@ export const metadata = {
   description:
     "Erfahren Sie mehr über Rechner Tools - Ihre vertrauenswürdige Quelle für kostenlose, professionelle Online-Rechner im deutschsprachigen Raum.",
   keywords: "über uns, rechner tools, online rechner, deutschland, österreich, schweiz",
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/ueber-uns",
+  },
 }
 
 export default function AboutPage() {

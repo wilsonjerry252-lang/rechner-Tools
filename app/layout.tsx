@@ -50,12 +50,6 @@ export const metadata: Metadata = {
     description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI und Kredite.",
     images: ["https://www.rechnerjetzt.de/og-image.jpg"],
   },
-  alternates: {
-    canonical: "https://www.rechnerjetzt.de",
-    languages: {
-      "de-DE": "https://www.rechnerjetzt.de",
-    },
-  },
   category: "Tools & Utilities",
   classification: "Online Calculators & Financial Tools",
   other: {
@@ -122,8 +116,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
         
-        {/* Hreflang tags for international SEO */}
-        <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de" />
+        {/* Minimal hreflang - only for homepage */}
         <link rel="alternate" hrefLang="x-default" href="https://www.rechnerjetzt.de" />
         
         {/* Google tag (gtag.js) */}

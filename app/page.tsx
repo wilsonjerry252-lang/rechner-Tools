@@ -8,6 +8,9 @@ import Header from "@/components/Header"
 export default function HomePage() {
   return (
     <>
+      {/* Canonical URL for homepage */}
+      <link rel="canonical" href="https://www.rechnerjetzt.de" />
+      
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -16,7 +19,7 @@ export default function HomePage() {
             "@type": "WebApplication",
             name: "Rechner Tools",
             description: "Professionelle Online-Rechner für Mehrwertsteuer, BMI und Kredite. Optimiert für Deutschland, Österreich und die Schweiz.",
-            url: "https://rechner-tools.com",
+            url: "https://www.rechnerjetzt.de",
             applicationCategory: "FinanceApplication",
             operatingSystem: "Web Browser",
             offers: {
@@ -32,12 +35,12 @@ export default function HomePage() {
             author: {
               "@type": "Organization",
               name: "Rechner Tools",
-              url: "https://rechner-tools.com"
+              url: "https://www.rechnerjetzt.de"
             },
             publisher: {
               "@type": "Organization",
               name: "Rechner Tools",
-              url: "https://rechner-tools.com"
+              url: "https://www.rechnerjetzt.de"
             },
             inLanguage: ["de-DE", "de-AT", "de-CH"],
             audience: {
@@ -95,13 +98,13 @@ export default function HomePage() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Startseite",
-                item: "https://rechner-tools.com"
+                item: "https://www.rechnerjetzt.de"
               },
               {
                 "@type": "ListItem",
                 position: 2,
                 name: "Rechner",
-                item: "https://rechner-tools.com#rechner"
+                item: "https://www.rechnerjetzt.de#rechner"
               }
             ]
           }),

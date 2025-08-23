@@ -14,11 +14,15 @@ export const metadata = {
     description: "Kontaktieren Sie uns für Fragen zu unseren Rechnern, Support oder Feedback.",
     type: "website",
   },
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/kontakt",
+  },
 }
 
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-secondary/5 to-accent/5">
+      {/* Header Component */}
       <header className="bg-gradient-to-r from-primary to-primary/90 text-primary-foreground shadow-lg">
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
