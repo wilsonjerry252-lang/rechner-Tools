@@ -3,7 +3,7 @@ import { ArrowLeft, Calendar, Clock, CreditCard, TrendingUp, Shield, Zap, Calcul
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Sondertilgung bei Krediten: Wann lohnt es sich? | Rechner Tools",
+  title: "Sondertilgung bei Krediten: Wann lohnt es sich?",
   description: "Erfahren Sie, wann eine Sondertilgung sinnvoll ist und wie Sie dabei vorgehen sollten. Sparen Sie Tausende von Euro an Zinsen.",
   keywords: "sondertilgung, kredit vorzeitig tilgen, kreditzinsen sparen, kredit ablösen, vorzeitige tilgung",
   openGraph: {

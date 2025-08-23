@@ -3,7 +3,7 @@ import { ArrowLeft, Calendar, Clock, CreditCard, TrendingUp, Shield, Zap, Calcul
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Kreditzinsen berechnen: So funktioniert es | Rechner Tools",
+  title: "Kreditzinsen berechnen: So funktioniert es",
   description: "Lernen Sie, wie Sie Kreditzinsen berechnen und verstehen Sie die verschiedenen Zinsarten und Berechnungsmethoden.",
   keywords: "kreditzinsen berechnen, zinsen kredit, kredit zinsen, zinsberechnung, kreditzinsen verstehen, zinsarten",
   openGraph: {

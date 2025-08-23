@@ -5,7 +5,7 @@ import Link from "next/link"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Blog - Rechner Tools | Tipps und Ratgeber zu Finanzen und Gesundheit",
+  title: "Blog - Rechner Tools | Finanzen & Gesundheit",
   description:
     "Entdecken Sie hilfreiche Artikel zu Steuern, BMI, Krediten und mehr. Praktische Tipps und Ratgeber für den deutschsprachigen Raum.",
   keywords: "blog, ratgeber, steuern, bmi, kredite, finanzen, gesundheit, tipps",

@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap, AlertT
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Mehrwertsteuer-Ausnahmen: Wann gilt welcher Satz? | Rechner Tools",
+  title: "MwSt.-Ausnahmen: Wann gilt welcher Satz?",
   description: "Erfahren Sie alles über MwSt.-Ausnahmen und reduzierte Steuersätze. Ein Leitfaden für besondere Fälle und Ausnahmeregelungen.",
   keywords: "mehrwertsteuer ausnahmen, mwst ausnahmen, reduzierte steuersätze, mwst sonderfälle, steuerausnahmen, mwst regeln",
   openGraph: {
-    title: "Mehrwertsteuer-Ausnahmen: Wann gilt welcher Satz?",
+    title: "MwSt.-Ausnahmen: Wann gilt welcher Satz?",
     description: "Erfahren Sie alles über MwSt.-Ausnahmen und reduzierte Steuersätze. Ein Leitfaden für besondere Fälle und Ausnahmeregelungen.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",

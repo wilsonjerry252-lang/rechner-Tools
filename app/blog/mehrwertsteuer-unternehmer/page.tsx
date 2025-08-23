@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap, Buildi
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Mehrwertsteuer für Unternehmer: Leitfaden 2025 | Rechner Tools",
+  title: "MwSt. für Unternehmer: Leitfaden 2025",
   description: "Alles über MwSt. für Unternehmer: Vorsteuerabzug, Rechnungsstellung, Buchhaltung und steuerliche Pflichten. Professioneller Ratgeber für Selbstständige.",
   keywords: "mehrwertsteuer unternehmer, mwst buchhaltung, vorsteuerabzug, umsatzsteuer, steuerberatung, selbstständige",
   openGraph: {
-    title: "Mehrwertsteuer für Unternehmer: Leitfaden 2025",
+    title: "MwSt. für Unternehmer: Leitfaden 2025",
     description: "Alles über MwSt. für Unternehmer: Vorsteuerabzug, Rechnungsstellung, Buchhaltung und steuerliche Pflichten. Professioneller Ratgeber für Selbstständige.",
     type: "article",
     publishedTime: "2024-12-22T10:00:00Z",

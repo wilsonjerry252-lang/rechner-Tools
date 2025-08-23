@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Mehrwertsteuer in Deutschland, Österreich und der Schweiz: Ein Vergleich | Rechner Tools",
+  title: "MwSt. in Deutschland, Österreich & Schweiz: Vergleich",
   description: "Vergleichen Sie die MwSt.-Sätze in den DACH-Ländern: Deutschland 19%, Österreich 20%, Schweiz 7.7%. Ein umfassender Überblick.",
   keywords: "mehrwertsteuer deutschland, mwst österreich, mwst schweiz, dach länder, mwst vergleich, steuersätze",
   openGraph: {
-    title: "Mehrwertsteuer in Deutschland, Österreich und der Schweiz: Ein Vergleich",
+    title: "MwSt. in Deutschland, Österreich & Schweiz: Vergleich",
     description: "Vergleichen Sie die MwSt.-Sätze in den DACH-Ländern: Deutschland 19%, Österreich 20%, Schweiz 7.7%. Ein umfassender Überblick.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",

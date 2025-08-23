@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, CreditCard, TrendingUp, Shield, Zap, Calcul
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Kreditarten im Vergleich: Welcher Kredit passt zu Ihnen? | Rechner Tools",
+  title: "Kreditarten im Vergleich: Welcher passt zu Ihnen?",
   description: "Vergleichen Sie verschiedene Kreditarten und finden Sie den passenden Kredit für Ihre Bedürfnisse. Ein umfassender Überblick.",
   keywords: "kreditarten vergleich, kredit typen, kreditarten, kredit wahl, kredit vergleich, beste kreditart",
   openGraph: {
-    title: "Kreditarten im Vergleich: Welcher Kredit passt zu Ihnen?",
+    title: "Kreditarten im Vergleich: Welcher passt zu Ihnen?",
     description: "Vergleichen Sie verschiedene Kreditarten und finden Sie den passenden Kredit für Ihre Bedürfnisse. Ein umfassender Überblick.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",

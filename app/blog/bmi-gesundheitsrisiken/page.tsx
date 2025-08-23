@@ -3,7 +3,7 @@ import { ArrowLeft, Calendar, Clock, Heart, TrendingUp, Shield, Zap, AlertTriang
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "BMI und Gesundheitsrisiken: Was Sie wissen müssen | Rechner Tools",
+  title: "BMI und Gesundheitsrisiken: Was Sie wissen müssen",
   description: "Verstehen Sie die Gesundheitsrisiken verschiedener BMI-Kategorien. Ein Leitfaden für Prävention und gesundheitsbewusstes Handeln.",
   keywords: "bmi gesundheitsrisiken, bmi kategorien, gesundheit risiken, bmi bewertung, gesundheitsgefahren, bmi prävention",
   openGraph: {

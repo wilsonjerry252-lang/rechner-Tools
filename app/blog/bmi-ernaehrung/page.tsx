@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
 export const metadata = {
-  title: "BMI und Ernährung: Der perfekte Ernährungsplan für Ihr Gewicht | Rechner Tools",
+  title: "BMI und Ernährung: Perfekter Ernährungsplan für Ihr Gewicht",
   description: "Erfahren Sie, wie Sie Ihren BMI mit der richtigen Ernährung optimieren können. Praktische Tipps und Ernährungspläne für verschiedene BMI-Kategorien.",
   keywords: "bmi ernährung, ernährungsplan, gewicht optimieren, gesunde ernährung, bmi kategorien, diät plan",
   openGraph: {
-    title: "BMI und Ernährung: Der perfekte Ernährungsplan für Ihr Gewicht",
+    title: "BMI und Ernährung: Perfekter Ernährungsplan für Ihr Gewicht",
     description: "Erfahren Sie, wie Sie Ihren BMI mit der richtigen Ernährung optimieren können. Praktische Tipps und Ernährungspläne für verschiedene BMI-Kategorien.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",

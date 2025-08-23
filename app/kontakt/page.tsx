@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactForm"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Kontakt - Rechner Tools | Professionelle Online-Rechner",
+  title: "Kontakt - Rechner Tools",
   description:
     "Kontaktieren Sie uns für Fragen zu unseren Rechnern, Support oder Feedback. Wir sind für Sie da und helfen Ihnen gerne weiter.",
   keywords: "kontakt, support, hilfe, feedback, rechner tools, online rechner",

@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap, Globe 
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Mehrwertsteuer bei Exporten: Steuerfreie Ausfuhren | Rechner Tools",
+  title: "MwSt. bei Exporten: Steuerfreie Ausfuhren",
   description: "Erfahren Sie alles über MwSt.-freie Exporte, Ausfuhrlieferungen und die korrekte Behandlung von grenzüberschreitenden Geschäften. Ein Leitfaden für Unternehmer.",
   keywords: "mehrwertsteuer export, ausfuhrlieferungen, mwst ausland, grenzüberschreitende geschäfte, steuerfreie exporte, eu-lieferungen",
   openGraph: {
-    title: "Mehrwertsteuer bei Exporten: Steuerfreie Ausfuhren",
+    title: "MwSt. bei Exporten: Steuerfreie Ausfuhren",
     description: "Erfahren Sie alles über MwSt.-freie Exporte, Ausfuhrlieferungen und die korrekte Behandlung von grenzüberschreitenden Geschäften. Ein Leitfaden für Unternehmer.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",

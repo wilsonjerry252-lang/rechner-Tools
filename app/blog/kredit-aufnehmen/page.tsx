@@ -3,7 +3,7 @@ import { ArrowLeft, Calendar, Clock, CreditCard, TrendingUp, Shield, Zap, CheckC
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Kredit aufnehmen: Der komplette Leitfaden | Rechner Tools",
+  title: "Kredit aufnehmen: Der komplette Leitfaden",
   description: "Alles über Kredite: Arten, Voraussetzungen, Dokumente und Tipps für die erfolgreiche Kreditaufnahme. Ihr Wegweiser zum optimalen Kredit.",
   keywords: "kredit aufnehmen, kredit beantragen, kreditarten, kreditvoraussetzungen, kredit dokumente, kredit tipps",
   openGraph: {

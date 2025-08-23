@@ -3,7 +3,7 @@ import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap } from 
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Steuerliche Absetzbarkeit von Kreditzinsen | Rechner Tools",
+  title: "Steuerliche Absetzbarkeit von Kreditzinsen",
   description: "Erfahren Sie, wann und wie Sie Kreditzinsen steuerlich absetzen können. Ein Leitfaden für Privatpersonen und Unternehmer.",
   keywords: "steuerliche absetzbarkeit, kreditzinsen absetzen, kredit steuer, steuer sparen, kreditzinsen steuerlich, steuerabzug",
   openGraph: {

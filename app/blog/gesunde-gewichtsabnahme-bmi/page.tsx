@@ -3,7 +3,7 @@ import { ArrowLeft, Calendar, Clock, Heart, TrendingUp, Shield, Zap } from "luci
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Gesunde Gewichtsabnahme: Mehr als nur der BMI | Rechner Tools",
+  title: "Gesunde Gewichtsabnahme: Mehr als nur der BMI",
   description: "Erfahren Sie, warum der BMI allein nicht ausreicht und welche anderen Faktoren für eine gesunde Gewichtsabnahme wichtig sind.",
   keywords: "gesunde gewichtsabnahme, bmi gewicht, gewicht abnehmen, gesund abnehmen, bmi diät, nachhaltige gewichtsabnahme",
   openGraph: {

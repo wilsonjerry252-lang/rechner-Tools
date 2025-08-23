@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
 export const metadata = {
-  title: "BMI, Ernährung und Training: Der perfekte Plan | Rechner Tools",
+  title: "BMI, Ernährung & Training: Der perfekte Plan",
   description: "Kombinieren Sie BMI, Ernährung und Training für optimale Ergebnisse. Ein umfassender Leitfaden für Gesundheit und Fitness.",
   keywords: "bmi ernährung training, fitness plan, gesundheit, gewicht optimieren, sport ernährung, bmi fitness",
   openGraph: {
-    title: "BMI, Ernährung und Training: Der perfekte Plan",
+    title: "BMI, Ernährung & Training: Der perfekte Plan",
     description: "Kombinieren Sie BMI, Ernährung und Training für optimale Ergebnisse. Ein umfassender Leitfaden für Gesundheit und Fitness.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",

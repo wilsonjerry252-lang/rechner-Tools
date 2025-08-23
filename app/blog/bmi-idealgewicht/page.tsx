@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, Activity, TrendingUp, Shield, Zap, Target, 
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Idealgewicht berechnen: BMI und gesunde Gewichtsziele | Rechner Tools",
+  title: "Idealgewicht berechnen: BMI und gesunde Ziele",
   description: "Berechnen Sie Ihr Idealgewicht mit dem BMI und setzen Sie sich gesunde Gewichtsziele. Ein Leitfaden für nachhaltige Gewichtsoptimierung.",
   keywords: "idealgewicht berechnen, bmi idealgewicht, gesunde gewichtsziele, gewicht optimieren, bmi ziele, idealgewicht formel",
   openGraph: {
-    title: "Idealgewicht berechnen: BMI und gesunde Gewichtsziele",
+    title: "Idealgewicht berechnen: BMI und gesunde Ziele",
     description: "Berechnen Sie Ihr Idealgewicht mit dem BMI und setzen Sie sich gesunde Gewichtsziele. Ein Leitfaden für nachhaltige Gewichtsoptimierung.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",

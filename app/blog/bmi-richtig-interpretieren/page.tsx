@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
 export const metadata = {
-  title: "BMI richtig interpretieren: Was die Zahlen wirklich bedeuten | Rechner Tools",
+  title: "BMI richtig interpretieren: Was die Zahlen bedeuten",
   description: "Lernen Sie, Ihren BMI-Wert richtig zu interpretieren und zu verstehen, was die Zahlen wirklich über Ihre Gesundheit aussagen.",
   keywords: "bmi interpretieren, bmi bedeutung, bmi verstehen, bmi bewertung, bmi gesundheit, bmi erklärung",
   openGraph: {
-    title: "BMI richtig interpretieren: Was die Zahlen wirklich bedeuten",
+    title: "BMI richtig interpretieren: Was die Zahlen bedeuten",
     description: "Lernen Sie, Ihren BMI-Wert richtig zu interpretieren und zu verstehen, was die Zahlen wirklich über Ihre Gesundheit aussagen.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",

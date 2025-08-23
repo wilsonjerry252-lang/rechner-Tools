@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
 export const metadata = {
-  title: "BMI für Sportler: Warum der BMI bei Athleten irreführend ist | Rechner Tools",
+  title: "BMI für Sportler: Warum er bei Athleten irreführend ist",
   description: "Erfahren Sie, warum der BMI bei Sportlern und Athleten oft irreführend ist und welche alternativen Messmethoden es gibt. Ein Leitfaden für Sportler und Trainer.",
   keywords: "bmi sportler, bmi athleten, muskelmasse bmi, sportler gewicht, bmi alternativen, körperfett sportler",
   openGraph: {
-    title: "BMI für Sportler: Warum der BMI bei Athleten irreführend ist",
+    title: "BMI für Sportler: Warum er bei Athleten irreführend ist",
     description: "Erfahren Sie, warum der BMI bei Sportlern und Athleten oft irreführend ist und welche alternativen Messmethoden es gibt. Ein Leitfaden für Sportler und Trainer.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",

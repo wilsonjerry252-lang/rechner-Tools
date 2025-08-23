@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap, Downlo
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Mehrwertsteuer bei Importen: Einfuhrumsatzsteuer verstehen | Rechner Tools",
+  title: "MwSt. bei Importen: Einfuhrumsatzsteuer verstehen",
   description: "Alles über MwSt. bei Importen: Einfuhrumsatzsteuer, Zollabfertigung und steuerliche Behandlung von Einfuhren. Ein Leitfaden für Importeure.",
   keywords: "mehrwertsteuer import, einfuhrumsatzsteuer, mwst einfuhr, zollabfertigung, import steuern, einfuhr steuern",
   openGraph: {
-    title: "Mehrwertsteuer bei Importen: Einfuhrumsatzsteuer verstehen",
+    title: "MwSt. bei Importen: Einfuhrumsatzsteuer verstehen",
     description: "Alles über MwSt. bei Importen: Einfuhrumsatzsteuer, Zollabfertigung und steuerliche Behandlung von Einfuhren. Ein Leitfaden für Importeure.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",

@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, CreditCard, TrendingUp, Shield, Zap, Calcul
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Kreditvergleich: So finden Sie den besten Zinssatz | Rechner Tools",
+  title: "Kreditvergleich: Den besten Zinssatz finden",
   description: "Tipps und Tricks für den Kreditvergleich. Worauf Sie achten sollten und wie Sie Tausende von Euro sparen können.",
   keywords: "kreditvergleich, bester zinssatz, kredit sparen, kredit vergleichen, günstiger kredit, kredit optimieren",
   openGraph: {
-    title: "Kreditvergleich: So finden Sie den besten Zinssatz",
+    title: "Kreditvergleich: Den besten Zinssatz finden",
     description: "Tipps und Tricks für den Kreditvergleich. Worauf Sie achten sollten und wie Sie Tausende von Euro sparen können.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",

@@ -3,7 +3,7 @@ import { ArrowLeft, Calendar, Clock, CreditCard, TrendingUp, Shield, Zap, Refres
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Kredit umschulden: Wann lohnt sich eine Umschuldung? | Rechner Tools",
+  title: "Kredit umschulden: Wann lohnt sich eine Umschuldung?",
   description: "Erfahren Sie, wann sich eine Kreditumschuldung lohnt und wie Sie dabei vorgehen sollten. Sparen Sie Tausende von Euro an Zinsen.",
   keywords: "kredit umschulden, umschuldung, kreditzinsen sparen, kredit wechseln, umschuldung lohnt, kredit optimieren",
   openGraph: {
