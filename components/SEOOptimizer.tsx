@@ -102,15 +102,15 @@ export default function SEOOptimizer({
             author: {
               "@type": "Organization",
               name: "Rechner Tools",
-              url: "https://rechner-tools.com"
+              url: "https://www.rechnerjetzt.de"
             },
             publisher: {
               "@type": "Organization",
               name: "Rechner Tools",
-              url: "https://rechner-tools.com",
+              url: "https://www.rechnerjetzt.de",
               logo: {
                 "@type": "ImageObject",
-                url: "https://rechner-tools.com/logo.png"
+                url: "https://www.rechnerjetzt.de/logo.png"
               }
             },
             mainEntityOfPage: {

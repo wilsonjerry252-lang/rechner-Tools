@@ -70,7 +70,7 @@ export async function POST(request: NextRequest) {
             
             <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee;">
               <p style="color: #666; font-size: 12px; margin: 0;">
-                This email was sent from the contact form on <a href="https://rechner-tools.com" style="color: #007bff;">rechner-tools.com</a>
+                This email was sent from the contact form on <a href="https://www.rechnerjetzt.de" style="color: #007bff;">rechnerjetzt.de</a>
               </p>
             </div>
           </div>
@@ -89,7 +89,7 @@ ${message}
 
 ---
 Reply directly to this email to respond to ${name}
-This email was sent from the contact form on rechner-tools.com
+This email was sent from the contact form on rechnerjetzt.de
       `,
     }
 
