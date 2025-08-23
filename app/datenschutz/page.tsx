@@ -8,7 +8,6 @@ export const metadata: Metadata = {
   title: "Datenschutzerklärung - Rechner Tools",
   description:
     "Datenschutzerklärung von Rechner Tools - Informationen zum Umgang mit Ihren personenbezogenen Daten gemäß DSGVO.",
-  robots: "noindex, nofollow",
   alternates: {
     canonical: "https://www.rechnerjetzt.de/datenschutz",
     languages: {
