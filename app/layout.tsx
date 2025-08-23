@@ -6,7 +6,7 @@ import CookieConsent from "@/components/CookieConsent"
 
 const inter = Inter({ 
   subsets: ["latin"],
-  display: 'swap', // Optimize font loading
+  display: 'swap', 
   preload: true,
   fallback: ['system-ui', 'arial']
 })
