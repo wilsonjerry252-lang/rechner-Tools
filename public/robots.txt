@@ -1,28 +1,18 @@
 User-agent: *
 Allow: /
 
+# Allow all pages to be indexed
+Allow: /impressum
+Allow: /kontakt
+Allow: /ueber-uns
+Allow: /datenschutz
+Allow: /cookie-richtlinie
+Allow: /haftungsausschluss
+Allow: /nutzungsbedingungen
+Allow: /blog/
+
 # Sitemap
 Sitemap: https://www.rechnerjetzt.de/sitemap.xml
 
-# Crawl-delay for respectful crawling
+# Crawl delay (optional)
 Crawl-delay: 1
-
-# Allow all important directories
-Allow: /blog/
-Allow: /ueber-uns/
-Allow: /api/
-
-# Disallow admin or private areas (if any exist in future)
-Disallow: /admin/
-Disallow: /private/
-Disallow: /temp/
-
-# Allow all file types
-Allow: /*.html
-Allow: /*.css
-Allow: /*.js
-Allow: /*.png
-Allow: /*.jpg
-Allow: /*.gif
-Allow: /*.ico
-Allow: /*.svg

@@ -55,6 +55,7 @@ export default function Header() {
                 width={48}
                 height={48}
                 className="h-12 w-12 rounded-full shadow-md"
+                style={{ width: '48px', height: '48px' }}
               />
               <div className="flex flex-col">
                 <h1 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">

@@ -18,8 +18,8 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Rechner Tools - Professionelle Online-Rechner für Deutschland, Österreich & Schweiz",
-  description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI, Kredite und mehr. Optimiert für den deutschsprachigen Raum mit aktuellen Steuersätzen und präzisen Berechnungen.",
+  title: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
+  description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI und Kredite. Optimiert für Deutschland, Österreich und die Schweiz.",
   keywords: "Online-Rechner, Mehrwertsteuer, BMI-Rechner, Kreditrechner, Deutschland, Österreich, Schweiz, Steuerrechner, Finanzrechner, Gesundheitsrechner",
   robots: "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
   authors: [{ name: "Rechner Tools", url: "https://www.rechnerjetzt.de" }],
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     yandex: "verification_token",
   },
   openGraph: {
-    title: "Rechner Tools - Professionelle Online-Rechner",
+    title: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
     description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI, Kredite und mehr. Optimiert für den deutschsprachigen Raum.",
     url: "https://www.rechnerjetzt.de",
     siteName: "Rechner Tools",
@@ -40,13 +40,13 @@ export const metadata: Metadata = {
         url: "https://www.rechnerjetzt.de/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Rechner Tools - Professionelle Online-Rechner",
+        alt: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rechner Tools - Professionelle Online-Rechner",
+    title: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
     description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI, Kredite und mehr.",
     images: ["https://www.rechnerjetzt.de/og-image.jpg"],
   },
@@ -117,6 +117,12 @@ export default function RootLayout({
         {/* Resource hints for better performance */}
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
+        
+        {/* Hreflang tags for international SEO */}
+        <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de" />
+        <link rel="alternate" hrefLang="de-AT" href="https://www.rechnerjetzt.de" />
+        <link rel="alternate" hrefLang="de-CH" href="https://www.rechnerjetzt.de" />
+        <link rel="alternate" hrefLang="x-default" href="https://www.rechnerjetzt.de" />
         
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-JTK284TTSM"></script>
