@@ -76,9 +76,9 @@ export default function Sidebar({ activeSection, scrollToSection }: SidebarProps
               alt="Rechner Tools Logo"
               className="h-8 w-8 rounded-full shadow-md"
             />
-            <h2 className="text-lg font-bold logo-text logo-gradient">
+            <h3 className="text-lg font-bold logo-text logo-gradient">
               Rechner Tools
-            </h2>
+            </h3>
           </div>
           <p className="text-sm text-muted-foreground">
             Professionelle Online-Rechner für den deutschsprachigen Raum

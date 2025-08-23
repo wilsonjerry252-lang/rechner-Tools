@@ -194,7 +194,7 @@ export default function KreditvergleichPage() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">So führen Sie einen professionellen Kreditvergleich durch</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Professionellen Kreditvergleich durchführen</h2>
             
             <ol className="list-decimal pl-6 mb-6 space-y-4">
               <li>

@@ -183,7 +183,7 @@ export default function SondertilgungPage() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">So berechnen Sie den Nutzen einer Sondertilgung</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Sondertilgung Nutzen berechnen</h2>
             
             <div className="bg-muted/30 p-6 rounded-xl mb-6">
               <h3 className="text-lg font-bold text-foreground mb-4">Schritt-für-Schritt-Anleitung:</h3>

@@ -11,9 +11,9 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <img src="/logo.png" alt="Rechner Tools Logo" className="h-10 w-10 rounded-full" />
-              <h2 className="text-xl logo-text logo-gradient">
+              <h3 className="text-xl logo-text logo-gradient">
                 Rechner Tools
-              </h2>
+              </h3>
             </div>
             <p className="text-sm opacity-90 leading-relaxed">
               Professionelle Online-Rechner für den deutschsprachigen Raum. Kostenlos, sicher und immer aktuell.

@@ -305,7 +305,7 @@ export default function KreditartenVergleichPage() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Kreditvergleich: Übersicht der wichtigsten Kennzahlen</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Kreditvergleich: Wichtige Kennzahlen</h2>
             
             <div className="overflow-x-auto mb-8">
               <table className="w-full border-collapse border border-muted">
