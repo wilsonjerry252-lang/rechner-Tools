@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowLeft, Calendar, Clock, Activity, TrendingUp, Shield, Zap, Dumbbell } from "lucide-react"
+import { ArrowLeft, Calendar, Clock, Activity, TrendingUp, Shield, Zap, Dumbbell, Calculator } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
@@ -413,9 +413,10 @@ export default function BMISportlerPage() {
               <p className="text-muted-foreground mb-4">
                 Nutzen Sie unseren professionellen BMI-Rechner als Ausgangspunkt und kombinieren Sie ihn mit anderen Messmethoden für eine umfassende Bewertung.
               </p>
-              <Link href="/bmi-calculator">
-                <Button className="bg-primary hover:bg-primary/90">
-                  Zum BMI-Rechner
+              <Link href="/#bmi">
+                <Button className="w-full">
+                  <Calculator className="h-4 w-4 mr-2" />
+                  Jetzt BMI berechnen
                 </Button>
               </Link>
             </div>

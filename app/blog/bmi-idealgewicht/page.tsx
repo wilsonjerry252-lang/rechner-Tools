@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowLeft, Calendar, Clock, Activity, TrendingUp, Shield, Zap, Target } from "lucide-react"
+import { ArrowLeft, Calendar, Clock, Activity, TrendingUp, Shield, Zap, Target, Calculator } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
@@ -457,9 +457,10 @@ export default function BMIIdealgewichtPage() {
               <p className="text-muted-foreground mb-4">
                 Nutzen Sie unseren professionellen BMI-Rechner, um Ihr Idealgewicht zu ermitteln und gesunde Gewichtsziele zu setzen.
               </p>
-              <Link href="/bmi-calculator">
-                <Button className="bg-primary hover:bg-primary/90">
-                  Zum BMI-Rechner
+              <Link href="/#bmi">
+                <Button className="w-full">
+                  <Calculator className="h-4 w-4 mr-2" />
+                  Jetzt BMI berechnen
                 </Button>
               </Link>
             </div>

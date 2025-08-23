@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowLeft, Calendar, Clock, CreditCard, TrendingUp, Shield, Zap, RefreshCw } from "lucide-react"
+import { ArrowLeft, Calendar, Clock, CreditCard, TrendingUp, Shield, Zap, RefreshCw, Calculator } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
@@ -422,9 +422,10 @@ export default function KreditUmschuldungPage() {
               <p className="text-muted-foreground mb-4">
                 Berechnen Sie mit unserem professionellen Kreditrechner, ob sich eine Umschuldung für Sie lohnt und wie viel Sie sparen können.
               </p>
-              <Link href="/loan-calculator">
-                <Button className="bg-primary hover:bg-primary/90">
-                  Zum Kreditrechner
+              <Link href="/#loan">
+                <Button className="w-full">
+                  <Calculator className="h-4 w-4 mr-2" />
+                  Jetzt Kredit berechnen
                 </Button>
               </Link>
             </div>

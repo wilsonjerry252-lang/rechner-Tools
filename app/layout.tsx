@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
-    description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI, Kredite und mehr. Optimiert für den deutschsprachigen Raum.",
+    description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI und Kredite. Optimiert für den deutschsprachigen Raum.",
     url: "https://www.rechnerjetzt.de",
     siteName: "Rechner Tools",
     locale: "de_DE",
@@ -47,15 +47,13 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
-    description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI, Kredite und mehr.",
+    description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI und Kredite.",
     images: ["https://www.rechnerjetzt.de/og-image.jpg"],
   },
   alternates: {
     canonical: "https://www.rechnerjetzt.de",
     languages: {
       "de-DE": "https://www.rechnerjetzt.de",
-      "de-AT": "https://www.rechnerjetzt.de",
-      "de-CH": "https://www.rechnerjetzt.de",
     },
   },
   category: "Tools & Utilities",
@@ -87,6 +85,12 @@ export default function RootLayout({
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
+        
+        {/* SEO Meta Tags */}
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="bingbot" content="index, follow" />
+        <meta name="slurp" content="index, follow" />
         
         {/* Preload critical resources */}
         <link rel="preload" href="/logo.png" as="image" type="image/png" />
@@ -120,8 +124,6 @@ export default function RootLayout({
         
         {/* Hreflang tags for international SEO */}
         <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de" />
-        <link rel="alternate" hrefLang="de-AT" href="https://www.rechnerjetzt.de" />
-        <link rel="alternate" hrefLang="de-CH" href="https://www.rechnerjetzt.de" />
         <link rel="alternate" hrefLang="x-default" href="https://www.rechnerjetzt.de" />
         
         {/* Google tag (gtag.js) */}
