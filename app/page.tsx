@@ -1,47 +1,7 @@
-"use client"
-
 import type React from "react"
-import type { Metadata } from "next"
 import Layout from "@/components/Layout"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
-
-export const metadata: Metadata = {
-  title: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
-  description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI und Kredite. Optimiert für Deutschland, Österreich und die Schweiz.",
-  keywords: "Online-Rechner, Mehrwertsteuer, BMI-Rechner, Kreditrechner, Deutschland, Österreich, Schweiz, Steuerrechner, Finanzrechner, Gesundheitsrechner",
-  alternates: {
-    canonical: "https://www.rechnerjetzt.de",
-    languages: {
-      "de-DE": "https://www.rechnerjetzt.de",
-      "de-AT": "https://www.rechnerjetzt.de", 
-      "de-CH": "https://www.rechnerjetzt.de",
-      "x-default": "https://www.rechnerjetzt.de",
-    },
-  },
-  openGraph: {
-    title: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
-    description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI und Kredite. Optimiert für den deutschsprachigen Raum.",
-    url: "https://www.rechnerjetzt.de",
-    siteName: "Rechner Tools",
-    locale: "de_DE",
-    type: "website",
-    images: [
-      {
-        url: "https://www.rechnerjetzt.de/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Rechner Tools - Online-Rechner für MwSt, BMI & Kredite",
-    description: "Kostenlose Online-Rechner für Mehrwertsteuer, BMI und Kredite.",
-    images: ["https://www.rechnerjetzt.de/og-image.jpg"],
-  },
-}
 
 export default function HomePage() {
   return (
