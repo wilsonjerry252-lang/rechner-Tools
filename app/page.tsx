@@ -11,6 +11,18 @@ export default function HomePage() {
       {/* Canonical URL for homepage */}
       <link rel="canonical" href="https://www.rechnerjetzt.de" />
       
+      {/* Hreflang return links for all pages */}
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/kontakt" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/ueber-uns" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/impressum" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/datenschutz" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/cookie-richtlinie" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/haftungsausschluss" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/nutzungsbedingungen" />
+      <link rel="alternate" hrefLang="de-DE" href="https://www.rechnerjetzt.de/blog" />
+      <link rel="alternate" hrefLang="x-default" href="https://www.rechnerjetzt.de" />
+      
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

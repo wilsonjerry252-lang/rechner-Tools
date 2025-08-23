@@ -16,6 +16,9 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://www.rechnerjetzt.de/kontakt",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/kontakt",
+    },
   },
 }
 

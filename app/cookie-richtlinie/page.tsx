@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   robots: "noindex, nofollow",
   alternates: {
     canonical: "https://www.rechnerjetzt.de/cookie-richtlinie",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/cookie-richtlinie",
+    },
   },
 }
 

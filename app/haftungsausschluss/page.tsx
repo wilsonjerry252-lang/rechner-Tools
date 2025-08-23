@@ -7,6 +7,12 @@ export const metadata = {
   title: "Haftungsausschluss - Rechner Tools | Rechtliche Hinweise",
   description: "Haftungsausschluss und rechtliche Hinweise für die Nutzung der Online-Rechner von Rechner Tools.",
   keywords: "haftungsausschluss, disclaimer, rechtliche hinweise, rechner tools",
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/haftungsausschluss",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/haftungsausschluss",
+    },
+  },
 }
 
 export default function DisclaimerPage() {

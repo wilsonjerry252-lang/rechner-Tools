@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   description: "Rechtliche Angaben und Impressum von Rechner Tools.",
   alternates: {
     canonical: "https://www.rechnerjetzt.de/impressum",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/impressum",
+    },
   },
 }
 

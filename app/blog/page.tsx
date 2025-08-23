@@ -9,6 +9,12 @@ export const metadata = {
   description:
     "Entdecken Sie hilfreiche Artikel zu Steuern, BMI, Krediten und mehr. Praktische Tipps und Ratgeber für den deutschsprachigen Raum.",
   keywords: "blog, ratgeber, steuern, bmi, kredite, finanzen, gesundheit, tipps",
+  alternates: {
+    canonical: "https://www.rechnerjetzt.de/blog",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/blog",
+    },
+  },
 }
 
 export default function BlogPage() {

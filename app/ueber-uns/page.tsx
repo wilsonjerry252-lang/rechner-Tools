@@ -10,6 +10,9 @@ export const metadata = {
   keywords: "über uns, rechner tools, online rechner, deutschland, österreich, schweiz",
   alternates: {
     canonical: "https://www.rechnerjetzt.de/ueber-uns",
+    languages: {
+      "de-DE": "https://www.rechnerjetzt.de/ueber-uns",
+    },
   },
 }
 
