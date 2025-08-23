@@ -82,7 +82,7 @@ export default function DatenschutzPage() {
         <Card>
           <CardContent className="space-y-6 pt-6">
             <div>
-              <h3 className="font-semibold mb-3">1. Datenschutz auf einen Blick</h3>
+              <h2 className="text-2xl font-bold text-foreground mb-4">Datenschutz auf einen Blick</h2>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <p>
                   Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten
@@ -93,7 +93,7 @@ export default function DatenschutzPage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-3">2. Datenerfassung auf dieser Website</h3>
+              <h2 className="text-2xl font-bold text-foreground mb-4">Datenerfassung auf dieser Website</h2>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <div>
                   <h4 className="font-medium text-foreground">Wer ist verantwortlich für die Datenerfassung?</h4>
@@ -114,7 +114,7 @@ export default function DatenschutzPage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-3">3. Rechner-Funktionen</h3>
+              <h2 className="text-2xl font-bold text-foreground mb-4">Rechner-Funktionen</h2>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <p>
                   <strong>Wichtiger Hinweis:</strong> Alle Berechnungen (VAT, BMI, Kredite) werden ausschließlich lokal
@@ -129,10 +129,10 @@ export default function DatenschutzPage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-3 flex items-center gap-2">
+              <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <BarChart3 className="h-5 w-5" />
-                4. Google Analytics
-              </h3>
+                Google Analytics
+              </h2>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <p>
                   Diese Website nutzt Google Analytics, einen Webanalysedienst der Google LLC, 1600 Amphitheatre Parkway,

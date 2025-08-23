@@ -5,7 +5,7 @@ import { ArrowLeft, Building, Mail } from "lucide-react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Impressum - Rechner Tools",
+  title: "Impressum - Rechner Tools | Rechtliche Angaben & Kontakt",
   description: "Rechtliche Angaben und Impressum von Rechner Tools.",
   alternates: {
     canonical: "https://www.rechnerjetzt.de/impressum",
@@ -55,7 +55,7 @@ export default function ImpressumPage() {
           </CardHeader>
           <CardContent className="space-y-6">
             <div>
-              <h3 className="font-semibold mb-2">Betreiber der Website</h3>
+              <h2 className="text-2xl font-bold text-foreground mb-4">Betreiber der Website</h2>
               <div className="space-y-1 text-sm">
                 <p>MUHAMMAD USMAN KHAN</p>
                 <p>Mithrasstraße 16</p>
@@ -69,10 +69,10 @@ export default function ImpressumPage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-2 flex items-center gap-2">
+              <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-2">
                 <Mail className="h-4 w-4" />
                 Kontakt
-              </h3>
+              </h2>
               <div className="space-y-1 text-sm">
                 <p>Telefon: +49 176 41106680</p>
                 <p>E-Mail: muk.kt199@gmail.com</p>
@@ -84,6 +84,7 @@ export default function ImpressumPage() {
             </div>
 
             <div>
+              <h2 className="text-2xl font-bold text-foreground mb-4">Inhaltsverantwortung</h2>
               <h3 className="font-semibold mb-2">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h3>
               <div className="space-y-1 text-sm">
                 <p>MUHAMMAD USMAN KHAN</p>
@@ -98,7 +99,7 @@ export default function ImpressumPage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-2">Über Rechner Tools</h3>
+              <h2 className="text-2xl font-bold text-foreground mb-4">Über Rechner Tools</h2>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <p>
                   Rechner Tools wurde entwickelt, um Privatpersonen und Unternehmern im deutschsprachigen Raum 
@@ -118,7 +119,7 @@ export default function ImpressumPage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-2">Haftungsausschluss</h3>
+              <h2 className="text-2xl font-bold text-foreground mb-4">Haftungsausschluss</h2>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <div>
                   <h4 className="font-medium text-foreground">Haftung für Inhalte</h4>

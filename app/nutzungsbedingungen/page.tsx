@@ -79,7 +79,7 @@ export default function NutzungsbedingungenPage() {
           </CardHeader>
           <CardContent className="space-y-6">
             <div>
-              <h3 className="font-semibold mb-3">1. Geltungsbereich</h3>
+              <h2 className="text-2xl font-bold text-foreground mb-4">Geltungsbereich</h2>
               <p className="text-sm text-muted-foreground">
                 Diese Nutzungsbedingungen gelten für die Nutzung der Website "Rechner Tools" und aller darauf
                 verfügbaren Online-Rechner (Mehrwertsteuerrechner, BMI-Rechner, Kreditrechner). Betreiber der Website
@@ -88,7 +88,7 @@ export default function NutzungsbedingungenPage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-3">2. Leistungsbeschreibung</h3>
+              <h2 className="text-2xl font-bold text-foreground mb-4">Leistungsbeschreibung</h2>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <p>
                   Wir stellen Ihnen kostenlose Online-Rechner zur Verfügung, mit denen Sie verschiedene Berechnungen
@@ -103,7 +103,7 @@ export default function NutzungsbedingungenPage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-3">3. Nutzungsrechte</h3>
+              <h2 className="text-2xl font-bold text-foreground mb-4">Nutzungsrechte</h2>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <p>
                   Die Nutzung der Rechner ist kostenlos und erfordert keine Registrierung. Sie dürfen die Rechner für
@@ -123,7 +123,7 @@ export default function NutzungsbedingungenPage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-3">4. Haftungsausschluss</h3>
+              <h2 className="text-2xl font-bold text-foreground mb-4">Haftungsausschluss</h2>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <div>
                   <h4 className="font-medium text-foreground">Richtigkeit der Berechnungen</h4>

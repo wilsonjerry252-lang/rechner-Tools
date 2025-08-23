@@ -81,7 +81,7 @@ export default function CookieRichtliniePage() {
         <Card>
           <CardContent className="space-y-6 pt-6">
             <div>
-              <h3 className="font-semibold mb-3">1. Was sind Cookies?</h3>
+              <h2 className="text-2xl font-bold text-foreground mb-4">Was sind Cookies?</h2>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <p>
                   Cookies sind kleine Textdateien, die auf Ihrem Computer oder mobilen Gerät gespeichert werden, wenn
@@ -97,7 +97,7 @@ export default function CookieRichtliniePage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-3">2. Welche Cookies verwenden wir?</h3>
+              <h2 className="text-2xl font-bold text-foreground mb-4">Welche Cookies verwenden wir?</h2>
               <div className="space-y-4">
                 <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
                   <h4 className="font-medium text-blue-900 mb-2">Notwendige Cookies (Technisch erforderlich)</h4>
@@ -144,7 +144,7 @@ export default function CookieRichtliniePage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-3">3. Google Analytics im Detail</h3>
+              <h2 className="text-2xl font-bold text-foreground mb-4">Google Analytics im Detail</h2>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <p>
                   Google Analytics ist ein Webanalysedienst der Google LLC, der uns hilft zu verstehen, wie Besucher
