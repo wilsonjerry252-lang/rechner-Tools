@@ -221,7 +221,31 @@ export default function CookieRichtliniePage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-3">6. Datenübertragung</h3>
+              <h3 className="font-semibold mb-3">6. Google Search Console</h3>
+              <div className="space-y-3 text-sm text-muted-foreground">
+                <p>
+                  Wir nutzen Google Search Console, um die Performance unserer Website in den Google-Suchergebnissen zu 
+                  überwachen und zu optimieren. Diese Dienstleistung wird von Google LLC bereitgestellt.
+                </p>
+                <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                  <h4 className="font-medium text-green-900 mb-2">Erfasste Daten:</h4>
+                  <ul className="list-disc list-inside space-y-1 text-green-800">
+                    <li>Suchanfragen, die zu unserer Website führen</li>
+                    <li>Klickraten in den Suchergebnissen</li>
+                    <li>Durchschnittliche Position in den Suchergebnissen</li>
+                    <li>Technische Probleme der Website</li>
+                    <li>Mobile Usability und Performance</li>
+                  </ul>
+                </div>
+                <p>
+                  <strong>Wichtig:</strong> Google Search Console setzt keine Cookies und erfasst keine personenbezogenen 
+                  Daten. Alle Daten werden anonymisiert verarbeitet und dienen ausschließlich der Website-Optimierung.
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="font-semibold mb-3">7. Datenübertragung</h3>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <p>
                   Durch die Nutzung von Google Analytics werden Daten an Google-Server in den USA übertragen. Google
@@ -235,7 +259,7 @@ export default function CookieRichtliniePage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-3">7. Speicherdauer</h3>
+              <h3 className="font-semibold mb-3">8. Speicherdauer</h3>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <div className="bg-gray-50 border border-gray-200 rounded-lg p-4">
                   <h4 className="font-medium mb-2">Übersicht der Cookie-Laufzeiten:</h4>
@@ -253,7 +277,7 @@ export default function CookieRichtliniePage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-3">8. Ihre Rechte</h3>
+              <h3 className="font-semibold mb-3">9. Ihre Rechte</h3>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <p>Sie haben folgende Rechte bezüglich der Verwendung von Cookies:</p>
                 <ul className="list-disc list-inside space-y-1 ml-4">
@@ -267,7 +291,7 @@ export default function CookieRichtliniePage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-3">9. Kontakt und Fragen</h3>
+              <h3 className="font-semibold mb-3">10. Kontakt und Fragen</h3>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <p>
                   Bei Fragen zur Verwendung von Cookies oder zu Ihren Datenschutzrechten wenden Sie sich bitte an:
@@ -283,14 +307,14 @@ export default function CookieRichtliniePage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-3">10. Änderungen dieser Cookie-Richtlinie</h3>
+              <h3 className="font-semibold mb-3">11. Änderungen dieser Cookie-Richtlinie</h3>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <p>
                   Wir behalten uns vor, diese Cookie-Richtlinie bei Bedarf zu aktualisieren, um Änderungen in der
                   Gesetzgebung oder bei der Verwendung von Cookies widerzuspiegeln.
                 </p>
                 <p>
-                  <strong>Stand:</strong> Diese Cookie-Richtlinie wurde zuletzt am 15. Dezember 2024 aktualisiert.
+                  <strong>Stand:</strong> Diese Cookie-Richtlinie wurde zuletzt am 16. Dezember 2024 aktualisiert.
                 </p>
               </div>
             </div>

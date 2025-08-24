@@ -164,6 +164,31 @@ export default function ImpressumPage() {
                 </p>
               </div>
             </div>
+
+            <div>
+              <h2 className="text-2xl font-bold text-foreground mb-4">Verwendete Dienste und Tools</h2>
+              <div className="space-y-3 text-sm text-muted-foreground">
+                <div>
+                  <h3 className="font-medium text-foreground">Google Search Console</h3>
+                  <p>
+                    Wir nutzen Google Search Console, um die Performance unserer Website in den Google-Suchergebnissen zu 
+                    überwachen und zu optimieren. Diese Dienstleistung wird von Google LLC bereitgestellt und hilft uns dabei, 
+                    die Sichtbarkeit unserer Website zu verbessern und technische Probleme zu identifizieren.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="font-medium text-foreground">Google Analytics</h3>
+                  <p>
+                    Für die Analyse der Website-Nutzung verwenden wir Google Analytics (nur mit Ihrer Einwilligung). 
+                    Dieses Tool hilft uns dabei, die Benutzerfreundlichkeit zu verbessern und relevante Inhalte zu optimieren.
+                  </p>
+                </div>
+                <p>
+                  <strong>Hinweis:</strong> Alle verwendeten Dienste unterliegen den entsprechenden Datenschutzrichtlinien 
+                  der Anbieter. Detaillierte Informationen finden Sie in unserer Datenschutzerklärung.
+                </p>
+              </div>
+            </div>
           </CardContent>
         </Card>
       </div>

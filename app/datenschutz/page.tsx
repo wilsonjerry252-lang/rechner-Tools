@@ -183,8 +183,18 @@ export default function DatenschutzPage() {
                     <li>Klickraten in den Suchergebnissen</li>
                     <li>Durchschnittliche Position in den Suchergebnissen</li>
                     <li>Technische Probleme der Website</li>
+                    <li>Mobile Usability und Performance</li>
+                    <li>Core Web Vitals und Website-Geschwindigkeit</li>
                   </ul>
                 </div>
+                <p>
+                  <strong>Zweck der Nutzung:</strong> Google Search Console hilft uns dabei, die Sichtbarkeit unserer Website 
+                  zu verbessern, technische Probleme zu identifizieren und die Benutzerfreundlichkeit zu optimieren.
+                </p>
+                <p>
+                  <strong>Rechtsgrundlage:</strong> Die Nutzung erfolgt auf Grundlage unseres berechtigten Interesses 
+                  (Art. 6 Abs. 1 lit. f DSGVO) an der Optimierung unserer Website.
+                </p>
                 <p>
                   <strong>Datenschutz:</strong> Google Search Console verarbeitet Daten im Auftrag des Websitebetreibers
                   und unterliegt den Google-Datenschutzrichtlinien. Die Daten werden anonymisiert verarbeitet.
