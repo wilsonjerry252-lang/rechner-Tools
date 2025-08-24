@@ -6,9 +6,9 @@ import Footer from "@/components/Footer"
 import { ChevronRight, Home, Calculator } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Prozentrechner - Rabatte & Aufschläge berechnen",
-  description: "Berechnen Sie Prozente, Rabatte und Aufschläge einfach online. Kostenloser Prozentrechner mit Schritt-für-Schritt Anleitung für Deutschland, Österreich und Schweiz.",
-  keywords: "Prozentrechner, Rabattrechner, Prozent berechnen, Rabatt berechnen online, Aufschlag berechnen, Prozentuale Änderung",
+  title: "Online Prozentrechner - Kostenlos Prozente berechnen",
+  description: "Kostenloser Online Prozentrechner für Rabatte, Aufschläge und prozentuale Änderungen. Einfach, schnell und genau - Prozente berechnen für Deutschland, Österreich und die Schweiz.",
+  keywords: "online prozentrechner, prozentrechner online, kostenlos prozent berechnen, deutschland prozentrechner, österreich prozentrechner, schweiz prozentrechner, online-rechner prozent",
   alternates: {
     canonical: "https://www.rechnerjetzt.de/prozentrechner",
     languages: {

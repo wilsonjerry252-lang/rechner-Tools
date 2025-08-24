@@ -6,9 +6,9 @@ import Footer from "@/components/Footer"
 import { ChevronRight, Home, TrendingUp } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Inflationsrechner Deutschland - Kaufkraft berechnen",
-  description: "Berechnen Sie die Kaufkraftveränderung durch Inflation von 1991-2024. Kostenloser Inflationsrechner mit historischen Daten für Deutschland.",
-  keywords: "Inflationsrechner, Inflation berechnen, Kaufkraft Rechner, Preissteigerung Deutschland, Inflationsrate, Geldwert berechnen",
+  title: "Online Inflationsrechner Deutschland - Kostenlos Kaufkraft berechnen",
+  description: "Kostenloser Online Inflationsrechner für Deutschland. Einfach, schnell und genau - berechnen Sie die Auswirkungen der Inflation auf Ihre Kaufkraft mit historischen Daten seit 1991.",
+  keywords: "online inflationsrechner, inflationsrechner online, kostenlos inflation berechnen, deutschland inflationsrechner, kaufkraft rechner online, online-rechner inflation",
   alternates: {
     canonical: "https://www.rechnerjetzt.de/inflationsrechner",
     languages: {

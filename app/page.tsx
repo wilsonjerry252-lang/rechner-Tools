@@ -5,8 +5,9 @@ import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 
 export const metadata: Metadata = {
-  title: "Rechner Tools - Online-Rechner für DACH",
-  description: "Kostenlose Online-Rechner für Mehrwertsteuer, Prozentrechnung, Arbeitstage und Inflation. Optimiert für Deutschland, Österreich und die Schweiz.",
+  title: "Online-Rechner Tools - Kostenlose Rechner für DACH",
+  description: "Kostenlose Online-Rechner für Mehrwertsteuer, Prozentrechnung, Arbeitstage und Inflation. Einfach, schnell und genau - optimiert für Deutschland, Österreich und die Schweiz.",
+  keywords: "online-rechner, kostenlose rechner, deutschland rechner, österreich rechner, schweiz rechner, mwst rechner, prozentrechner, arbeitstage rechner, inflationsrechner",
   alternates: {
     canonical: "https://www.rechnerjetzt.de",
     languages: {
@@ -28,8 +29,8 @@ export default function HomePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebApplication",
-            name: "Rechner Tools",
-            description: "Professionelle Online-Rechner für Mehrwertsteuer, Prozente, Arbeitstage und Inflation. Optimiert für Deutschland, Österreich und die Schweiz.",
+            name: "Online-Rechner Tools",
+            description: "Kostenlose Online-Rechner für Mehrwertsteuer, Prozente, Arbeitstage und Inflation. Einfach, schnell und genau - optimiert für Deutschland, Österreich und die Schweiz.",
             url: "https://www.rechnerjetzt.de",
             applicationCategory: "FinanceApplication",
             operatingSystem: "Web Browser",
@@ -114,15 +115,16 @@ export default function HomePage() {
         {/* Additional Content Section */}
         <section className="py-16 px-4 bg-muted/30">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-foreground mb-6">
-                Warum Rechner Tools wählen?
-              </h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Wir bieten Ihnen professionelle, zuverlässige und kostenlose Online-Rechner, 
-                die speziell für die Bedürfnisse der DACH-Region entwickelt wurden.
-              </p>
-            </div>
+                    <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold text-foreground mb-6">
+            Warum Online-Rechner Tools wählen?
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Wir bieten Ihnen professionelle, zuverlässige und kostenlose Online-Rechner, 
+            die speziell für die Bedürfnisse der DACH-Region entwickelt wurden. 
+            Einfach, schnell und genau - Ihre kostenlosen Online-Rechner für Deutschland, Österreich und die Schweiz.
+          </p>
+        </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-card p-6 rounded-lg border text-center">
@@ -171,15 +173,16 @@ export default function HomePage() {
         {/* Features Section */}
         <section className="py-16 px-4">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-foreground mb-6">
-                Unsere Rechner im Überblick
-              </h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Von der Mehrwertsteuer bis zur Zeitplanung - wir decken alle wichtigen 
-                Bereiche für Privatpersonen und Unternehmen ab.
-              </p>
-            </div>
+                    <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold text-foreground mb-6">
+            Unsere Online-Rechner im Überblick
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Von der Mehrwertsteuer bis zur Zeitplanung - wir decken alle wichtigen 
+            Bereiche für Privatpersonen und Unternehmen ab. Kostenlose Online-Rechner 
+            für Deutschland, Österreich und die Schweiz - einfach und schnell zu bedienen.
+          </p>
+        </div>
             
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-card p-8 rounded-lg border">
@@ -253,15 +256,16 @@ export default function HomePage() {
         
         {/* Trust Section */}
         <section className="py-16 px-4 bg-muted/30">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-foreground mb-6">
-              Vertrauen Sie auf unsere Expertise
-            </h2>
-            <p className="text-xl text-muted-foreground mb-8">
-              Alle unsere Rechner basieren auf aktuellen gesetzlichen Vorgaben und werden 
-              kontinuierlich überprüft und aktualisiert. Wir arbeiten mit offiziellen 
-              Datenquellen und garantieren höchste Genauigkeit.
-            </p>
+                  <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-foreground mb-6">
+            Vertrauen Sie auf unsere Online-Rechner Expertise
+          </h2>
+          <p className="text-xl text-muted-foreground mb-8">
+            Alle unsere Online-Rechner basieren auf aktuellen gesetzlichen Vorgaben und werden 
+            kontinuierlich überprüft und aktualisiert. Wir arbeiten mit offiziellen 
+            Datenquellen und garantieren höchste Genauigkeit. Ihre kostenlosen Online-Rechner 
+            für Deutschland, Österreich und die Schweiz - einfach, schnell und genau.
+          </p>
             
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-card p-6 rounded-lg border">
@@ -283,6 +287,62 @@ export default function HomePage() {
                 <p className="text-sm text-muted-foreground">
                   Alle Rechner sind völlig kostenfrei und ohne Registrierung nutzbar
                 </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        {/* SEO-Optimized Content Section */}
+        <section className="py-16 px-4 bg-gradient-to-r from-blue-50 to-indigo-50">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-foreground mb-6">
+                Kostenlose Online-Rechner für Deutschland, Österreich und die Schweiz
+              </h2>
+              <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
+                Entdecken Sie unsere professionellen Online-Rechner, die speziell für die DACH-Region entwickelt wurden. 
+                Einfach, schnell und genau - Ihre kostenlosen Online-Rechner für alle wichtigen Berechnungen.
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-xl font-bold text-foreground mb-4">Online-Rechner für Finanzen</h3>
+                <p className="text-muted-foreground mb-4">
+                  Professionelle Online-Rechner für Mehrwertsteuer, Prozente und Inflation. 
+                  Kostenlose Online-Rechner für Deutschland, Österreich und die Schweiz.
+                </p>
+                <ul className="text-sm text-muted-foreground space-y-2">
+                  <li>• Online Mehrwertsteuer-Rechner</li>
+                  <li>• Online Prozentrechner</li>
+                  <li>• Online Inflationsrechner</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-xl font-bold text-foreground mb-4">Online-Rechner für Zeitplanung</h3>
+                <p className="text-muted-foreground mb-4">
+                  Präzise Online-Rechner für Arbeitstage und Zeitplanung. 
+                  Einfach, schnell und genau - kostenlose Online-Rechner.
+                </p>
+                <ul className="text-sm text-muted-foreground space-y-2">
+                  <li>• Online Arbeitstage-Rechner</li>
+                  <li>• Feiertage berücksichtigen</li>
+                  <li>• DACH-Region optimiert</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-xl font-bold text-foreground mb-4">Warum Online-Rechner Tools?</h3>
+                <p className="text-muted-foreground mb-4">
+                  Wir bieten die besten kostenlosen Online-Rechner für Deutschland, Österreich und die Schweiz. 
+                  Einfach, schnell und genau - Ihre Online-Rechner für alle Berechnungen.
+                </p>
+                <ul className="text-sm text-muted-foreground space-y-2">
+                  <li>• Kostenlose Online-Rechner</li>
+                  <li>• DACH-Region optimiert</li>
+                  <li>• Einfach und schnell</li>
+                </ul>
               </div>
             </div>
           </div>

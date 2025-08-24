@@ -6,9 +6,9 @@ import Footer from "@/components/Footer"
 import { ChevronRight, Home, Calculator, Euro, FileText, TrendingUp, Shield, Zap } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Mehrwertsteuer Rechner 2025 - MwSt. berechnen",
-  description: "Berechnen Sie Mehrwertsteuer kostenlos online. Brutto-Netto-Rechner für Deutschland (19%), Österreich (20%) und Schweiz (8.1%). Inklusive MwSt.-Sätze und Formeln.",
-  keywords: "mehrwertsteuer rechner, mwst berechnen, brutto netto rechner, steuerrechner, mwst satz deutschland, österreich schweiz",
+  title: "Online Mehrwertsteuer Rechner 2025 - Kostenlos MwSt. berechnen",
+  description: "Kostenloser Online Mehrwertsteuer-Rechner für Deutschland, Österreich und die Schweiz. Einfach, schnell und genau - berechnen Sie MwSt. von Netto zu Brutto und umgekehrt.",
+  keywords: "online mehrwertsteuer rechner, mwst rechner online, kostenlos mwst berechnen, deutschland mwst rechner, österreich mwst rechner, schweiz mwst rechner, online-rechner mwst",
   alternates: {
     canonical: "https://www.rechnerjetzt.de/mehrwertsteuer-rechner",
     languages: {

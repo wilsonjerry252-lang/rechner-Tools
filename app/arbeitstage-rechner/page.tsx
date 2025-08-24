@@ -6,9 +6,9 @@ import Footer from "@/components/Footer"
 import { ChevronRight, Home, Calendar } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Arbeitstage-Rechner 2025/2026 - Feiertage berücksichtigen",
-  description: "Berechnen Sie Arbeitstage zwischen zwei Daten für Deutschland, Österreich und Schweiz. Inklusive Feiertage und Wochenenden für 2025 und 2026.",
-  keywords: "Arbeitstage 2025, Arbeitstage berechnen, Feiertage Deutschland, Arbeitstage Österreich, Arbeitstage Schweiz, Arbeitstage Rechner",
+  title: "Online Arbeitstage-Rechner 2025/2026 - Kostenlos Feiertage berücksichtigen",
+  description: "Kostenloser Online Arbeitstage-Rechner für 2025 und 2026. Einfach, schnell und genau - berechnen Sie Arbeitstage mit allen Feiertagen in Deutschland, Österreich und der Schweiz.",
+  keywords: "online arbeitstage rechner, arbeitstage rechner online, kostenlos arbeitstage berechnen, deutschland arbeitstage rechner, österreich arbeitstage rechner, schweiz arbeitstage rechner, online-rechner arbeitstage",
   alternates: {
     canonical: "https://www.rechnerjetzt.de/arbeitstage-rechner",
     languages: {
