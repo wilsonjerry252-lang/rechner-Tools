@@ -5,12 +5,12 @@ import ContactForm from "@/components/ContactForm"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Kontakt - Rechner Tools | Support & Hilfe für Online-Rechner",
+  title: "Kontakt - Rechner Tools | Support & Hilfe",
   description:
     "Kontaktieren Sie uns für Fragen zu unseren Rechnern, Support oder Feedback. Wir sind für Sie da und helfen Ihnen gerne weiter.",
   keywords: "kontakt, support, hilfe, feedback, rechner tools, online rechner",
   openGraph: {
-    title: "Kontakt - Rechner Tools | Support & Hilfe für Online-Rechner",
+    title: "Kontakt - Rechner Tools | Support & Hilfe",
     description: "Kontaktieren Sie uns für Fragen zu unseren Rechnern, Support oder Feedback.",
     type: "website",
   },

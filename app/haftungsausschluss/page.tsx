@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Haftungsausschluss - Rechner Tools | Rechtliche Hinweise",
+  title: "Haftungsausschluss - Rechner Tools",
   description: "Haftungsausschluss und rechtliche Hinweise für die Nutzung der Online-Rechner von Rechner Tools.",
   keywords: "haftungsausschluss, disclaimer, rechtliche hinweise, rechner tools",
   alternates: {

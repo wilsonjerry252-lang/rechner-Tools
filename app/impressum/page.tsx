@@ -5,7 +5,7 @@ import { ArrowLeft, Building, Mail } from "lucide-react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Impressum - Rechner Tools | Rechtliche Angaben & Kontakt",
+  title: "Impressum - Rechner Tools",
   description: "Rechtliche Angaben und Impressum von Rechner Tools.",
   alternates: {
     canonical: "https://www.rechnerjetzt.de/impressum",

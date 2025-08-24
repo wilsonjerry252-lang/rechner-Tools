@@ -162,4 +162,33 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- New Niche Blog Posts -->
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/finanzrechner-deutschland</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/steuerrechner-deutschland</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/zeitrechner-deutschland</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/rechner-tools-deutschland</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>

@@ -6,7 +6,7 @@ import Footer from "@/components/Footer"
 import { ChevronRight, Home, Calculator } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Prozentrechner & Rabattrechner Online - Kostenlos Prozente berechnen",
+  title: "Prozentrechner - Rabatte & Aufschläge berechnen",
   description: "Berechnen Sie Prozente, Rabatte und Aufschläge einfach online. Kostenloser Prozentrechner mit Schritt-für-Schritt Anleitung für Deutschland, Österreich und Schweiz.",
   keywords: "Prozentrechner, Rabattrechner, Prozent berechnen, Rabatt berechnen online, Aufschlag berechnen, Prozentuale Änderung",
   alternates: {

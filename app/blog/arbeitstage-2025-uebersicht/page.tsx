@@ -5,7 +5,7 @@ import Footer from "@/components/Footer"
 import { ChevronRight, Home, BookOpen, Calendar, ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Arbeitstage 2025 in Deutschland, Österreich und der Schweiz - vollständiger Überblick",
+  title: "Arbeitstage 2025 - DACH-Übersicht",
   description: "Komplette Übersicht aller Arbeitstage 2025 für Deutschland, Österreich und Schweiz. Inklusive Feiertage, Monatsaufschlüsselung und Planungstipps.",
   keywords: "Arbeitstage 2025, Feiertage 2025 Deutschland, Arbeitstage Österreich 2025, Arbeitstage Schweiz 2025, Urlaubsplanung 2025, Arbeitskalender",
   alternates: {

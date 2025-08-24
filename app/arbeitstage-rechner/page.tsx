@@ -6,7 +6,7 @@ import Footer from "@/components/Footer"
 import { ChevronRight, Home, Calendar } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Arbeitstage-Rechner 2025/2026 - Arbeitstage berechnen mit Feiertagen",
+  title: "Arbeitstage-Rechner 2025/2026 - Feiertage berücksichtigen",
   description: "Berechnen Sie Arbeitstage zwischen zwei Daten für Deutschland, Österreich und Schweiz. Inklusive Feiertage und Wochenenden für 2025 und 2026.",
   keywords: "Arbeitstage 2025, Arbeitstage berechnen, Feiertage Deutschland, Arbeitstage Österreich, Arbeitstage Schweiz, Arbeitstage Rechner",
   alternates: {

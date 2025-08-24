@@ -5,7 +5,7 @@ import Link from "next/link"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Blog - Rechner Tools | Steuern, Finanzen, Prozente & Arbeitstage",
+  title: "Blog - Rechner Tools | Steuern & Finanzen",
   description:
     "Entdecken Sie hilfreiche Artikel zu Steuern, Prozentrechnung, Arbeitstagen und Inflation. Praktische Tipps und Ratgeber für den deutschsprachigen Raum.",
   keywords: "blog, ratgeber, steuern, mehrwertsteuer, prozentrechnung, arbeitstage, inflation, finanzen, tipps",

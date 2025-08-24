@@ -6,7 +6,7 @@ import Footer from "@/components/Footer"
 import { ChevronRight, Home, TrendingUp } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Inflationsrechner Deutschland - Kaufkraft und Preissteigerung berechnen",
+  title: "Inflationsrechner Deutschland - Kaufkraft berechnen",
   description: "Berechnen Sie die Kaufkraftveränderung durch Inflation von 1991-2024. Kostenloser Inflationsrechner mit historischen Daten für Deutschland.",
   keywords: "Inflationsrechner, Inflation berechnen, Kaufkraft Rechner, Preissteigerung Deutschland, Inflationsrate, Geldwert berechnen",
   alternates: {

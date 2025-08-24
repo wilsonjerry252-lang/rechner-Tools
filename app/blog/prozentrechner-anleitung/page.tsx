@@ -5,7 +5,7 @@ import Footer from "@/components/Footer"
 import { ChevronRight, Home, BookOpen, Calculator, ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Wie berechnet man Prozente richtig? Praktische Beispiele mit Prozentrechner",
+  title: "Prozentrechnung lernen - Praktische Beispiele",
   description: "Lernen Sie Prozentrechnung mit praktischen Beispielen. Formeln für Rabatt, Mehrwertsteuer, Trinkgeld und mehr. Inklusive kostenlosem Online-Rechner.",
   keywords: "Prozentrechnung lernen, Prozent berechnen Formel, Rabatt berechnen, Mehrwertsteuer berechnen, Trinkgeld berechnen, Prozentrechnung Beispiele",
   alternates: {

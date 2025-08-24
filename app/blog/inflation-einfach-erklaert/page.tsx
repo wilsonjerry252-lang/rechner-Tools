@@ -5,7 +5,7 @@ import Footer from "@/components/Footer"
 import { ChevronRight, Home, BookOpen, TrendingUp, ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Inflation einfach erklärt: So verändert sich Ihre Kaufkraft - mit Inflationsrechner",
+  title: "Inflation einfach erklärt - Kaufkraft berechnen",
   description: "Verstehen Sie Inflation: Ursachen, Auswirkungen und wie Sie Ihr Geld schützen. Mit historischen Daten, Beispielen und kostenlosem Inflationsrechner.",
   keywords: "Inflation erklärt, Kaufkraft berechnen, Inflationsrate Deutschland, Geldwert Entwicklung, Preissteigerung verstehen, Inflationsschutz",
   alternates: {
@@ -421,7 +421,9 @@ export default function InflationEinfachErklaertPage() {
                   <p className="text-sm text-muted-foreground">
                     Die zunehmende Digitalisierung kann sowohl inflationsfördernd als auch 
                     inflationsdämpfend wirken. Neue Technologien können Produktionskosten senken, 
-                    aber auch neue Nachfrage schaffen.
+                    aber auch neue Nachfrage schaffen. Die Entwicklung von künstlicher Intelligenz 
+                    und Automatisierung wird die Produktivität steigern, was langfristig 
+                    inflationsdämpfend wirken kann.
                   </p>
                 </div>
                 
@@ -430,7 +432,9 @@ export default function InflationEinfachErklaertPage() {
                   <p className="text-sm text-muted-foreground">
                     Der Klimawandel und die Nachhaltigkeitspolitik können zu steigenden 
                     Preisen führen, da umweltfreundliche Technologien oft teurer sind. 
-                    Gleichzeitig können sie aber auch zu Kosteneinsparungen führen.
+                    Gleichzeitig können sie aber auch zu Kosteneinsparungen führen. 
+                    Die Energiewende wird kurzfristig zu höheren Energiekosten führen, 
+                    langfristig aber zu stabileren und günstigeren Energiepreisen.
                   </p>
                 </div>
                 
@@ -439,9 +443,132 @@ export default function InflationEinfachErklaertPage() {
                   <p className="text-sm text-muted-foreground">
                     Die alternde Bevölkerung in der DACH-Region kann zu steigenden 
                     Preisen führen, da weniger Menschen arbeiten und mehr Menschen 
-                    von Renten und Sozialleistungen leben.
+                    von Renten und Sozialleistungen leben. Dies wird die Inflation 
+                    in den kommenden Jahrzehnten beeinflussen und erfordert neue 
+                    Ansätze in der Wirtschafts- und Sozialpolitik.
                   </p>
                 </div>
+              </div>
+
+              <h2 className="text-3xl font-bold text-foreground mb-6">
+                Praktische Anwendungen des Inflationsrechners
+              </h2>
+              
+              <p className="text-muted-foreground mb-6">
+                Unser Inflationsrechner ist ein mächtiges Werkzeug, das Ihnen bei verschiedenen 
+                finanziellen Entscheidungen helfen kann. Von der Altersvorsorge bis zur 
+                Immobilienplanung - verstehen Sie, wie Inflation Ihre Pläne beeinflusst.
+              </p>
+
+              <div className="grid md:grid-cols-2 gap-6 mb-6">
+                <div className="bg-card p-4 rounded-lg border">
+                  <h3 className="font-semibold text-foreground mb-3">Altersvorsorge und Rentenplanung</h3>
+                  <ul className="text-sm text-muted-foreground space-y-2">
+                    <li>• Berechnung der tatsächlichen Kaufkraft Ihrer Ersparnisse</li>
+                    <li>• Planung der benötigten Rentenhöhe</li>
+                    <li>• Anpassung der Sparrate an die Inflation</li>
+                    <li>• Bewertung verschiedener Anlageoptionen</li>
+                  </ul>
+                </div>
+                
+                <div className="bg-card p-4 rounded-lg border">
+                  <h3 className="font-semibold text-foreground mb-3">Immobilien und Kredite</h3>
+                  <ul className="text-sm text-muted-foreground space-y-2">
+                    <li>• Bewertung der tatsächlichen Kreditkosten</li>
+                    <li>• Planung der Immobilienfinanzierung</li>
+                    <li>• Berechnung der Mietanpassungen</li>
+                    <li>• Bewertung von Investitionen in Immobilien</li>
+                  </ul>
+                </div>
+              </div>
+
+              <h2 className="text-3xl font-bold text-foreground mb-6">
+                Inflation in der DACH-Region: Länderspezifische Besonderheiten
+              </h2>
+              
+              <p className="text-muted-foreground mb-6">
+                Obwohl Deutschland, Österreich und die Schweiz geografisch nahe beieinander liegen, 
+                gibt es erhebliche Unterschiede in der Inflationsentwicklung und den 
+                wirtschaftspolitischen Ansätzen zur Bekämpfung der Inflation.
+              </p>
+
+              <div className="space-y-6 mb-6">
+                <div className="bg-muted/30 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold text-foreground mb-4">Deutschland: Die größte Volkswirtschaft</h3>
+                  <p className="mb-4">
+                    Deutschland hat mit der Europäischen Zentralbank (EZB) eine der wichtigsten 
+                    Institutionen zur Inflationsbekämpfung. Die deutsche Wirtschaft ist stark 
+                    exportorientiert, was sie anfällig für internationale Preisschwankungen macht.
+                  </p>
+                  <p>
+                    Die Inflationsrate in Deutschland wird stark von den Energiepreisen und 
+                    der Entwicklung des Euro beeinflusst. Die deutsche Bundesbank spielt eine 
+                    wichtige Rolle in der Geldpolitik der Eurozone.
+                  </p>
+                </div>
+                
+                <div className="bg-muted/30 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold text-foreground mb-4">Österreich: Stabile Wirtschaft mit Herausforderungen</h3>
+                  <p className="mb-4">
+                    Österreich profitiert von seiner zentralen Lage in Europa und den 
+                    engen Handelsbeziehungen zu Deutschland. Die österreichische Wirtschaft 
+                    ist stark im Dienstleistungssektor tätig, was zu einer anderen 
+                    Inflationsstruktur führt als in Deutschland.
+                  </p>
+                  <p>
+                    Die österreichische Nationalbank koordiniert ihre Politik eng mit der EZB, 
+                    was zu einer ähnlichen Inflationsentwicklung wie in Deutschland führt. 
+                    Allerdings gibt es regionale Unterschiede, besonders in den Alpenregionen.
+                  </p>
+                </div>
+                
+                <div className="bg-muted/30 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold text-foreground mb-4">Schweiz: Der Sonderfall</h3>
+                  <p className="mb-4">
+                    Die Schweiz hat mit der Schweizerischen Nationalbank (SNB) eine 
+                    unabhängige Geldpolitik und ist nicht an den Euro gebunden. Dies 
+                    führt zu einer anderen Inflationsentwicklung als in Deutschland und Österreich.
+                  </p>
+                  <p>
+                    Die Schweizer Wirtschaft ist stark auf den Finanzsektor ausgerichtet 
+                    und profitiert von der politischen Stabilität. Die SNB verfolgt eine 
+                    sehr konservative Geldpolitik, was zu niedrigeren Inflationsraten führt.
+                  </p>
+                </div>
+              </div>
+
+              <h2 className="text-3xl font-bold text-foreground mb-6">
+                Fazit: Inflation verstehen und handeln
+              </h2>
+              
+              <p className="text-muted-foreground mb-6">
+                Inflation ist ein komplexes wirtschaftliches Phänomen, das jeden von uns betrifft. 
+                Das Verständnis der Ursachen und Auswirkungen der Inflation ist der erste Schritt 
+                zur Entwicklung effektiver Strategien zum Schutz Ihres Geldes.
+              </p>
+
+              <p className="text-muted-foreground mb-6">
+                Nutzen Sie unseren Inflationsrechner, um die tatsächliche Entwicklung 
+                Ihrer Kaufkraft zu verstehen und fundierte Entscheidungen für Ihre 
+                finanzielle Zukunft zu treffen. Denken Sie daran: Wissen ist der 
+                beste Schutz vor den negativen Auswirkungen der Inflation.
+              </p>
+
+              <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-xl p-6 text-center">
+                <h3 className="text-xl font-semibold text-foreground mb-3">
+                  🚀 Jetzt Inflationsrechner nutzen!
+                </h3>
+                <p className="text-muted-foreground mb-4">
+                  Verstehen Sie, wie sich Ihre Kaufkraft entwickelt hat
+                </p>
+                <Link 
+                  href="/inflationsrechner" 
+                  className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors"
+                >
+                  <TrendingUp className="h-5 w-5" />
+                  Zum Inflationsrechner
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
               </div>
 
             </div>
