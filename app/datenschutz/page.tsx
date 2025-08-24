@@ -5,7 +5,7 @@ import { ArrowLeft, Shield, Eye, Database, Cookie, Globe, BarChart3, Search } fr
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Datenschutz - Rechner Tools",
+  title: "Datenschutz - Rechner Tools | Datenschutzerklärung & Cookies",
   description:
     "Datenschutzerklärung von Rechner Tools - Informationen zum Umgang mit Ihren personenbezogenen Daten gemäß DSGVO.",
   alternates: {

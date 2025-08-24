@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Rechner Tools", url: "https://www.rechnerjetzt.de" }],
   generator: "Next.js",
   verification: {
-    google: "G-JTK284TTSM",
+    google: "wBPvzjewAkOEFBmY853_RdN9MbWQ1vy32T63vP3C47g",
     yandex: "verification_token",
   },
   openGraph: {
@@ -85,6 +85,9 @@ export default function RootLayout({
         <meta name="googlebot" content="index, follow" />
         <meta name="bingbot" content="index, follow" />
         <meta name="slurp" content="index, follow" />
+        
+        {/* Google Site Verification */}
+        <meta name="google-site-verification" content="wBPvzjewAkOEFBmY853_RdN9MbWQ1vy32T63vP3C47g" />
         
         {/* Preload critical resources */}
         <link rel="preload" href="/logo.png" as="image" type="image/png" />

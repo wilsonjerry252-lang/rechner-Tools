@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Über uns - Rechner Tools",
+  title: "Über uns - Rechner Tools | Kostenlose Online-Rechner",
   description:
     "Erfahren Sie mehr über Rechner Tools - Ihre vertrauenswürdige Quelle für kostenlose, professionelle Online-Rechner im deutschsprachigen Raum. Entdecken Sie unsere Mission, Werte und das Team dahinter.",
   keywords: "über uns, rechner tools, online rechner, deutschland, österreich, schweiz, mehrwertsteuer rechner, prozentrechner, arbeitstage rechner",
