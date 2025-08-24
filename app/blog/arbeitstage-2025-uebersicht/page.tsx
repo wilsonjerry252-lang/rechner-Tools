@@ -628,6 +628,204 @@ export default function Arbeitstage2025UebersichtPage() {
                 </div>
 
                 <h2 className="text-3xl font-bold text-foreground mb-6">
+                  Arbeitstage in der DACH-Region: Länderspezifische Besonderheiten
+                </h2>
+                
+                <p className="text-muted-foreground mb-6">
+                  Die DACH-Region (Deutschland, Österreich, Schweiz) weist trotz geografischer Nähe erhebliche 
+                  Unterschiede in der Arbeitszeitregelung und Feiertagsgesetzgebung auf. Diese Unterschiede 
+                  resultieren aus verschiedenen historischen Entwicklungen, kulturellen Traditionen und 
+                  wirtschaftspolitischen Ansätzen der einzelnen Länder.
+                </p>
+
+                <div className="bg-muted/30 p-6 rounded-lg mb-6">
+                  <h3 className="text-lg font-bold text-foreground mb-4">🇩🇪 Deutschland: Das föderale System</h3>
+                  <p className="mb-4">
+                    Deutschland hat mit 251 Arbeitstagen die meisten Arbeitstage in der DACH-Region. 
+                    Dies resultiert aus dem föderalen System, bei dem die Bundesländer nur begrenzte 
+                    Möglichkeiten haben, zusätzliche Feiertage einzuführen. Die neun bundesweiten 
+                    Feiertage sind das Minimum, das alle Bundesländer einhalten müssen.
+                  </p>
+                  <p className="mb-4">
+                    Besonders zu beachten ist die sogenannte "Kleinunternehmerregelung", die es 
+                    Unternehmen mit einem Jahresumsatz unter 22.000€ ermöglicht, auf die MwSt.-Berechnung 
+                    zu verzichten. Diese Regelung unterstützt kleine Unternehmen und Start-ups in der 
+                    Gründungsphase und reduziert den administrativen Aufwand für Kleinstunternehmen.
+                  </p>
+                  <p>
+                    Die deutsche Arbeitszeitregelung ist geprägt von einem hohen Grad an Regulierung 
+                    und Standardisierung. Das Arbeitszeitgesetz schreibt maximale Arbeitszeiten vor 
+                    und regelt Ruhezeiten und Pausen. Diese Regulierung schützt die Arbeitnehmer, 
+                    kann aber auch die Flexibilität für Unternehmen einschränken.
+                  </p>
+                </div>
+
+                <div className="bg-muted/30 p-6 rounded-lg mb-6">
+                  <h3 className="text-lg font-bold text-foreground mb-4">🇦🇹 Österreich: Das soziale Modell</h3>
+                  <p className="mb-4">
+                    Österreich hat mit 248 Arbeitstagen die wenigsten Arbeitstage in der DACH-Region. 
+                    Diese höhere Anzahl an Feiertagen resultiert aus der Notwendigkeit, den umfangreichen 
+                    Sozialstaat zu finanzieren und die hohen Standards in den Bereichen Bildung, 
+                    Gesundheit und Kultur aufrechtzuerhalten.
+                  </p>
+                  <p className="mb-4">
+                    Der höhere Anteil an Feiertagen reflektiert den österreichischen Ansatz, dass 
+                    auch arbeitsfreie Tage einen wichtigen Beitrag zur Lebensqualität leisten. 
+                    Besonders die religiösen Feiertage haben in Österreich eine lange Tradition 
+                    und werden von der Bevölkerung hoch geschätzt.
+                  </p>
+                  <p>
+                    Österreich hat auch besondere Regelungen für grenzüberschreitende Dienstleistungen 
+                    innerhalb der EU. Das Land profitiert von seiner zentralen Lage in Europa und 
+                    den damit verbundenen Handelsbeziehungen. Die höhere Anzahl an Feiertagen wird 
+                    durch eine hohe Produktivität und Effizienz kompensiert.
+                  </p>
+                </div>
+
+                <div className="bg-muted/30 p-6 rounded-lg mb-6">
+                  <h3 className="text-lg font-bold text-foreground mb-4">🇨🇭 Schweiz: Das liberale Modell</h3>
+                  <p className="mb-4">
+                    Die Schweiz hat mit 249 Arbeitstagen einen mittleren Wert in der DACH-Region. 
+                    Das Schweizer Arbeitszeitmodell ist vergleichsweise flexibel aufgebaut, da es 
+                    weniger starre Regulierung und mehr unternehmerische Freiheit bietet. Diese 
+                    Flexibilität resultiert aus dem föderalistischen System und der Notwendigkeit, 
+                    die Arbeitsgesetzgebung in allen Kantonen einheitlich zu gestalten.
+                  </p>
+                  <p className="mb-4">
+                    Besonders zu beachten ist, dass die Schweiz nicht zur EU gehört und daher 
+                    andere Regelungen für grenzüberschreitende Geschäfte hat. Das Land profitiert 
+                    von bilateralen Abkommen mit der EU und kann seine Arbeitspolitik unabhängiger gestalten.
+                  </p>
+                  <p>
+                    Die moderate Anzahl an Feiertagen in der Schweiz ist Teil einer umfassenden 
+                    Wirtschaftspolitik, die auf Wettbewerbsfähigkeit und Attraktivität für 
+                    internationale Unternehmen setzt. Die Arbeitszeiten werden durch andere 
+                    flexible Arbeitszeitmodelle und hohe Löhne kompensiert.
+                  </p>
+                </div>
+
+                <h2 className="text-3xl font-bold text-foreground mb-6">
+                  Praktische Auswirkungen auf den Arbeitsalltag
+                </h2>
+                
+                <p className="text-muted-foreground mb-6">
+                  Die unterschiedlichen Arbeitstage in der DACH-Region haben konkrete Auswirkungen 
+                  auf den Arbeitsalltag von Unternehmen und Arbeitnehmern. Diese Unterschiede 
+                  beeinflussen nicht nur die Arbeitsplanung, sondern auch die Produktivität, 
+                  die Kosten und die internationale Zusammenarbeit.
+                </p>
+
+                <div className="grid md:grid-cols-2 gap-6 mb-6">
+                  <div className="bg-card p-4 rounded-lg border">
+                    <h4 className="font-semibold text-foreground mb-3">Produktivität und Effizienz</h4>
+                    <p className="text-sm text-muted-foreground mb-3">
+                      Weniger Arbeitstage bedeuten nicht automatisch weniger Produktivität. 
+                      Studien zeigen, dass Länder mit weniger Arbeitstagen oft eine höhere 
+                      Produktivität pro Stunde aufweisen. Dies liegt an der besseren 
+                      Work-Life-Balance und der höheren Motivation der Arbeitnehmer.
+                    </p>
+                    <div className="text-xs text-muted-foreground">
+                      <strong>Beispiele:</strong><br/>
+                      • Österreich: 248 Tage, hohe Produktivität<br/>
+                      • Deutschland: 251 Tage, mittlere Produktivität<br/>
+                      • Schweiz: 249 Tage, sehr hohe Produktivität
+                    </div>
+                  </div>
+                  
+                  <div className="bg-card p-4 rounded-lg border">
+                    <h4 className="font-semibold text-foreground mb-3">Kosten und Wirtschaftlichkeit</h4>
+                    <p className="text-sm text-muted-foreground mb-3">
+                      Mehr Feiertage bedeuten höhere Lohnkosten für Unternehmen, da 
+                      Feiertage in der Regel voll bezahlt werden. Diese Kosten müssen 
+                      durch höhere Preise oder höhere Produktivität kompensiert werden.
+                    </p>
+                    <div className="text-xs text-muted-foreground">
+                      <strong>Kostenfaktoren:</strong><br/>
+                      • Feiertagslöhne<br/>
+                      • Produktionsausfälle<br/>
+                      • Planungsaufwand<br/>
+                      • Personalplanung
+                    </div>
+                  </div>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-6 mb-6">
+                  <div className="bg-card p-4 rounded-lg border">
+                    <h4 className="font-semibold text-foreground mb-3">Internationale Zusammenarbeit</h4>
+                    <p className="text-sm text-muted-foreground mb-3">
+                      Bei grenzüberschreitenden Projekten müssen Unternehmen die verschiedenen 
+                      Feiertage und Arbeitszeiten berücksichtigen. Dies betrifft sowohl 
+                      die Projektplanung als auch die Kommunikation und Koordination.
+                    </p>
+                    <div className="text-xs text-muted-foreground">
+                      <strong>Herausforderungen:</strong><br/>
+                      • Unterschiedliche Feiertage<br/>
+                      • Verschiedene Arbeitszeiten<br/>
+                      • Kommunikationslücken<br/>
+                      • Projektverzögerungen
+                    </div>
+                  </div>
+                  
+                  <div className="bg-card p-4 rounded-lg border">
+                    <h4 className="font-semibold text-foreground mb-3">Urlaubsplanung und Work-Life-Balance</h4>
+                    <p className="text-sm text-muted-foreground mb-3">
+                      Mehr Feiertage bieten mehr Möglichkeiten für Brückentage und 
+                      längere Urlaubsphasen. Dies verbessert die Work-Life-Balance 
+                      und die Zufriedenheit der Arbeitnehmer.
+                    </p>
+                    <div className="text-xs text-muted-foreground">
+                      <strong>Vorteile:</strong><br/>
+                      • Mehr Brückentage<br/>
+                      • Längere Urlaubsphasen<br/>
+                      • Bessere Work-Life-Balance<br/>
+                      • Höhere Mitarbeiterzufriedenheit
+                    </div>
+                  </div>
+                </div>
+
+                <h2 className="text-3xl font-bold text-foreground mb-6">
+                  Zukunftsentwicklungen und Trends
+                </h2>
+                
+                <p className="text-muted-foreground mb-6">
+                  Die Arbeitszeitregelungen in der DACH-Region unterliegen kontinuierlichen 
+                  Entwicklungen, die von verschiedenen Faktoren beeinflusst werden. Diese 
+                  Entwicklungen haben Auswirkungen auf die Anzahl der Arbeitstage, die 
+                  Flexibilität der Arbeitszeiten und die internationale Wettbewerbsfähigkeit.
+                </p>
+
+                <div className="space-y-4 mb-6">
+                  <div className="bg-muted/30 p-4 rounded-lg">
+                    <h4 className="font-semibold text-foreground mb-2">Digitalisierung und Remote Work</h4>
+                    <p className="text-sm text-muted-foreground">
+                      Die zunehmende Digitalisierung führt zu neuen Herausforderungen bei der 
+                      Arbeitszeitregelung. Besonders bei grenzüberschreitenden Remote-Work-Arrangements 
+                      müssen Unternehmen die verschiedenen Arbeitszeiten und Feiertage berücksichtigen. 
+                      Die EU hat bereits entsprechende Regelungen eingeführt, die auch die 
+                      DACH-Länder beeinflussen.
+                    </p>
+                  </div>
+                  
+                  <div className="bg-muted/30 p-4 rounded-lg">
+                    <h4 className="font-semibold text-foreground mb-2">Nachhaltigkeit und Work-Life-Balance</h4>
+                    <p className="text-sm text-muted-foreground">
+                      In allen drei Ländern gibt es Bestrebungen, die Work-Life-Balance zu verbessern 
+                      und nachhaltige Arbeitszeitmodelle zu fördern. Diese Entwicklung ist Teil einer 
+                      umfassenderen Strategie zur Förderung der Gesundheit und Zufriedenheit der Arbeitnehmer.
+                    </p>
+                  </div>
+                  
+                  <div className="bg-muted/30 p-4 rounded-lg">
+                    <h4 className="font-semibold text-foreground mb-2">Harmonisierung der Arbeitszeiten</h4>
+                    <p className="text-sm text-muted-foreground">
+                      Innerhalb der EU gibt es Bestrebungen zur weiteren Harmonisierung der 
+                      Arbeitszeitregelungen. Dies betrifft vor allem Deutschland und Österreich, 
+                      während die Schweiz als Nicht-EU-Mitglied andere Entwicklungslinien verfolgt.
+                    </p>
+                  </div>
+                </div>
+
+                <h2 className="text-3xl font-bold text-foreground mb-6">
                   Fazit: Optimal planen für 2025
                 </h2>
                 
@@ -637,6 +835,22 @@ export default function Arbeitstage2025UebersichtPage() {
                   Jahresplanung und verpassen Sie nicht die optimalen Brückentage. 
                   Mit unserem <Link href="/arbeitstage-rechner" className="text-primary hover:underline">Arbeitstage-Rechner</Link> können Sie 
                   jederzeit individuelle Zeiträume berechnen.
+                </p>
+                
+                <p className="text-muted-foreground mb-6">
+                  Die Unterschiede zwischen den Ländern zeigen, dass eine einheitliche 
+                  Arbeitszeitregelung in der DACH-Region nicht existiert. Jedes Land verfolgt 
+                  seine eigenen wirtschaftspolitischen Ziele und passt die Arbeitszeiten und 
+                  Feiertage entsprechend an. Für Unternehmen und Arbeitnehmer bedeutet dies, 
+                  dass sie sich mit den spezifischen Regelungen jedes Landes vertraut machen müssen.
+                </p>
+                
+                <p>
+                  Die Zukunft der Arbeitszeitregelungen wird von der Digitalisierung, der 
+                  Nachhaltigkeitspolitik und der internationalen Zusammenarbeit geprägt sein. 
+                  Unternehmen und Arbeitnehmer sollten diese Entwicklungen verfolgen und sich 
+                  entsprechend anpassen, um von den neuen Möglichkeiten zu profitieren und 
+                  Risiken zu minimieren.
                 </p>
 
                 <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-xl p-6 text-center">

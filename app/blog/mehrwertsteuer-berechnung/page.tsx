@@ -262,9 +262,122 @@ export default function MehrwertsteuerBerechnungPage() {
               <li>Nichtbeachtung von MwSt.-Ausnahmen und -Befreiungen</li>
             </ul>
 
+            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">MwSt. in der DACH-Region: Länderspezifische Besonderheiten</h2>
+            
+            <p className="mb-6">
+              Die DACH-Region (Deutschland, Österreich, Schweiz) weist trotz geografischer Nähe erhebliche Unterschiede in der Mehrwertsteuer-Gesetzgebung auf. Diese Unterschiede resultieren aus verschiedenen wirtschaftspolitischen Ansätzen und historischen Entwicklungen der Steuersysteme.
+            </p>
+
+            <div className="bg-muted/30 p-6 rounded-lg mb-6">
+              <h3 className="text-lg font-bold text-foreground mb-4">Deutschland: Das moderate Modell</h3>
+              <p className="mb-4">
+                Deutschland hat mit 19% den niedrigsten Regelsatz in der DACH-Region. Diese moderate Positionierung resultiert aus der wirtschaftlichen Stärke des Landes und der Notwendigkeit, international wettbewerbsfähig zu bleiben. Der ermäßigte Satz von 7% gilt für eine Vielzahl von Gütern des täglichen Bedarfs, was die soziale Komponente der Steuerpolitik unterstreicht.
+              </p>
+              <p className="mb-4">
+                Besonders zu beachten ist die sogenannte "Kleinunternehmerregelung", die es Unternehmen mit einem Jahresumsatz unter 22.000€ ermöglicht, auf die MwSt.-Berechnung zu verzichten. Diese Regelung unterstützt kleine Unternehmen und Start-ups in der Gründungsphase und reduziert den administrativen Aufwand für Kleinstunternehmen.
+              </p>
+              <p>
+                Die deutsche MwSt.-Politik ist geprägt von einem ausgewogenen Ansatz zwischen fiskalischen Interessen und wirtschaftlicher Wettbewerbsfähigkeit. Die Steuersätze werden regelmäßig überprüft und an wirtschaftliche Entwicklungen angepasst.
+              </p>
+            </div>
+
+            <div className="bg-muted/30 p-6 rounded-lg mb-6">
+              <h3 className="text-lg font-bold text-foreground mb-4">Österreich: Das höhere Niveau</h3>
+              <p className="mb-4">
+                Österreich hat mit 20% den höchsten Regelsatz in der DACH-Region. Diese höhere Besteuerung resultiert aus der Notwendigkeit, den umfangreichen Sozialstaat zu finanzieren und die hohen Standards in den Bereichen Bildung, Gesundheit und Kultur aufrechtzuerhalten.
+              </p>
+              <p className="mb-4">
+                Der ermäßigte Satz von 10% ist höher als in Deutschland, was zu höheren Preisen für Grundnahrungsmittel und Bücher führt. Diese Politik reflektiert den österreichischen Ansatz, dass auch ermäßigte Sätze einen nennenswerten Beitrag zur Staatsfinanzierung leisten sollten.
+              </p>
+              <p>
+                Österreich hat auch besondere Regelungen für grenzüberschreitende Dienstleistungen innerhalb der EU. Das Land profitiert von seiner zentralen Lage in Europa und den damit verbundenen Handelsbeziehungen. Die höheren Steuersätze werden durch eine hohe Qualität der öffentlichen Dienstleistungen kompensiert.
+              </p>
+            </div>
+
+            <div className="bg-muted/30 p-6 rounded-lg mb-6">
+              <h3 className="text-lg font-bold text-foreground mb-4">Schweiz: Das liberale Modell</h3>
+              <p className="mb-4">
+                Die Schweiz hat mit 8.1% den niedrigsten Regelsatz in der DACH-Region. Das Schweizer MwSt.-System ist vergleichsweise einfach aufgebaut, da es weniger Ausnahmen und Sonderregelungen gibt. Diese Einfachheit resultiert aus dem föderalistischen System und der Notwendigkeit, die Steuergesetzgebung in allen Kantonen einheitlich zu gestalten.
+              </p>
+              <p className="mb-4">
+                Besonders zu beachten ist, dass die Schweiz nicht zur EU gehört und daher andere Regelungen für grenzüberschreitende Geschäfte hat. Das Land profitiert von bilateralen Abkommen mit der EU und kann seine Steuerpolitik unabhängiger gestalten.
+              </p>
+              <p>
+                Die niedrigen Steuersätze in der Schweiz sind Teil einer umfassenden Wirtschaftspolitik, die auf Wettbewerbsfähigkeit und Attraktivität für internationale Unternehmen setzt. Die Steuereinnahmen werden durch andere Steuerarten und Gebühren kompensiert.
+              </p>
+            </div>
+
+            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Praktische Auswirkungen auf den Alltag</h2>
+            
+            <p className="mb-6">
+              Die unterschiedlichen MwSt.-Sätze in der DACH-Region haben konkrete Auswirkungen auf den Alltag der Verbraucher und Unternehmen. Diese Unterschiede beeinflussen nicht nur die Preise, sondern auch die Kaufentscheidungen und die grenzüberschreitende Wirtschaftstätigkeit.
+            </p>
+
+            <div className="grid md:grid-cols-2 gap-6 mb-6">
+              <div className="bg-card p-4 rounded-lg border">
+                <h4 className="font-semibold text-foreground mb-3">Preisvergleiche</h4>
+                <p className="text-sm text-muted-foreground mb-3">
+                  Bei grenzüberschreitenden Einkäufen müssen Verbraucher die unterschiedlichen MwSt.-Sätze berücksichtigen. Ein Produkt, das in Deutschland 100€ kostet, würde in Österreich 101€ und in der Schweiz 89€ kosten (ohne Berücksichtigung anderer Preisunterschiede).
+                </p>
+                <div className="text-xs text-muted-foreground">
+                  <strong>Beispiel:</strong> 100€ Produkt<br/>
+                  DE: 119€ (19% MwSt.)<br/>
+                  AT: 120€ (20% MwSt.)<br/>
+                  CH: 108,10€ (8.1% MwSt.)
+                </div>
+              </div>
+              
+              <div className="bg-card p-4 rounded-lg border">
+                <h4 className="font-semibold text-foreground mb-3">Unternehmensentscheidungen</h4>
+                <p className="text-sm text-muted-foreground mb-3">
+                  Unternehmen müssen bei grenzüberschreitenden Geschäften die verschiedenen MwSt.-Regelungen beachten. Dies betrifft sowohl die Preisgestaltung als auch die Buchhaltung und Steuererklärungen.
+                </p>
+                <div className="text-xs text-muted-foreground">
+                  <strong>Wichtig:</strong> B2B-Geschäfte unterliegen dem Reverse-Charge-Verfahren, bei dem der Käufer die MwSt. abführt.
+                </div>
+              </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Zukunftsentwicklungen und Trends</h2>
+            
+            <p className="mb-6">
+              Die MwSt.-Systeme in der DACH-Region unterliegen kontinuierlichen Entwicklungen, die von verschiedenen Faktoren beeinflusst werden. Diese Entwicklungen haben Auswirkungen auf die Steuersätze, die Anwendungsbereiche und die Verwaltungsverfahren.
+            </p>
+
+            <div className="space-y-4 mb-6">
+              <div className="bg-muted/30 p-4 rounded-lg">
+                <h4 className="font-semibold text-foreground mb-2">Digitalisierung und E-Commerce</h4>
+                <p className="text-sm text-muted-foreground">
+                  Die zunehmende Digitalisierung des Handels führt zu neuen Herausforderungen bei der MwSt.-Berechnung. Besonders bei grenzüberschreitenden Online-Verkäufen müssen Unternehmen die verschiedenen Steuersätze und -regelungen beachten. Die EU hat bereits entsprechende Regelungen eingeführt, die auch die DACH-Länder beeinflussen.
+                </p>
+              </div>
+              
+              <div className="bg-muted/30 p-4 rounded-lg">
+                <h4 className="font-semibold text-foreground mb-2">Nachhaltigkeit und Umweltsteuern</h4>
+                <p className="text-sm text-muted-foreground">
+                  In allen drei Ländern gibt es Bestrebungen, umweltfreundliche Produkte und Dienstleistungen durch niedrigere MwSt.-Sätze zu fördern. Diese Entwicklung ist Teil einer umfassenderen Strategie zur Förderung nachhaltiger Konsum- und Produktionsmuster.
+                </p>
+              </div>
+              
+              <div className="bg-muted/30 p-4 rounded-lg">
+                <h4 className="font-semibold text-foreground mb-2">Harmonisierung der Steuersysteme</h4>
+                <p className="text-sm text-muted-foreground">
+                  Innerhalb der EU gibt es Bestrebungen zur weiteren Harmonisierung der MwSt.-Systeme. Dies betrifft vor allem Deutschland und Österreich, während die Schweiz als Nicht-EU-Mitglied andere Entwicklungslinien verfolgt.
+                </p>
+              </div>
+            </div>
+
             <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Fazit</h2>
             <p className="mb-6">
-              Die korrekte MwSt.-Berechnung ist fundamental für die Buchhaltung und Preisgestaltung. Mit den richtigen Formeln und unserem MwSt.-Rechner können Sie schnell und sicher alle Berechnungen durchführen. Achten Sie auf die aktuellen Steuersätze und besonderen Regelungen in Ihrem Land.
+              Die korrekte MwSt.-Berechnung ist fundamental für die Buchhaltung und Preisgestaltung in der gesamten DACH-Region. Mit den richtigen Formeln und unserem MwSt.-Rechner können Sie schnell und sicher alle Berechnungen durchführen. Achten Sie auf die aktuellen Steuersätze und besonderen Regelungen in Ihrem Land.
+            </p>
+            
+            <p className="mb-6">
+              Die Unterschiede zwischen den Ländern zeigen, dass eine einheitliche MwSt.-Politik in der DACH-Region nicht existiert. Jedes Land verfolgt seine eigenen wirtschaftspolitischen Ziele und passt die Steuersätze entsprechend an. Für Unternehmen und Verbraucher bedeutet dies, dass sie sich mit den spezifischen Regelungen jedes Landes vertraut machen müssen.
+            </p>
+            
+            <p>
+              Die Zukunft der MwSt.-Systeme wird von der Digitalisierung, der Nachhaltigkeitspolitik und der internationalen Zusammenarbeit geprägt sein. Unternehmen und Verbraucher sollten diese Entwicklungen verfolgen und sich entsprechend anpassen, um von den neuen Möglichkeiten zu profitieren und Risiken zu minimieren.
             </p>
 
             <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-xl p-6 mt-8">

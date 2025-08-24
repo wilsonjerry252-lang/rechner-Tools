@@ -435,13 +435,222 @@ export default function ProzentrechnerAnleitungPage() {
                 </div>
 
                 <h2 className="text-3xl font-bold text-foreground mb-6">
+                  Prozentrechnung in der DACH-Region: Länderspezifische Anwendungen
+                </h2>
+                
+                <p className="text-muted-foreground mb-6">
+                  Die Prozentrechnung findet in der DACH-Region (Deutschland, Österreich, Schweiz) in verschiedenen Bereichen Anwendung, 
+                  wobei länderspezifische Besonderheiten zu beachten sind. Diese Unterschiede resultieren aus verschiedenen 
+                  wirtschaftspolitischen Ansätzen, Steuersystemen und kulturellen Gewohnheiten.
+                </p>
+
+                <div className="bg-muted/30 p-6 rounded-lg mb-6">
+                  <h3 className="text-lg font-bold text-foreground mb-4">🇩🇪 Deutschland: Das umfassende System</h3>
+                  <p className="mb-4">
+                    In Deutschland ist die Prozentrechnung besonders wichtig für die Mehrwertsteuer-Berechnung. 
+                    Der Regelsatz von 19% und der ermäßigte Satz von 7% erfordern präzise Berechnungen für 
+                    Unternehmen und Verbraucher. Die deutsche Wirtschaft ist geprägt von einem hohen Grad an 
+                    Regulierung und Standardisierung, was sich auch in der Prozentrechnung widerspiegelt.
+                  </p>
+                  <p className="mb-4">
+                    Besonders zu beachten ist die sogenannte "Kleinunternehmerregelung", die es Unternehmen 
+                    mit einem Jahresumsatz unter 22.000€ ermöglicht, auf die MwSt.-Berechnung zu verzichten. 
+                    Diese Regelung unterstützt kleine Unternehmen und Start-ups in der Gründungsphase und 
+                    reduziert den administrativen Aufwand für Kleinstunternehmen.
+                  </p>
+                  <p>
+                    Die deutsche Prozentrechnung ist auch in der Finanzbranche von großer Bedeutung. 
+                    Zinsberechnungen, Renditeberechnungen und Risikobewertungen basieren auf präzisen 
+                    Prozentberechnungen. Die Bundesbank und andere Finanzaufsichtsbehörden setzen hohe 
+                    Standards für die Genauigkeit dieser Berechnungen.
+                  </p>
+                </div>
+
+                <div className="bg-muted/30 p-6 rounded-lg mb-6">
+                  <h3 className="text-lg font-bold text-foreground mb-4">🇦🇹 Österreich: Das soziale Modell</h3>
+                  <p className="mb-4">
+                    Österreich hat mit 20% den höchsten Mehrwertsteuer-Regelsatz in der DACH-Region. 
+                    Diese höhere Besteuerung resultiert aus der Notwendigkeit, den umfangreichen Sozialstaat 
+                    zu finanzieren und die hohen Standards in den Bereichen Bildung, Gesundheit und Kultur 
+                    aufrechtzuerhalten.
+                  </p>
+                  <p className="mb-4">
+                    Der ermäßigte Satz von 10% ist höher als in Deutschland, was zu höheren Preisen für 
+                    Grundnahrungsmittel und Bücher führt. Diese Politik reflektiert den österreichischen 
+                    Ansatz, dass auch ermäßigte Sätze einen nennenswerten Beitrag zur Staatsfinanzierung 
+                    leisten sollten.
+                  </p>
+                  <p>
+                    Österreich hat auch besondere Regelungen für grenzüberschreitende Dienstleistungen 
+                    innerhalb der EU. Das Land profitiert von seiner zentralen Lage in Europa und den 
+                    damit verbundenen Handelsbeziehungen. Die höheren Steuersätze werden durch eine hohe 
+                    Qualität der öffentlichen Dienstleistungen kompensiert.
+                  </p>
+                </div>
+
+                <div className="bg-muted/30 p-6 rounded-lg mb-6">
+                  <h3 className="text-lg font-bold text-foreground mb-4">🇨🇭 Schweiz: Das liberale Modell</h3>
+                  <p className="mb-4">
+                    Die Schweiz hat mit 8.1% den niedrigsten Mehrwertsteuer-Regelsatz in der DACH-Region. 
+                    Das Schweizer MwSt.-System ist vergleichsweise einfach aufgebaut, da es weniger Ausnahmen 
+                    und Sonderregelungen gibt. Diese Einfachheit resultiert aus dem föderalistischen System 
+                    und der Notwendigkeit, die Steuergesetzgebung in allen Kantonen einheitlich zu gestalten.
+                  </p>
+                  <p className="mb-4">
+                    Besonders zu beachten ist, dass die Schweiz nicht zur EU gehört und daher andere 
+                    Regelungen für grenzüberschreitende Geschäfte hat. Das Land profitiert von bilateralen 
+                    Abkommen mit der EU und kann seine Steuerpolitik unabhängiger gestalten.
+                  </p>
+                  <p>
+                    Die niedrigen Steuersätze in der Schweiz sind Teil einer umfassenden Wirtschaftspolitik, 
+                    die auf Wettbewerbsfähigkeit und Attraktivität für internationale Unternehmen setzt. 
+                    Die Steuereinnahmen werden durch andere Steuerarten und Gebühren kompensiert.
+                  </p>
+                </div>
+
+                <h2 className="text-3xl font-bold text-foreground mb-6">
+                  Praktische Anwendungen in verschiedenen Branchen
+                </h2>
+                
+                <p className="text-muted-foreground mb-6">
+                  Die Prozentrechnung findet in der DACH-Region in verschiedenen Branchen Anwendung, 
+                  wobei jede Branche ihre eigenen Besonderheiten und Anforderungen hat. Diese Vielfalt 
+                  macht die Prozentrechnung zu einem unverzichtbaren Werkzeug für Fachkräfte in allen Bereichen.
+                </p>
+
+                <div className="grid md:grid-cols-2 gap-6 mb-6">
+                  <div className="bg-card p-4 rounded-lg border">
+                    <h4 className="font-semibold text-foreground mb-3">Bankwesen und Finanzen</h4>
+                    <p className="text-sm text-muted-foreground mb-3">
+                      Im Bankwesen ist die Prozentrechnung fundamental für Zinsberechnungen, 
+                      Renditeberechnungen und Risikobewertungen. Banken in der DACH-Region 
+                      setzen hohe Standards für die Genauigkeit dieser Berechnungen.
+                    </p>
+                    <div className="text-xs text-muted-foreground">
+                      <strong>Anwendungen:</strong><br/>
+                      • Zinseszins-Berechnungen<br/>
+                      • Kreditkosten-Berechnungen<br/>
+                      • Investment-Renditen<br/>
+                      • Risikobewertungen
+                    </div>
+                  </div>
+                  
+                  <div className="bg-card p-4 rounded-lg border">
+                    <h4 className="font-semibold text-foreground mb-3">Einzelhandel und E-Commerce</h4>
+                    <p className="text-sm text-muted-foreground mb-3">
+                      Im Einzelhandel ist die Prozentrechnung essentiell für Preisgestaltung, 
+                      Rabattberechnungen und Gewinnmargen. Besonders im grenzüberschreitenden 
+                      E-Commerce müssen verschiedene Steuersätze berücksichtigt werden.
+                    </p>
+                    <div className="text-xs text-muted-foreground">
+                      <strong>Anwendungen:</strong><br/>
+                      • Preisgestaltung<br/>
+                      • Rabattberechnungen<br/>
+                      • Gewinnmargen<br/>
+                      • Steuerberechnungen
+                    </div>
+                  </div>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-6 mb-6">
+                  <div className="bg-card p-4 rounded-lg border">
+                    <h4 className="font-semibold text-foreground mb-3">Gastronomie und Hotellerie</h4>
+                    <p className="text-sm text-muted-foreground mb-3">
+                      In der Gastronomie ist die Prozentrechnung wichtig für Trinkgeldberechnungen, 
+                      Preisgestaltung und Kostenkalkulationen. Die verschiedenen MwSt.-Sätze 
+                      für Speisen und Getränke erfordern präzise Berechnungen.
+                    </p>
+                    <div className="text-xs text-muted-foreground">
+                      <strong>Anwendungen:</strong><br/>
+                      • Trinkgeldberechnungen<br/>
+                      • Preisgestaltung<br/>
+                      • Kostenkalkulationen<br/>
+                      • MwSt.-Berechnungen
+                    </div>
+                  </div>
+                  
+                  <div className="bg-card p-4 rounded-lg border">
+                    <h4 className="font-semibold text-foreground mb-3">Bauwesen und Handwerk</h4>
+                    <p className="text-sm text-muted-foreground mb-3">
+                      Im Bauwesen ist die Prozentrechnung essentiell für Kostenkalkulationen, 
+                      Gewinnmargen und Preisgestaltung. Die verschiedenen MwSt.-Sätze für 
+                      verschiedene Leistungen erfordern präzise Berechnungen.
+                    </p>
+                    <div className="text-xs text-muted-foreground">
+                      <strong>Anwendungen:</strong><br/>
+                      • Kostenkalkulationen<br/>
+                      • Gewinnmargen<br/>
+                      • Preisgestaltung<br/>
+                      • MwSt.-Berechnungen
+                    </div>
+                  </div>
+                </div>
+
+                <h2 className="text-3xl font-bold text-foreground mb-6">
+                  Zukunftsentwicklungen und Trends
+                </h2>
+                
+                <p className="text-muted-foreground mb-6">
+                  Die Prozentrechnung in der DACH-Region unterliegt kontinuierlichen Entwicklungen, 
+                  die von verschiedenen Faktoren beeinflusst werden. Diese Entwicklungen haben 
+                  Auswirkungen auf die Anwendungsbereiche, die Berechnungsmethoden und die 
+                  technischen Hilfsmittel.
+                </p>
+
+                <div className="space-y-4 mb-6">
+                  <div className="bg-muted/30 p-4 rounded-lg">
+                    <h4 className="font-semibold text-foreground mb-2">Digitalisierung und Automatisierung</h4>
+                    <p className="text-sm text-muted-foreground">
+                      Die zunehmende Digitalisierung führt zu neuen Herausforderungen bei der Prozentrechnung. 
+                      Besonders bei grenzüberschreitenden Geschäften müssen Unternehmen die verschiedenen 
+                      Steuersätze und -regelungen automatisch berücksichtigen. Die EU hat bereits 
+                      entsprechende Regelungen eingeführt, die auch die DACH-Länder beeinflussen.
+                    </p>
+                  </div>
+                  
+                  <div className="bg-muted/30 p-4 rounded-lg">
+                    <h4 className="font-semibold text-foreground mb-2">Nachhaltigkeit und Umweltsteuern</h4>
+                    <p className="text-sm text-muted-foreground">
+                      In allen drei Ländern gibt es Bestrebungen, umweltfreundliche Produkte und 
+                      Dienstleistungen durch niedrigere MwSt.-Sätze zu fördern. Diese Entwicklung 
+                      ist Teil einer umfassenderen Strategie zur Förderung nachhaltiger Konsum- 
+                      und Produktionsmuster.
+                    </p>
+                  </div>
+                  
+                  <div className="bg-muted/30 p-4 rounded-lg">
+                    <h4 className="font-semibold text-foreground mb-2">Harmonisierung der Steuersysteme</h4>
+                    <p className="text-sm text-muted-foreground">
+                      Innerhalb der EU gibt es Bestrebungen zur weiteren Harmonisierung der 
+                      MwSt.-Systeme. Dies betrifft vor allem Deutschland und Österreich, 
+                      während die Schweiz als Nicht-EU-Mitglied andere Entwicklungslinien verfolgt.
+                    </p>
+                  </div>
+                </div>
+
+                <h2 className="text-3xl font-bold text-foreground mb-6">
                   Fazit: Prozentrechnung im Alltag meistern
                 </h2>
                 
                 <p className="text-muted-foreground mb-6">
-                  Die Prozentrechnung ist ein mächtiges Werkzeug für den Alltag. Mit den Grundformeln und 
-                  etwas Übung können Sie schnell Rabatte einschätzen, Steuern berechnen und 
-                  finanzielle Entscheidungen treffen. Nutzen Sie unseren <Link href="/prozentrechner" className="text-primary hover:underline">kostenlosen Prozentrechner</Link> für komplexere Berechnungen oder zur Überprüfung Ihrer Ergebnisse.
+                  Die Prozentrechnung ist ein mächtiges Werkzeug für den Alltag in der gesamten DACH-Region. 
+                  Mit den Grundformeln und etwas Übung können Sie schnell Rabatte einschätzen, Steuern berechnen 
+                  und finanzielle Entscheidungen treffen. Nutzen Sie unseren <Link href="/prozentrechner" className="text-primary hover:underline">kostenlosen Prozentrechner</Link> für komplexere Berechnungen oder zur Überprüfung Ihrer Ergebnisse.
+                </p>
+                
+                <p className="text-muted-foreground mb-6">
+                  Die Unterschiede zwischen den Ländern zeigen, dass eine einheitliche Anwendung der 
+                  Prozentrechnung in der DACH-Region nicht existiert. Jedes Land verfolgt seine eigenen 
+                  wirtschaftspolitischen Ziele und passt die Steuersätze und Berechnungsmethoden entsprechend an. 
+                  Für Unternehmen und Verbraucher bedeutet dies, dass sie sich mit den spezifischen 
+                  Regelungen jedes Landes vertraut machen müssen.
+                </p>
+                
+                <p>
+                  Die Zukunft der Prozentrechnung wird von der Digitalisierung, der Nachhaltigkeitspolitik 
+                  und der internationalen Zusammenarbeit geprägt sein. Unternehmen und Verbraucher sollten 
+                  diese Entwicklungen verfolgen und sich entsprechend anpassen, um von den neuen 
+                  Möglichkeiten zu profitieren und Risiken zu minimieren.
                 </p>
 
                 <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-xl p-6 text-center">

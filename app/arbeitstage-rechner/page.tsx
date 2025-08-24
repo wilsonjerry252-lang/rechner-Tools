@@ -327,6 +327,31 @@ export default function ArbeitstageRechnerPage() {
             </div>
           </section>
 
+          {/* Author/Update/Source Block */}
+          <section className="py-8 px-4 bg-muted/20">
+            <div className="max-w-4xl mx-auto">
+              <div className="bg-card p-6 rounded-lg border">
+                <div className="grid md:grid-cols-3 gap-6 text-sm">
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">👨‍💻 Autor</h3>
+                    <p className="text-muted-foreground">Rechner Tools Team</p>
+                    <p className="text-muted-foreground">Arbeitsrecht & Kalenderwesen</p>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">📅 Letzte Aktualisierung</h3>
+                    <p className="text-muted-foreground">15. Dezember 2024</p>
+                    <p className="text-muted-foreground">Feiertage 2025 & 2026 aktualisiert</p>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">📚 Quellen & Referenzen</h3>
+                    <p className="text-muted-foreground">Bundesministerium des Innern</p>
+                    <p className="text-muted-foreground">Länderregierungen DE, AT, CH</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
           {/* Internal Links */}
           <section className="py-12 px-4 bg-muted/30">
             <div className="max-w-4xl mx-auto">
@@ -357,13 +382,13 @@ export default function ArbeitstageRechnerPage() {
                   </div>
                 </Link>
                 
-                <Link href="/blog/arbeitstage-2025-uebersicht" className="group">
+                <Link href="/mehrwertsteuer-rechner" className="group">
                   <div className="bg-card p-6 rounded-lg border hover:shadow-lg transition-shadow">
                     <h3 className="font-semibold text-foreground mb-2 group-hover:text-primary">
-                      Arbeitstage 2025 Guide
+                      Mehrwertsteuer-Rechner
                     </h3>
                     <p className="text-sm text-muted-foreground">
-                      Kompletter Überblick über Arbeitstage und Feiertage 2025
+                      Berechnen Sie MwSt. für Deutschland, Österreich und Schweiz
                     </p>
                   </div>
                 </Link>

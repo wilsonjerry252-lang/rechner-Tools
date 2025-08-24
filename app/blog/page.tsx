@@ -122,12 +122,7 @@ export default function BlogPage() {
       }
     ]
 
-  const categories = [
-    { name: "Alle", count: blogPosts.length },
-    { name: "Steuern", count: blogPosts.filter((post) => post.category === "Steuern").length },
-    { name: "Gesundheit", count: blogPosts.filter((post) => post.category === "Gesundheit").length },
-    { name: "Finanzen", count: blogPosts.filter((post) => post.category === "Finanzen").length },
-  ]
+  
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-secondary/5 to-accent/5">
@@ -170,17 +165,7 @@ export default function BlogPage() {
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
-          {categories.map((category) => (
-            <Button
-              key={category.name}
-              variant={category.name === "Alle" ? "default" : "outline"}
-              className="rounded-full"
-            >
-              {category.name} ({category.count})
-            </Button>
-          ))}
-        </div>
+       
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
           {blogPosts.map((post) => {
