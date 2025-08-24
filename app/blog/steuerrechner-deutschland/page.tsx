@@ -2,10 +2,10 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
-import { ChevronRight, Home, BookOpen, Calculator, Euro, FileText, Receipt, Shield, ArrowRight } from "lucide-react"
+import { ChevronRight, Home, BookOpen, Calculator, Euro, FileText, Receipt, Shield, ArrowRight, TrendingUp } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Steuerrechner Deutschland: Professionelle Steuerberechnungen einfach gemacht",
+  title: "Steuerrechner Deutschland - Professionelle Steuerberechnungen",
   description: "Entdecken Sie die wichtigsten Steuerrechner für Deutschland: MwSt-Rechner, Einkommensteuerrechner, Kfz-Steuerrechner und mehr. Kostenlos und aktuell.",
   keywords: "Steuerrechner Deutschland, MwSt Rechner, Einkommensteuer Rechner, Kfz Steuer Rechner, Steuerberechnung Online",
   alternates: {
