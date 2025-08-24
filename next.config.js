@@ -5,6 +5,7 @@ const nextConfig = {
     optimizePackageImports: ['lucide-react'],
     // Performance optimizations
     optimizeCss: false, // Disable to avoid build issues
+    webVitalsAttribution: ['CLS', 'LCP', 'FID'],
     turbo: {
       rules: {
         '*.svg': {
@@ -32,6 +33,44 @@ const nextConfig = {
   compress: true,
   poweredByHeader: false,
   generateEtags: false, // Reduce ETag generation overhead
+
+  // Webpack optimizations for mobile performance
+  webpack: (config, { dev, isServer }) => {
+    if (!dev && !isServer) {
+      // Tree shaking and code splitting
+      config.optimization.splitChunks = {
+        chunks: 'all',
+        cacheGroups: {
+          vendor: {
+            test: /[\\/]node_modules[\\/]/,
+            name: 'vendors',
+            chunks: 'all',
+            priority: 10,
+          },
+          icons: {
+            test: /[\\/]node_modules[\\/]lucide-react[\\/]/,
+            name: 'icons',
+            chunks: 'all',
+            priority: 20,
+          },
+          common: {
+            name: 'common',
+            minChunks: 2,
+            chunks: 'all',
+            priority: 5,
+          },
+        },
+      }
+      
+      // Enable tree shaking
+      config.optimization.usedExports = true
+      config.optimization.sideEffects = false
+      
+      // Reduce bundle size
+      config.optimization.minimize = true
+    }
+    return config
+  },
 
   // Performance headers for mobile
   async headers() {

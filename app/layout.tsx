@@ -2,7 +2,9 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Inter, DM_Sans } from "next/font/google"
 import "./globals.css"
+import "./mobile-optimized.css"
 import CookieConsent from "@/components/CookieConsent"
+import { MobilePerformanceProvider } from "@/components/MobilePerformanceProvider"
 
 const inter = Inter({ 
   subsets: ["latin"],
@@ -141,8 +143,10 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
-        <CookieConsent />
-        {children}
+        <MobilePerformanceProvider>
+          <CookieConsent />
+          {children}
+        </MobilePerformanceProvider>
       </body>
     </html>
   )
