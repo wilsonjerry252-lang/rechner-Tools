@@ -64,7 +64,8 @@ export default function ImpressumPage() {
               </div>
               <p className="text-sm text-muted-foreground mt-2">
                 Rechner Tools ist ein privates Projekt, das kostenlose Online-Rechner für den deutschsprachigen Raum bereitstellt. 
-                Unser Ziel ist es, präzise und benutzerfreundliche Tools für Mehrwertsteuerberechnungen anzubieten.
+                Unser Ziel ist es, präzise und benutzerfreundliche Tools für verschiedene Berechnungszwecke anzubieten: 
+                Mehrwertsteuer, Prozente, Inflation und Arbeitstage.
               </p>
             </div>
 
@@ -106,6 +107,27 @@ export default function ImpressumPage() {
                   kostenlose, präzise und benutzerfreundliche Online-Rechner zur Verfügung zu stellen. 
                   Unsere Tools basieren auf aktuellen gesetzlichen Bestimmungen und anerkannten Berechnungsformeln.
                 </p>
+                <p>
+                  Wir bieten vier spezialisierte Online-Rechner an:
+                </p>
+                <div className="grid md:grid-cols-2 gap-4 my-4">
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-3">
+                    <h4 className="font-medium text-blue-900 mb-2">Mehrwertsteuer-Rechner</h4>
+                    <p className="text-xs text-blue-800">MwSt-Berechnungen für DE, AT, CH mit aktuellen Steuersätzen</p>
+                  </div>
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-3">
+                    <h4 className="font-medium text-green-900 mb-2">Prozentrechner</h4>
+                    <p className="text-xs text-green-800">Prozente, Rabatte und Aufschläge berechnen</p>
+                  </div>
+                  <div className="bg-purple-50 border border-purple-200 rounded-lg p-3">
+                    <h4 className="font-medium text-purple-900 mb-2">Inflationsrechner</h4>
+                    <p className="text-xs text-purple-800">Kaufkraftveränderung durch Inflation berechnen</p>
+                  </div>
+                  <div className="bg-orange-50 border border-orange-200 rounded-lg p-3">
+                    <h4 className="font-medium text-orange-900 mb-2">Arbeitstage-Rechner</h4>
+                    <p className="text-xs text-orange-800">Arbeitstage zwischen zwei Daten mit Feiertagen</p>
+                  </div>
+                </div>
                 <p>
                   Wir legen besonderen Wert auf Datenschutz und Transparenz. Alle Berechnungen erfolgen lokal 
                   in Ihrem Browser, ohne dass personenbezogene Daten an unsere Server übertragen werden. 
@@ -157,6 +179,29 @@ export default function ImpressumPage() {
                   Der Schutz Ihrer persönlichen Daten ist uns wichtig. Unsere Website verwendet nur technisch notwendige 
                   Cookies und sammelt keine personenbezogenen Daten ohne Ihre ausdrückliche Zustimmung. 
                   Alle Berechnungen erfolgen lokal in Ihrem Browser.
+                </p>
+                <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                  <h4 className="font-medium text-blue-900 mb-2">Cookie-Einstellungen anpassen:</h4>
+                  <ul className="text-sm text-blue-800 space-y-1">
+                    <li>• <strong>Cookie-Banner:</strong> Nutzen Sie den Cookie-Banner am unteren Bildschirmrand</li>
+                    <li>• <strong>Einstellungen:</strong> Klicken Sie auf "Einstellungen" für detaillierte Optionen</li>
+                    <li>• <strong>Browser-Einstellungen:</strong> Passen Sie Cookies in Ihren Browser-Einstellungen an</li>
+                    <li>• <strong>Einwilligung widerrufen:</strong> Sie können Ihre Einwilligung jederzeit widerrufen</li>
+                  </ul>
+                </div>
+                <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                  <h4 className="font-medium text-green-900 mb-2">Cookie-Einstellungen nach der ersten Einwilligung ändern:</h4>
+                  <ul className="text-sm text-green-800 space-y-1">
+                    <li>• <strong>Cookie-Banner erneut öffnen:</strong> Klicken Sie auf den Cookie-Banner am unteren Bildschirmrand</li>
+                    <li>• <strong>Einstellungen anpassen:</strong> Wählen Sie "Einstellungen" und passen Sie Ihre Präferenzen an</li>
+                    <li>• <strong>Einzelne Kategorien:</strong> Aktivieren oder deaktivieren Sie Analytics-Cookies separat</li>
+                    <li>• <strong>Alle Cookies löschen:</strong> Nutzen Sie "Alle ablehnen" um alle optionalen Cookies zu entfernen</li>
+                    <li>• <strong>Browser-Cache leeren:</strong> Löschen Sie Cookies über Ihre Browser-Einstellungen</li>
+                  </ul>
+                </div>
+                <p>
+                  <strong>Wichtiger Hinweis:</strong> Das Deaktivieren von Cookies kann die Funktionalität der Website
+                  beeinträchtigen. Technisch notwendige Cookies werden immer gesetzt.
                 </p>
                 <p>
                   Weitere Informationen zum Datenschutz finden Sie in unserer ausführlichen Datenschutzerklärung. 

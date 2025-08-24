@@ -79,13 +79,48 @@ export default function DisclaimerPage() {
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">Haftungsausschluss für Berechnungen</h2>
 
-              <h3 className="text-xl font-semibold text-foreground mb-3">Mehrwertsteuerrechner</h3>
+              <div className="grid md:grid-cols-2 gap-4 mb-6">
+                <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                  <h4 className="font-medium text-blue-900 mb-2">Mehrwertsteuer-Rechner</h4>
+                  <ul className="text-sm text-blue-800 space-y-1">
+                    <li>• MwSt-Sätze basieren auf aktuellen Gesetzen</li>
+                    <li>• Steuersätze für DE, AT, CH aktuell</li>
+                    <li>• Professionelle Beratung empfohlen</li>
+                  </ul>
+                </div>
+                <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                  <h4 className="font-medium text-green-900 mb-2">Prozentrechner</h4>
+                  <ul className="text-sm text-green-800 space-y-1">
+                    <li>• Prozentberechnungen sind Näherungswerte</li>
+                    <li>• Rabatte und Aufschläge berechnen</li>
+                    <li>• Prozentuale Veränderungen</li>
+                  </ul>
+                </div>
+                <div className="bg-purple-50 border border-purple-200 rounded-lg p-4">
+                  <h4 className="font-medium text-purple-900 mb-2">Inflationsrechner</h4>
+                  <ul className="text-sm text-purple-800 space-y-1">
+                    <li>• Inflation-Daten werden regelmäßig aktualisiert</li>
+                    <li>• Kaufkraftveränderungen berechnen</li>
+                    <li>• Aktuelle Inflationsraten für DACH</li>
+                  </ul>
+                </div>
+                <div className="bg-orange-50 border border-orange-200 rounded-lg p-4">
+                  <h4 className="font-medium text-orange-900 mb-2">Arbeitstage-Rechner</h4>
+                  <ul className="text-sm text-orange-800 space-y-1">
+                    <li>• Feiertage basieren auf aktuellen Gesetzen</li>
+                    <li>• Arbeitstage sind Näherungswerte</li>
+                    <li>• Länderspezifische Regelungen beachten</li>
+                  </ul>
+                </div>
+              </div>
+
+              <h3 className="text-xl font-semibold text-foreground mb-3">Allgemeine Hinweise zu allen Rechnern</h3>
               <ul className="space-y-2 ml-6">
                 <li>
-                  • Die verwendeten Steuersätze entsprechen den aktuell gültigen Sätzen zum Zeitpunkt der Erstellung
+                  • Die verwendeten Werte entsprechen den aktuell gültigen Vorgaben zum Zeitpunkt der Erstellung
                 </li>
-                <li>• Änderungen der Steuersätze werden regelmäßig, aber nicht in Echtzeit aktualisiert</li>
-                <li>• Für steuerliche Beratung wenden Sie sich an einen Steuerberater oder das zuständige Finanzamt</li>
+                <li>• Änderungen werden regelmäßig, aber nicht in Echtzeit aktualisiert</li>
+                <li>• Für professionelle Beratung wenden Sie sich an qualifizierte Fachleute</li>
                 <li>• Besondere Regelungen und Ausnahmen werden nicht berücksichtigt</li>
               </ul>
             </section>
@@ -139,7 +174,7 @@ export default function DisclaimerPage() {
 
           <div className="text-center mt-8 pt-6 border-t border-border">
             <p className="text-sm text-muted-foreground">
-              Letzte Aktualisierung: {new Date().toLocaleDateString("de-DE")}
+              Letzte Aktualisierung: 16. Dezember 2024
             </p>
           </div>
         </div>

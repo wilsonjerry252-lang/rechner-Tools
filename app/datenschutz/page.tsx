@@ -117,7 +117,7 @@ export default function DatenschutzPage() {
               <h2 className="text-2xl font-bold text-foreground mb-4">Rechner-Funktionen</h2>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <p>
-                  <strong>Wichtiger Hinweis:</strong> Alle Berechnungen (VAT) werden ausschließlich lokal
+                  <strong>Wichtiger Hinweis:</strong> Alle Berechnungen werden ausschließlich lokal
                   in Ihrem Browser durchgeführt. Die von Ihnen eingegebenen Werte werden nicht an unsere Server
                   übertragen, gespeichert oder anderweitig verarbeitet.
                 </p>
@@ -125,6 +125,24 @@ export default function DatenschutzPage() {
                   Dies bedeutet, dass Ihre persönlichen Daten wie Beträge oder andere
                   Berechnungsparameter vollständig privat bleiben und nur auf Ihrem Gerät verarbeitet werden.
                 </p>
+                <div className="grid md:grid-cols-2 gap-4 my-4">
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-3">
+                    <h4 className="font-medium text-blue-900 mb-2">Mehrwertsteuer-Rechner</h4>
+                    <p className="text-xs text-blue-800">MwSt-Berechnungen für DE, AT, CH - 100% lokal</p>
+                  </div>
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-3">
+                    <h4 className="font-medium text-green-900 mb-2">Prozentrechner</h4>
+                    <p className="text-xs text-green-800">Prozente, Rabatte und Aufschläge - lokal berechnet</p>
+                  </div>
+                  <div className="bg-purple-50 border border-purple-200 rounded-lg p-3">
+                    <h4 className="font-medium text-purple-900 mb-2">Inflationsrechner</h4>
+                    <p className="text-xs text-purple-800">Kaufkraftveränderung - keine Datenübertragung</p>
+                  </div>
+                  <div className="bg-orange-50 border border-orange-200 rounded-lg p-3">
+                    <h4 className="font-medium text-orange-900 mb-2">Arbeitstage-Rechner</h4>
+                    <p className="text-xs text-orange-800">Arbeitstage und Feiertage - lokal berechnet</p>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -257,10 +275,38 @@ export default function DatenschutzPage() {
                   Sie können Ihre Cookie-Einstellungen jederzeit anpassen. Detaillierte Informationen finden Sie in unserer
                   <a href="/cookie-richtlinie" className="text-primary hover:underline"> Cookie-Richtlinie</a>.
                 </p>
+                <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                  <h4 className="font-medium text-blue-900 mb-2">Wie Sie Ihre Cookie-Einstellungen anpassen können:</h4>
+                  <ul className="text-sm text-blue-800 space-y-1">
+                    <li>• <strong>Cookie-Banner:</strong> Nutzen Sie den Cookie-Banner am unteren Bildschirmrand</li>
+                    <li>• <strong>Einstellungen:</strong> Klicken Sie auf "Einstellungen" für detaillierte Optionen</li>
+                    <li>• <strong>Browser-Einstellungen:</strong> Passen Sie Cookies in Ihren Browser-Einstellungen an</li>
+                    <li>• <strong>Einwilligung widerrufen:</strong> Sie können Ihre Einwilligung jederzeit widerrufen</li>
+                  </ul>
+                </div>
+                <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                  <h4 className="font-medium text-green-900 mb-2">Cookie-Einstellungen nach der ersten Einwilligung ändern:</h4>
+                  <ul className="text-sm text-green-800 space-y-1">
+                    <li>• <strong>Cookie-Banner erneut öffnen:</strong> Klicken Sie auf den Cookie-Banner am unteren Bildschirmrand</li>
+                    <li>• <strong>Einstellungen anpassen:</strong> Wählen Sie "Einstellungen" und passen Sie Ihre Präferenzen an</li>
+                    <li>• <strong>Einzelne Kategorien:</strong> Aktivieren oder deaktivieren Sie Analytics-Cookies separat</li>
+                    <li>• <strong>Alle Cookies löschen:</strong> Nutzen Sie "Alle ablehnen" um alle optionalen Cookies zu entfernen</li>
+                    <li>• <strong>Browser-Cache leeren:</strong> Löschen Sie Cookies über Ihre Browser-Einstellungen</li>
+                  </ul>
+                </div>
                 <p>
                   <strong>Wichtiger Hinweis:</strong> Das Deaktivieren von Cookies kann die Funktionalität der Website
-                  beeinträchtigen.
+                  beeinträchtigen. Technisch notwendige Cookies werden immer gesetzt, um die Grundfunktionen zu gewährleisten.
                 </p>
+                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
+                  <h4 className="font-medium text-yellow-900 mb-2">Praktisches Beispiel:</h4>
+                  <p className="text-sm text-yellow-800">
+                    <strong>Schritt-für-Schritt Anleitung:</strong> Wenn Sie bereits alle Cookies akzeptiert haben und 
+                    diese später ändern möchten, können Sie den Cookie-Banner am unteren Bildschirmrand erneut anklicken. 
+                    Wählen Sie dann "Einstellungen" und passen Sie Ihre Präferenzen an. Sie können einzelne Cookie-Kategorien 
+                    aktivieren oder deaktivieren, ohne alle Einstellungen zurückzusetzen.
+                  </p>
+                </div>
               </div>
             </div>
 
@@ -285,7 +331,7 @@ export default function DatenschutzPage() {
                   umzusetzen, z.B. bei der Einführung neuer Services.
                 </p>
                 <p>
-                  <strong>Stand:</strong> Diese Datenschutzerklärung wurde zuletzt am 15. Dezember 2024 aktualisiert.
+                  <strong>Stand:</strong> Diese Datenschutzerklärung wurde zuletzt am 16. Dezember 2024 aktualisiert.
                 </p>
               </div>
             </div>

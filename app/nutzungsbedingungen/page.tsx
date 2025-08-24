@@ -82,7 +82,7 @@ export default function NutzungsbedingungenPage() {
               <h2 className="text-2xl font-bold text-foreground mb-4">Geltungsbereich</h2>
               <p className="text-sm text-muted-foreground">
                 Diese Nutzungsbedingungen gelten für die Nutzung der Website "Rechner Tools" und aller darauf
-                verfügbaren Online-Rechner (Mehrwertsteuerrechner). Betreiber der Website
+                verfügbaren Online-Rechner (Finanzrechner, Steuerrechner, Zeitrechner). Betreiber der Website
                 ist MUHAMMAD USMAN KHAN, Mithrasstraße 16, 60439 Frankfurt am Main, Deutschland.
               </p>
             </div>
@@ -94,9 +94,44 @@ export default function NutzungsbedingungenPage() {
                   Wir stellen Ihnen kostenlose Online-Rechner zur Verfügung, mit denen Sie verschiedene Berechnungen
                   durchführen können:
                 </p>
-                <ul className="list-disc list-inside space-y-1 ml-4">
-                  <li>Mehrwertsteuerberechnungen für Deutschland, Österreich und die Schweiz</li>
-                </ul>
+                <div className="grid md:grid-cols-2 gap-4 my-4">
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-3">
+                    <h4 className="font-medium text-blue-900 mb-2">Mehrwertsteuer-Rechner</h4>
+                    <ul className="text-xs text-blue-800 space-y-1">
+                      <li>• MwSt-Berechnungen für DE, AT, CH</li>
+                      <li>• Aktuelle Steuersätze 2025</li>
+                      <li>• Brutto-Netto und Netto-Brutto</li>
+                    </ul>
+                  </div>
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-3">
+                    <h4 className="font-medium text-green-900 mb-2">Prozentrechner</h4>
+                    <ul className="text-xs text-green-800 space-y-1">
+                      <li>• Prozente und Rabatte berechnen</li>
+                      <li>• Aufschläge und Skonti</li>
+                      <li>• Prozentuale Veränderungen</li>
+                    </ul>
+                  </div>
+                  <div className="bg-purple-50 border border-purple-200 rounded-lg p-3">
+                    <h4 className="font-medium text-purple-900 mb-2">Inflationsrechner</h4>
+                    <ul className="text-xs text-purple-800 space-y-1">
+                      <li>• Kaufkraftveränderung berechnen</li>
+                      <li>• Inflationsraten für DACH</li>
+                      <li>• Preissteigerungen und -senkungen</li>
+                    </ul>
+                  </div>
+                  <div className="bg-orange-50 border border-orange-200 rounded-lg p-3">
+                    <h4 className="font-medium text-orange-900 mb-2">Arbeitstage-Rechner</h4>
+                    <ul className="text-xs text-orange-800 space-y-1">
+                      <li>• Arbeitstage zwischen zwei Daten</li>
+                      <li>• Feiertage und gesetzliche Regelungen</li>
+                      <li>• Arbeitszeitberechnungen</li>
+                    </ul>
+                  </div>
+                </div>
+                <p className="mt-4">
+                  <strong>Hinweis:</strong> Alle Rechner basieren auf aktuellen gesetzlichen Bestimmungen und 
+                  anerkannten Berechnungsformeln für Deutschland, Österreich und die Schweiz.
+                </p>
               </div>
             </div>
 
@@ -190,7 +225,40 @@ export default function NutzungsbedingungenPage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-3">6. Änderungen</h3>
+              <h3 className="font-semibold mb-3">6. Cookie-Einstellungen</h3>
+              <div className="space-y-3 text-sm text-muted-foreground">
+                <p>
+                  Sie können Ihre Cookie-Einstellungen jederzeit anpassen. Detaillierte Informationen finden Sie in unserer
+                  <a href="/cookie-richtlinie" className="text-primary hover:underline"> Cookie-Richtlinie</a>.
+                </p>
+                <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                  <h4 className="font-medium text-blue-900 mb-2">Wie Sie Ihre Cookie-Einstellungen anpassen können:</h4>
+                  <ul className="text-sm text-blue-800 space-y-1">
+                    <li>• <strong>Cookie-Banner:</strong> Nutzen Sie den Cookie-Banner am unteren Bildschirmrand</li>
+                    <li>• <strong>Einstellungen:</strong> Klicken Sie auf "Einstellungen" für detaillierte Optionen</li>
+                    <li>• <strong>Browser-Einstellungen:</strong> Passen Sie Cookies in Ihren Browser-Einstellungen an</li>
+                    <li>• <strong>Einwilligung widerrufen:</strong> Sie können Ihre Einwilligung jederzeit widerrufen</li>
+                  </ul>
+                </div>
+                <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                  <h4 className="font-medium text-green-900 mb-2">Cookie-Einstellungen nach der ersten Einwilligung ändern:</h4>
+                  <ul className="text-sm text-green-800 space-y-1">
+                    <li>• <strong>Cookie-Banner erneut öffnen:</strong> Klicken Sie auf den Cookie-Banner am unteren Bildschirmrand</li>
+                    <li>• <strong>Einstellungen anpassen:</strong> Wählen Sie "Einstellungen" und passen Sie Ihre Präferenzen an</li>
+                    <li>• <strong>Einzelne Kategorien:</strong> Aktivieren oder deaktivieren Sie Analytics-Cookies separat</li>
+                    <li>• <strong>Alle Cookies löschen:</strong> Nutzen Sie "Alle ablehnen" um alle optionalen Cookies zu entfernen</li>
+                    <li>• <strong>Browser-Cache leeren:</strong> Löschen Sie Cookies über Ihre Browser-Einstellungen</li>
+                  </ul>
+                </div>
+                <p>
+                  <strong>Wichtiger Hinweis:</strong> Das Deaktivieren von Cookies kann die Funktionalität der Website
+                  beeinträchtigen. Technisch notwendige Cookies werden immer gesetzt, um die Grundfunktionen zu gewährleisten.
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="font-semibold mb-3">7. Änderungen</h3>
               <p className="text-sm text-muted-foreground">
                 Wir behalten uns vor, diese Nutzungsbedingungen jederzeit zu ändern. Änderungen werden auf dieser Seite
                 veröffentlicht und treten mit der Veröffentlichung in Kraft.
@@ -198,7 +266,7 @@ export default function NutzungsbedingungenPage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-3">7. Anwendbares Recht</h3>
+              <h3 className="font-semibold mb-3">8. Anwendbares Recht</h3>
               <p className="text-sm text-muted-foreground">
                 Es gilt deutsches Recht unter Ausschluss des UN-Kaufrechts. Gerichtsstand ist der Wohnsitz des Betreibers,
                 soweit gesetzlich zulässig.
@@ -206,9 +274,16 @@ export default function NutzungsbedingungenPage() {
             </div>
 
             <div>
-              <h3 className="font-semibold mb-3">8. Kontakt</h3>
+              <h3 className="font-semibold mb-3">9. Kontakt</h3>
               <p className="text-sm text-muted-foreground">
                 Bei Fragen zu diesen Nutzungsbedingungen wenden Sie sich bitte an: muk.kt199@gmail.com
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-semibold mb-3">10. Letzte Aktualisierung</h3>
+              <p className="text-sm text-muted-foreground">
+                Diese Nutzungsbedingungen wurden zuletzt am 16. Dezember 2024 aktualisiert.
               </p>
             </div>
           </CardContent>
