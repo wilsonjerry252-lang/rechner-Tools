@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap, Trendi
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Prozentuale Preissteigerung verstehen: Ein Leitfaden für Verbraucher",
+  title: "Prozentuale Preissteigerung: Leitfaden für Verbraucher",
   description: "Lernen Sie, wie Sie prozentuale Preissteigerungen berechnen und verstehen. Praktische Beispiele und Tipps für den Alltag.",
   keywords: "preissteigerung berechnen, inflation verstehen, prozentuale erhöhung, preisänderung, kostensteigerung, verbraucherpreise",
   openGraph: {
-    title: "Prozentuale Preissteigerung verstehen: Ein Leitfaden für Verbraucher",
+    title: "Prozentuale Preissteigerung: Leitfaden für Verbraucher",
     description: "Lernen Sie, wie Sie prozentuale Preissteigerungen berechnen und verstehen. Praktische Beispiele und Tipps für den Alltag.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",
@@ -59,7 +59,7 @@ export default function ProzentualePreissteigerungPage() {
             </div>
             
             <h1 className="text-4xl font-bold font-serif text-foreground mb-4">
-              Prozentuale Preissteigerung verstehen: Ein Leitfaden für Verbraucher
+              Prozentuale Preissteigerung: Leitfaden für Verbraucher
             </h1>
             
             <div className="flex items-center gap-6 text-sm text-muted-foreground mb-6">

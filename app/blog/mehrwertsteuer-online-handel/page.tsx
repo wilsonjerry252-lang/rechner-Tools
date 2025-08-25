@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap, Shoppi
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Mehrwertsteuer im Online-Handel: Was Shop-Betreiber wissen müssen",
+  title: "Mehrwertsteuer im Online-Handel: Shop-Betreiber Guide",
   description: "Erfahren Sie alles über Mehrwertsteuer im Online-Handel. Wichtige Regeln für Shop-Betreiber, grenzüberschreitende Geschäfte und praktische Tipps.",
   keywords: "mehrwertsteuer online handel, mwst shop betreiber, ecommerce steuern, grenzüberschreitender handel, mwst online shop",
   openGraph: {
-    title: "Mehrwertsteuer im Online-Handel: Was Shop-Betreiber wissen müssen",
+    title: "Mehrwertsteuer im Online-Handel: Shop-Betreiber Guide",
     description: "Erfahren Sie alles über Mehrwertsteuer im Online-Handel. Wichtige Regeln für Shop-Betreiber, grenzüberschreitende Geschäfte und praktische Tipps.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",
@@ -59,7 +59,7 @@ export default function MehrwertsteuerOnlineHandelPage() {
             </div>
             
             <h1 className="text-4xl font-bold font-serif text-foreground mb-4">
-              Mehrwertsteuer im Online-Handel: Was Shop-Betreiber wissen müssen
+              Mehrwertsteuer im Online-Handel: Shop-Betreiber Guide
             </h1>
             
             <div className="flex items-center gap-6 text-sm text-muted-foreground mb-6">

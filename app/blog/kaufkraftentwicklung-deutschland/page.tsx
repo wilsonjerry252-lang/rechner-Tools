@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap, Shoppi
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Kaufkraftentwicklung in Deutschland: So hat sich 1 € verändert",
+  title: "Kaufkraftentwicklung Deutschland: So hat sich 1€ verändert",
   description: "Entdecken Sie, wie sich die Kaufkraft des Euros in Deutschland entwickelt hat. Historische Daten, praktische Beispiele und Tipps zum Erhalt der Kaufkraft.",
   keywords: "kaufkraftentwicklung deutschland, euro kaufkraft verlust, inflation deutschland, geldwert entwicklung, kaufkraft berechnen",
   openGraph: {
-    title: "Kaufkraftentwicklung in Deutschland: So hat sich 1 € verändert",
+    title: "Kaufkraftentwicklung Deutschland: So hat sich 1€ verändert",
     description: "Entdecken Sie, wie sich die Kaufkraft des Euros in Deutschland entwickelt hat. Historische Daten, praktische Beispiele und Tipps zum Erhalt der Kaufkraft.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",
@@ -59,7 +59,7 @@ export default function KaufkraftentwicklungDeutschlandPage() {
             </div>
             
             <h1 className="text-4xl font-bold font-serif text-foreground mb-4">
-              Kaufkraftentwicklung in Deutschland: So hat sich 1 € verändert
+              Kaufkraftentwicklung Deutschland: So hat sich 1€ verändert
             </h1>
             
             <div className="flex items-center gap-6 text-sm text-muted-foreground mb-6">

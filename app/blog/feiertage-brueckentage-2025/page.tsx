@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap, Calend
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Feiertage und Brückentage 2025: So planen Sie Ihren Urlaub clever",
+  title: "Feiertage & Brückentage 2025: Clevere Urlaubsplanung",
   description: "Entdecken Sie alle Feiertage und Brückentage 2025 in Deutschland. Clevere Urlaubsplanung mit minimalen Urlaubstagen für maximale Freizeit.",
   keywords: "feiertage 2025, brückentage 2025, urlaubsplanung deutschland, feiertage deutschland, urlaub planen 2025",
   openGraph: {
-    title: "Feiertage und Brückentage 2025: So planen Sie Ihren Urlaub clever",
+    title: "Feiertage & Brückentage 2025: Clevere Urlaubsplanung",
     description: "Entdecken Sie alle Feiertage und Brückentage 2025 in Deutschland. Clevere Urlaubsplanung mit minimalen Urlaubstagen für maximale Freizeit.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",
@@ -59,7 +59,7 @@ export default function FeiertageBrueckentage2025Page() {
             </div>
             
             <h1 className="text-4xl font-bold font-serif text-foreground mb-4">
-              Feiertage und Brückentage 2025: So planen Sie Ihren Urlaub clever
+              Feiertage & Brückentage 2025: Clevere Urlaubsplanung
             </h1>
             
             <div className="flex items-center gap-6 text-sm text-muted-foreground mb-6">

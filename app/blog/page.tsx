@@ -45,7 +45,7 @@ export default function BlogPage() {
     },
     {
       id: 3,
-      title: "Mehrwertsteuer in Deutschland vs. Österreich vs. Schweiz: Ein Vergleich",
+      title: "Mehrwertsteuer DACH-Vergleich: Deutschland, Österreich, Schweiz",
       excerpt: "Vergleichen Sie die Mehrwertsteuer-Systeme der DACH-Region. Unterschiede, Gemeinsamkeiten und praktische Tipps für grenzüberschreitende Geschäfte.",
       category: "Mehrwertsteuer",
       date: "2024-12-15",
@@ -67,7 +67,7 @@ export default function BlogPage() {
     },
     {
       id: 5,
-      title: "Mehrwertsteuer im Online-Handel: Was Shop-Betreiber wissen müssen",
+      title: "Mehrwertsteuer im Online-Handel: Shop-Betreiber Guide",
       excerpt: "Alles über Mehrwertsteuer im E-Commerce. Rechtliche Grundlagen, praktische Umsetzung und häufige Fehler vermeiden.",
       category: "Mehrwertsteuer",
       date: "2024-12-15",
@@ -79,7 +79,7 @@ export default function BlogPage() {
     // Prozentrechner - 5 posts
     {
       id: 6,
-      title: "Prozentrechnung einfach erklärt: Formeln & Beispiele für den Alltag",
+      title: "Prozentrechnung einfach erklärt: Formeln & Beispiele",
       excerpt: "Verstehen Sie Prozentrechnung im Alltag. Von Rabatten über Mehrwertsteuer bis hin zu Zinsen - alles einfach erklärt mit Beispielen.",
       category: "Prozentrechnung",
       date: "2024-12-15",
@@ -90,7 +90,7 @@ export default function BlogPage() {
     },
     {
       id: 7,
-      title: "Rabatte richtig berechnen: So sparen Sie im Supermarkt wirklich",
+      title: "Rabatte richtig berechnen: So sparen Sie im Supermarkt",
       excerpt: "Lernen Sie, wie Sie echte Rabatte erkennen und berechnen. Tipps für intelligentes Einkaufen und Geld sparen im Alltag.",
       category: "Prozentrechnung",
       date: "2024-12-15",
@@ -101,7 +101,7 @@ export default function BlogPage() {
     },
     {
       id: 8,
-      title: "Prozentuale Preissteigerung verstehen: Ein Leitfaden für Verbraucher",
+      title: "Prozentuale Preissteigerung: Leitfaden für Verbraucher",
       excerpt: "Verstehen Sie Preissteigerungen und deren Auswirkungen auf Ihr Budget. Wie Sie Preiserhöhungen berechnen und damit umgehen.",
       category: "Prozentrechnung",
       date: "2024-12-15",
@@ -135,7 +135,7 @@ export default function BlogPage() {
     // Arbeitstage - 5 posts
     {
       id: 11,
-      title: "Arbeitstage 2025 in Deutschland: Bundesländer im Vergleich",
+      title: "Arbeitstage 2025 Deutschland: Bundesländer im Vergleich",
       excerpt: "Vollständige Übersicht aller Arbeitstage 2025 für alle deutschen Bundesländer. Inklusive Feiertage und Planungstipps.",
       category: "Arbeitstage",
       date: "2024-12-15",
@@ -146,7 +146,7 @@ export default function BlogPage() {
     },
     {
       id: 12,
-      title: "Arbeitstage 2026 mit allen Feiertagen in DACH-Region (Download-Kalender)",
+      title: "Arbeitstage 2026 DACH-Region: Download-Kalender",
       excerpt: "Planen Sie Ihr Jahr 2026 optimal mit unserem Arbeitstage-Kalender. Alle Feiertage für Deutschland, Österreich und Schweiz.",
       category: "Arbeitstage",
       date: "2024-12-15",
@@ -168,7 +168,7 @@ export default function BlogPage() {
     },
     {
       id: 14,
-      title: "Feiertage und Brückentage 2025: So planen Sie Ihren Urlaub clever",
+      title: "Feiertage & Brückentage 2025: Clevere Urlaubsplanung",
       excerpt: "Optimieren Sie Ihren Urlaub 2025 mit Brückentagen. Alle Feiertage und clevere Urlaubsplanung für maximalen Erholungswert.",
       category: "Arbeitstage",
       date: "2024-12-15",
@@ -179,7 +179,7 @@ export default function BlogPage() {
     },
     {
       id: 15,
-      title: "Unterschied zwischen Arbeitstagen, Werktagen und Kalendertagen erklärt",
+      title: "Arbeitstage vs. Werktage vs. Kalendertage: Unterschiede erklärt",
       excerpt: "Verstehen Sie die Unterschiede zwischen Arbeitstagen, Werktagen und Kalendertagen. Wichtige Begriffe für die Arbeitsplanung.",
       category: "Arbeitstage",
       date: "2024-12-15",

@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap, Buildi
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Mehrwertsteuer in Deutschland vs. Österreich vs. Schweiz: Ein Vergleich",
+  title: "Mehrwertsteuer DACH-Vergleich: Deutschland, Österreich, Schweiz",
   description: "Vergleichen Sie die Mehrwertsteuer in der DACH-Region. Unterschiede, Gemeinsamkeiten und praktische Tipps für grenzüberschreitende Geschäfte.",
   keywords: "mehrwertsteuer dach, deutschland österreich schweiz, mwst vergleich, grenzüberschreitende geschäfte, steuersätze dach",
   openGraph: {
-    title: "Mehrwertsteuer in Deutschland vs. Österreich vs. Schweiz: Ein Vergleich",
+    title: "Mehrwertsteuer DACH-Vergleich: Deutschland, Österreich, Schweiz",
     description: "Vergleichen Sie die Mehrwertsteuer in der DACH-Region. Unterschiede, Gemeinsamkeiten und praktische Tipps für grenzüberschreitende Geschäfte.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",
@@ -59,7 +59,7 @@ export default function MehrwertsteuerDachVergleichPage() {
             </div>
             
             <h1 className="text-4xl font-bold font-serif text-foreground mb-4">
-              Mehrwertsteuer in Deutschland vs. Österreich vs. Schweiz: Ein Vergleich
+              Mehrwertsteuer DACH-Vergleich: Deutschland, Österreich, Schweiz
             </h1>
             
             <div className="flex items-center gap-6 text-sm text-muted-foreground mb-6">

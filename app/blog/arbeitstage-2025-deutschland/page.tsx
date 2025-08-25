@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap, Calend
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Arbeitstage 2025 in Deutschland: Bundesländer im Vergleich",
+  title: "Arbeitstage 2025 Deutschland: Bundesländer im Vergleich",
   description: "Erfahren Sie alle Arbeitstage 2025 in Deutschland. Bundesländer im Vergleich mit Feiertagen und praktischen Tipps für die Urlaubsplanung.",
   keywords: "arbeitstage 2025 deutschland, feiertage 2025, urlaubsplanung, bundesländer vergleich, arbeitszeit 2025, kalender 2025",
   openGraph: {
-    title: "Arbeitstage 2025 in Deutschland: Bundesländer im Vergleich",
+    title: "Arbeitstage 2025 Deutschland: Bundesländer im Vergleich",
     description: "Erfahren Sie alle Arbeitstage 2025 in Deutschland. Bundesländer im Vergleich mit Feiertagen und praktischen Tipps für die Urlaubsplanung.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",
@@ -59,7 +59,7 @@ export default function Arbeitstage2025DeutschlandPage() {
             </div>
             
             <h1 className="text-4xl font-bold font-serif text-foreground mb-4">
-              Arbeitstage 2025 in Deutschland: Bundesländer im Vergleich
+              Arbeitstage 2025 Deutschland: Bundesländer im Vergleich
             </h1>
             
             <div className="flex items-center gap-6 text-sm text-muted-foreground mb-6">

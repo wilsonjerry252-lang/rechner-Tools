@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap, Tag } 
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Rabatte richtig berechnen: So sparen Sie im Supermarkt wirklich",
+  title: "Rabatte richtig berechnen: So sparen Sie im Supermarkt",
   description: "Lernen Sie, wie Sie Rabatte und Angebote richtig berechnen. Praktische Tipps für den Alltag und wie Sie den besten Preis finden.",
   keywords: "rabatt berechnen, angebote vergleichen, preisvergleich, sparen einkaufen, prozent rabatt, supermarkt angebote",
   openGraph: {
-    title: "Rabatte richtig berechnen: So sparen Sie im Supermarkt wirklich",
+    title: "Rabatte richtig berechnen: So sparen Sie im Supermarkt",
     description: "Lernen Sie, wie Sie Rabatte und Angebote richtig berechnen. Praktische Tipps für den Alltag und wie Sie den besten Preis finden.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",
@@ -59,7 +59,7 @@ export default function RabatteRichtigBerechnenPage() {
             </div>
             
             <h1 className="text-4xl font-bold font-serif text-foreground mb-4">
-              Rabatte richtig berechnen: So sparen Sie im Supermarkt wirklich
+              Rabatte richtig berechnen: So sparen Sie im Supermarkt
             </h1>
             
             <div className="flex items-center gap-6 text-sm text-muted-foreground mb-6">

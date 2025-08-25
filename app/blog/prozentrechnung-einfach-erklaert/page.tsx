@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap, Percen
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Prozentrechnung einfach erklärt: Formeln & Beispiele für den Alltag",
+  title: "Prozentrechnung einfach erklärt: Formeln & Beispiele",
   description: "Lernen Sie Prozentrechnung mit praktischen Beispielen. Formeln für Rabatt, Mehrwertsteuer, Trinkgeld und mehr. Einfach und verständlich erklärt.",
   keywords: "prozentrechnung, prozent berechnen, prozentformel, rabatt berechnen, mwst berechnen, trinkgeld berechnen",
   openGraph: {
-    title: "Prozentrechnung einfach erklärt: Formeln & Beispiele für den Alltag",
+    title: "Prozentrechnung einfach erklärt: Formeln & Beispiele",
     description: "Lernen Sie Prozentrechnung mit praktischen Beispielen. Formeln für Rabatt, Mehrwertsteuer, Trinkgeld und mehr. Einfach und verständlich erklärt.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",
@@ -59,7 +59,7 @@ export default function ProzentrechnungEinfachErklaertPage() {
             </div>
             
             <h1 className="text-4xl font-bold font-serif text-foreground mb-4">
-              Prozentrechnung einfach erklärt: Formeln & Beispiele für den Alltag
+              Prozentrechnung einfach erklärt: Formeln & Beispiele
             </h1>
             
             <div className="flex items-center gap-6 text-sm text-muted-foreground mb-6">

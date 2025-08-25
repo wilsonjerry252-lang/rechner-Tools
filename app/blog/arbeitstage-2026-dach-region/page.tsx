@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap, Downlo
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Arbeitstage 2026 mit allen Feiertagen in DACH-Region (Download-Kalender)",
+  title: "Arbeitstage 2026 DACH-Region: Download-Kalender",
   description: "Erfahren Sie alle Arbeitstage 2026 in Deutschland, Österreich und der Schweiz. Mit Download-Kalender für die perfekte Urlaubsplanung.",
   keywords: "arbeitstage 2026, dach region, deutschland österreich schweiz, feiertage 2026, urlaubsplanung, kalender download",
   openGraph: {
-    title: "Arbeitstage 2026 mit allen Feiertagen in DACH-Region (Download-Kalender)",
+    title: "Arbeitstage 2026 DACH-Region: Download-Kalender",
     description: "Erfahren Sie alle Arbeitstage 2026 in Deutschland, Österreich und der Schweiz. Mit Download-Kalender für die perfekte Urlaubsplanung.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",
@@ -59,7 +59,7 @@ export default function Arbeitstage2026DachRegionPage() {
             </div>
             
             <h1 className="text-4xl font-bold font-serif text-foreground mb-4">
-              Arbeitstage 2026 mit allen Feiertagen in DACH-Region (Download-Kalender)
+              Arbeitstage 2026 DACH-Region: Download-Kalender
             </h1>
             
             <div className="flex items-center gap-6 text-sm text-muted-foreground mb-6">
