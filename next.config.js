@@ -130,24 +130,24 @@ const nextConfig = {
         destination: '/mehrwertsteuer-rechner',
         permanent: true,
       },
-      // Handle malformed URLs with _rsc parameter
+      // Handle malformed URLs with _rsc parameter - only redirect if _rsc is present
       {
-        source: '/mehrwertsteuer-rechner/:_rsc*',
+        source: '/mehrwertsteuer-rechner/:_rsc+',
         destination: '/mehrwertsteuer-rechner',
         permanent: true,
       },
       {
-        source: '/inflationsrechner/:_rsc*',
+        source: '/inflationsrechner/:_rsc+',
         destination: '/inflationsrechner',
         permanent: true,
       },
       {
-        source: '/prozentrechner/:_rsc*',
+        source: '/prozentrechner/:_rsc+',
         destination: '/prozentrechner',
         permanent: true,
       },
       {
-        source: '/arbeitstage-rechner/:_rsc*',
+        source: '/arbeitstage-rechner/:_rsc+',
         destination: '/arbeitstage-rechner',
         permanent: true,
       },

@@ -13,7 +13,6 @@ export default function Header() {
   }
 
   const navigationItems = [
-   
     {
       id: "blog",
       label: "Blog",
@@ -86,21 +85,28 @@ export default function Header() {
             {/* Quick Access Buttons */}
             <div className="flex items-center space-x-2 ml-4 pl-4 border-l border-primary-foreground/20">
               <Link
-                href="#percentage"
+                href="/mehrwertsteuer-rechner"
+                className="flex items-center gap-2 px-3 py-2 bg-primary-foreground/10 rounded-lg text-xs font-medium text-primary-foreground hover:bg-primary-foreground/20 transition-all-smooth"
+              >
+                <Calculator className="h-4 w-4" />
+                MwSt
+              </Link>
+              <Link
+                href="/prozentrechner"
                 className="flex items-center gap-2 px-3 py-2 bg-primary-foreground/10 rounded-lg text-xs font-medium text-primary-foreground hover:bg-primary-foreground/20 transition-all-smooth"
               >
                 <Percent className="h-4 w-4" />
                 Prozent
               </Link>
               <Link
-                href="#workdays"
+                href="/arbeitstage-rechner"
                 className="flex items-center gap-2 px-3 py-2 bg-primary-foreground/10 rounded-lg text-xs font-medium text-primary-foreground hover:bg-primary-foreground/20 transition-all-smooth"
               >
                 <Calendar className="h-4 w-4" />
                 Arbeitstage
               </Link>
               <Link
-                href="#inflation"
+                href="/inflationsrechner"
                 className="flex items-center gap-2 px-3 py-2 bg-primary-foreground/10 rounded-lg text-xs font-medium text-primary-foreground hover:bg-primary-foreground/20 transition-all-smooth"
               >
                 <TrendingUp className="h-4 w-4" />
