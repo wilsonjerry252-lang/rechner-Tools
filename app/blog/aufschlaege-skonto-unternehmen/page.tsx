@@ -224,7 +224,7 @@ export default function AufschlaegeSkontoUnternehmenPage() {
             <h3 className="text-xl font-bold text-foreground mb-3 mt-6">Mengenskonto</h3>
             <p className="mb-4">
               Ein Nachlass bei größeren Bestellmengen. Beispiel: 5% Skonto ab 100 Stück, 10% Skonto ab 500 Stück.
-            </h3>
+            </p>
 
             <h3 className="text-xl font-bold text-foreground mb-3 mt-6">Treueskonto</h3>
             <p className="mb-4">
