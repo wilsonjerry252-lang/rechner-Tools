@@ -131,6 +131,7 @@ const nextConfig = {
         permanent: true,
       },
 
+
       // Handle malformed URLs with _rsc parameter - only redirect if _rsc is present
       {
         source: '/mehrwertsteuer-rechner/:_rsc+',

@@ -17,15 +17,19 @@ Allow: /prozentrechner
 Allow: /arbeitstage-rechner
 Allow: /inflationsrechner
 
+# Disallow problematic non-existent URLs
+Disallow: /blog/mehrwertsteuer-berechnung
+Disallow: /blog/mehrwertsteuer-deutschland-oesterreich-schweiz
+
 # Allow all blog posts
 Allow: /blog/mehrwertsteuer-export
 Allow: /blog/mehrwertsteuer-import
-Allow: /blog/mehrwertsteuer-berechnung
-Allow: /blog/mehrwertsteuer-deutschland-oesterreich-schweiz
+Allow: /blog/mehrwertsteuer-berechnung-richtig
+Allow: /blog/mehrwertsteuer-dach-vergleich
 Allow: /blog/mehrwertsteuer-unternehmer
 Allow: /blog/mehrwertsteuer-ausnahmen
-Allow: /blog/prozentrechner-anleitung
-Allow: /blog/arbeitstage-2025-uebersicht
+Allow: /blog/prozentrechnung-einfach-erklaert
+Allow: /blog/arbeitstage-2025-deutschland
 Allow: /blog/inflation-einfach-erklaert
 
 # Sitemap
