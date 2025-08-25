@@ -130,17 +130,7 @@ const nextConfig = {
         destination: '/mehrwertsteuer-rechner',
         permanent: true,
       },
-      // Fix 4xx errors - redirect incorrect blog post URLs
-      {
-        source: '/blog/mehrwertsteuer-berechnung',
-        destination: '/blog/mehrwertsteuer-berechnung-richtig',
-        permanent: true,
-      },
-      {
-        source: '/blog/mehrwertsteuer-deutschland-oesterreich-schweiz',
-        destination: '/blog/mehrwertsteuer-dach-vergleich',
-        permanent: true,
-      },
+
       // Handle malformed URLs with _rsc parameter - only redirect if _rsc is present
       {
         source: '/mehrwertsteuer-rechner/:_rsc+',
