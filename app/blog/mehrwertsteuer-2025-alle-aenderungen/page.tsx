@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap, AlertT
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Mehrwertsteuer 2025 Deutschland: Alle Änderungen im Überblick",
+  title: "Mehrwertsteuer 2025 Deutschland: Alle Änderungen",
   description: "Erfahren Sie alle wichtigen Änderungen der Mehrwertsteuer 2025 in Deutschland. Neue Sätze, Ausnahmen und praktische Tipps für Unternehmer und Verbraucher.",
   keywords: "mehrwertsteuer 2025, mwst änderungen deutschland, steuersätze 2025, mwst neuheiten, steuerreform 2025",
   openGraph: {
-    title: "Mehrwertsteuer 2025 Deutschland: Alle Änderungen im Überblick",
+    title: "Mehrwertsteuer 2025 Deutschland: Alle Änderungen",
     description: "Erfahren Sie alle wichtigen Änderungen der Mehrwertsteuer 2025 in Deutschland. Neue Sätze, Ausnahmen und praktische Tipps für Unternehmer und Verbraucher.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",

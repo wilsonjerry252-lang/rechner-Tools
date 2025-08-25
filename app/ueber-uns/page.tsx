@@ -1,10 +1,10 @@
 import Link from "next/link"
-import { ArrowLeft, Calculator, Heart, CreditCard, Users, Target, Award, Shield, Zap, Globe, TrendingUp, Euro, Calendar, Clock } from "lucide-react"
+import { ArrowLeft, Calculator, Heart, CreditCard, Users, Target, Award, Shield, Zap, Globe, TrendingUp, Euro, Calendar, Clock, CheckCircle, Star, Building, Lightbulb } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Über uns - Rechner Tools | Kostenlose Online-Rechner",
+  title: "Über uns - Rechner Tools | Professionelle Online-Rechner",
   description:
     "Erfahren Sie mehr über Rechner Tools - Ihre vertrauenswürdige Quelle für kostenlose, professionelle Online-Rechner im deutschsprachigen Raum. Entdecken Sie unsere Mission, Werte und das Team dahinter.",
   keywords: "über uns, rechner tools, online rechner, deutschland, österreich, schweiz, mehrwertsteuer rechner, prozentrechner, arbeitstage rechner",
@@ -26,9 +26,9 @@ export default function AboutPage() {
             <div className="flex items-center gap-4 logo-container">
               <Image src="/logo.png" alt="Rechner Tools Logo" width={48} height={48} className="h-12 w-12 rounded-full shadow-md" />
               <div>
-                        <h3 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
-          Rechner Tools
-        </h3>
+                <h3 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">
+                  Rechner Tools
+                </h3>
                 <p className="text-sm logo-subtitle text-blue-100 tracking-wide">
                   Professionelle Online-Rechner
                 </p>
@@ -231,6 +231,43 @@ export default function AboutPage() {
               </div>
             </div>
 
+            <h2 className="text-2xl font-bold text-foreground mt-12 mb-6">Partnerschaften & Kooperationen</h2>
+            
+            <p className="mb-6">
+              Wir arbeiten mit renommierten Partnern und Institutionen zusammen, um Ihnen 
+              die bestmöglichen und aktuellsten Informationen und Berechnungen zu bieten. 
+              Diese Kooperationen stellen sicher, dass unsere Tools stets auf dem neuesten Stand sind.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="text-center p-6 bg-gradient-to-br from-slate-50 to-gray-50 rounded-xl border border-slate-200">
+                <Building className="h-12 w-12 text-slate-600 mx-auto mb-4" />
+                <h3 className="font-semibold text-foreground mb-2">Öffentliche Institutionen</h3>
+                <p className="text-sm text-muted-foreground">
+                  Zusammenarbeit mit statistischen Ämtern und 
+                  Finanzbehörden für aktuelle Daten und Vorgaben.
+                </p>
+              </div>
+              
+              <div className="text-center p-6 bg-gradient-to-br from-amber-50 to-yellow-50 rounded-xl border border-amber-200">
+                <Award className="h-12 w-12 text-amber-600 mx-auto mb-4" />
+                <h3 className="font-semibold text-foreground mb-2">Bildungseinrichtungen</h3>
+                <p className="text-sm text-muted-foreground">
+                  Kooperationen mit Universitäten und Forschungseinrichtungen 
+                  für wissenschaftlich fundierte Berechnungsmethoden.
+                </p>
+              </div>
+              
+              <div className="text-center p-6 bg-gradient-to-br from-rose-50 to-pink-50 rounded-xl border border-rose-200">
+                <Users className="h-12 w-12 text-rose-600 mx-auto mb-4" />
+                <h3 className="font-semibold text-foreground mb-2">Fachverbände</h3>
+                <p className="text-sm text-muted-foreground">
+                  Mitgliedschaften in relevanten Fachverbänden für 
+                  kontinuierlichen Wissensaustausch und Updates.
+                </p>
+              </div>
+            </div>
+
             <h2 className="text-2xl font-bold text-foreground mt-12 mb-6">Unser Versprechen an Sie</h2>
             
             <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-xl p-6 mb-8">
@@ -270,6 +307,196 @@ export default function AboutPage() {
                   Bei technischen Problemen oder Fragen zur Nutzung 
                   unserer Tools helfen wir Ihnen gerne weiter.
                 </p>
+              </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-foreground mt-12 mb-6">Unsere Unternehmenswerte</h2>
+            
+            <div className="grid md:grid-cols-2 gap-6 mb-8">
+              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-xl border border-blue-100">
+                <div className="flex items-center gap-3 mb-4">
+                  <CheckCircle className="h-6 w-6 text-blue-600" />
+                  <h3 className="font-semibold text-foreground">Qualität & Präzision</h3>
+                </div>
+                <p className="text-sm text-muted-foreground">
+                  Jeder unserer Rechner durchläuft umfangreiche Tests und Validierungen. 
+                  Wir arbeiten mit offiziellen Datenquellen und aktuellen Formeln, um Ihnen 
+                  die höchstmögliche Genauigkeit zu garantieren.
+                </p>
+              </div>
+              
+              <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-6 rounded-xl border border-green-100">
+                <div className="flex items-center gap-3 mb-4">
+                  <Shield className="h-6 w-6 text-green-600" />
+                  <h3 className="font-semibold text-foreground">Datenschutz & Sicherheit</h3>
+                </div>
+                <p className="text-sm text-muted-foreground">
+                  Ihre Privatsphäre steht an erster Stelle. Alle Berechnungen erfolgen lokal 
+                  in Ihrem Browser. Wir speichern keine persönlichen Daten und verwenden 
+                  verschlüsselte Verbindungen.
+                </p>
+              </div>
+              
+              <div className="bg-gradient-to-br from-purple-50 to-violet-50 p-6 rounded-xl border border-purple-100">
+                <div className="flex items-center gap-3 mb-4">
+                  <Lightbulb className="h-6 w-6 text-purple-600" />
+                  <h3 className="font-semibold text-foreground">Innovation & Fortschritt</h3>
+                </div>
+                <p className="text-sm text-muted-foreground">
+                  Wir entwickeln unsere Tools kontinuierlich weiter und integrieren 
+                  neue Technologien. Unser Ziel ist es, Ihnen immer die modernsten 
+                  und benutzerfreundlichsten Lösungen anzubieten.
+                </p>
+              </div>
+              
+              <div className="bg-gradient-to-br from-orange-50 to-amber-50 p-6 rounded-xl border border-orange-100">
+                <div className="flex items-center gap-3 mb-4">
+                  <Users className="h-6 w-6 text-orange-600" />
+                  <h3 className="font-semibold text-foreground">Kundenorientierung</h3>
+                </div>
+                <p className="text-sm text-muted-foreground">
+                  Ihr Feedback ist uns wichtig. Wir hören auf Ihre Wünsche und 
+                  entwickeln unsere Rechner entsprechend Ihren Bedürfnissen. 
+                  Kundenzufriedenheit steht im Mittelpunkt unseres Handelns.
+                </p>
+              </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-foreground mt-12 mb-6">Unsere Expertise</h2>
+            
+            <p className="mb-6">
+              Unser Team verfügt über umfassende Erfahrung in verschiedenen Bereichen, 
+              von Finanzwesen und Mathematik bis hin zu Softwareentwicklung und UX-Design. 
+              Diese Kombination ermöglicht es uns, Rechner zu entwickeln, die sowohl 
+              technisch präzise als auch benutzerfreundlich sind.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl border border-blue-200">
+                <Building className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+                <h3 className="font-semibold text-foreground mb-2">Finanzexpertise</h3>
+                <p className="text-sm text-muted-foreground">
+                  Über 10 Jahre Erfahrung in der Finanzbranche mit Fokus auf 
+                  Steuerrecht, Buchhaltung und Finanzplanung.
+                </p>
+              </div>
+              
+              <div className="text-center p-6 bg-gradient-to-br from-green-50 to-green-100 rounded-xl border border-green-200">
+                <Calculator className="h-12 w-12 text-green-600 mx-auto mb-4" />
+                <h3 className="font-semibold text-foreground mb-2">Mathematische Präzision</h3>
+                <p className="text-sm text-muted-foreground">
+                  Mathematiker und Statistiker sorgen für die korrekte 
+                  Implementierung aller Berechnungsformeln und Algorithmen.
+                </p>
+              </div>
+              
+              <div className="text-center p-6 bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl border border-purple-200">
+                <Zap className="h-12 w-12 text-purple-600 mx-auto mb-4" />
+                <h3 className="font-semibold text-foreground mb-2">Technische Innovation</h3>
+                <p className="text-sm text-muted-foreground">
+                  Moderne Webtechnologien und agile Entwicklungsmethoden 
+                  für optimale Performance und Benutzerfreundlichkeit.
+                </p>
+              </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-foreground mt-12 mb-6">Qualitätssicherung & Zertifizierungen</h2>
+            
+            <p className="mb-6">
+              Wir legen größten Wert auf die Qualität unserer Rechner und deren Ergebnisse. 
+              Unser Qualitätsmanagementsystem stellt sicher, dass alle Tools den höchsten 
+              Standards entsprechen.
+            </p>
+
+            <div className="bg-gradient-to-r from-gray-50 to-blue-50 rounded-xl p-6 mb-8 border border-gray-200">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h3 className="font-semibold text-foreground mb-4 flex items-center gap-2">
+                    <Star className="h-5 w-5 text-yellow-500" />
+                    Qualitätsstandards
+                  </h3>
+                  <ul className="text-sm space-y-2 text-muted-foreground">
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="h-4 w-4 text-green-500" />
+                      Regelmäßige Code-Reviews und Tests
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="h-4 w-4 text-green-500" />
+                      Validierung gegen offizielle Datenquellen
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="h-4 w-4 text-green-500" />
+                      Performance-Optimierung und Monitoring
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="h-4 w-4 text-green-500" />
+                      Sicherheitsaudits und Updates
+                    </li>
+                  </ul>
+                </div>
+                
+                <div>
+                  <h3 className="font-semibold text-foreground mb-4 flex items-center gap-2">
+                    <Award className="h-5 w-5 text-blue-500" />
+                    Compliance & Rechtliches
+                  </h3>
+                  <ul className="text-sm space-y-2 text-muted-foreground">
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="h-4 w-4 text-green-500" />
+                      DSGVO-konforme Datenschutzrichtlinien
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="h-4 w-4 text-green-500" />
+                      Transparente Nutzungsbedingungen
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="h-4 w-4 text-green-500" />
+                      Rechtliche Compliance aller Berechnungen
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="h-4 w-4 text-green-500" />
+                      Regelmäßige rechtliche Überprüfungen
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-foreground mt-12 mb-6">Zukunftspläne & Entwicklung</h2>
+            
+            <p className="mb-6">
+              Wir blicken optimistisch in die Zukunft und arbeiten kontinuierlich daran, 
+              unser Angebot zu erweitern und zu verbessern. Unser Ziel ist es, Ihnen 
+              eine umfassende Plattform für alle Ihre Berechnungsbedürfnisse zu bieten.
+            </p>
+
+            <div className="grid md:grid-cols-2 gap-6 mb-8">
+              <div className="bg-gradient-to-br from-indigo-50 to-blue-50 p-6 rounded-xl border border-indigo-200">
+                <h3 className="font-semibold text-foreground mb-4 flex items-center gap-2">
+                  <TrendingUp className="h-5 w-5 text-indigo-600" />
+                  Neue Rechner & Features
+                </h3>
+                <ul className="text-sm space-y-2 text-muted-foreground">
+                  <li>• Erweiterte Finanzrechner</li>
+                  <li>• Immobilien- und Baufinanzierung</li>
+                  <li>• Steueroptimierungs-Tools</li>
+                  <li>• Mobile App-Entwicklung</li>
+                  <li>• API für Entwickler</li>
+                </ul>
+              </div>
+              
+              <div className="bg-gradient-to-br from-emerald-50 to-teal-50 p-6 rounded-xl border border-emerald-200">
+                <h3 className="font-semibold text-foreground mb-4 flex items-center gap-2">
+                  <Globe className="h-5 w-5 text-emerald-600" />
+                  Internationale Expansion
+                </h3>
+                <ul className="text-sm space-y-2 text-muted-foreground">
+                  <li>• Weitere europäische Länder</li>
+                  <li>• Mehrsprachige Unterstützung</li>
+                  <li>• Lokalisierte Steuersätze</li>
+                  <li>• Regionale Compliance</li>
+                  <li>• Lokale Partnerschaften</li>
+                </ul>
               </div>
             </div>
 

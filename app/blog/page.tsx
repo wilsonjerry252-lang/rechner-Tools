@@ -5,7 +5,7 @@ import Link from "next/link"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Blog - Rechner Tools | Steuern, Prozentrechnung, Arbeitstage & Inflation",
+  title: "Blog - Rechner Tools | Steuern, Prozentrechnung & mehr",
   description:
     "Entdecken Sie 20 hilfreiche Artikel zu Mehrwertsteuer, Prozentrechnung, Arbeitstagen und Inflation. Praktische Tipps und Ratgeber für den deutschsprachigen Raum.",
   keywords: "blog, ratgeber, mehrwertsteuer, prozentrechnung, arbeitstage, inflation, finanzen, tipps, steuern, deutschland",
@@ -23,7 +23,7 @@ export default function BlogPage() {
     // Mehrwertsteuer (VAT) - 5 posts
     {
       id: 1,
-      title: "Mehrwertsteuer 2025 Deutschland: Alle Änderungen im Überblick",
+      title: "Mehrwertsteuer 2025 Deutschland: Alle Änderungen",
       excerpt: "Erfahren Sie alles über die neuen Mehrwertsteuer-Regelungen 2025. Alle wichtigen Änderungen, Auswirkungen und praktische Tipps für Unternehmen und Verbraucher.",
       category: "Mehrwertsteuer",
       date: "2024-12-15",

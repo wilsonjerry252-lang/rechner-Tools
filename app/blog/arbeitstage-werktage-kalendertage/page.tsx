@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap, FileTe
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Arbeitstage vs. Werktage vs. Kalendertage: Unterschiede erklärt",
+  title: "Arbeitstage vs. Werktage vs. Kalendertage erklärt",
   description: "Lernen Sie den Unterschied zwischen Arbeitstagen, Werktagen und Kalendertagen kennen. Wichtige Begriffe für Arbeitszeitberechnung und Urlaubsplanung.",
   keywords: "arbeitstage werktage kalendertage unterschied, arbeitszeit berechnung, urlaubsplanung, feiertage berechnung",
   openGraph: {
-    title: "Arbeitstage vs. Werktage vs. Kalendertage: Unterschiede erklärt",
+    title: "Arbeitstage vs. Werktage vs. Kalendertage erklärt",
     description: "Lernen Sie den Unterschied zwischen Arbeitstagen, Werktagen und Kalendertagen kennen. Wichtige Begriffe für Arbeitszeitberechnung und Urlaubsplanung.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",
