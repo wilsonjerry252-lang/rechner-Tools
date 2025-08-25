@@ -1,14 +1,14 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { ArrowLeft, Calendar, Clock, ArrowRight, TrendingUp, Calculator, Activity, Globe, Download, Apple, RefreshCw } from "lucide-react"
+import { ArrowLeft, Calendar, Clock, ArrowRight, TrendingUp, Calculator, Activity, Globe, Download, Apple, RefreshCw, Building2, Percent, CalendarDays, TrendingDown } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Blog - Rechner Tools | Steuern & Finanzen",
+  title: "Blog - Rechner Tools | Steuern, Prozentrechnung, Arbeitstage & Inflation",
   description:
-    "Entdecken Sie hilfreiche Artikel zu Steuern, Prozentrechnung, Arbeitstagen und Inflation. Praktische Tipps und Ratgeber für den deutschsprachigen Raum.",
-  keywords: "blog, ratgeber, steuern, mehrwertsteuer, prozentrechnung, arbeitstage, inflation, finanzen, tipps",
+    "Entdecken Sie 20 hilfreiche Artikel zu Mehrwertsteuer, Prozentrechnung, Arbeitstagen und Inflation. Praktische Tipps und Ratgeber für den deutschsprachigen Raum.",
+  keywords: "blog, ratgeber, mehrwertsteuer, prozentrechnung, arbeitstage, inflation, finanzen, tipps, steuern, deutschland",
   alternates: {
     canonical: "https://www.rechnerjetzt.de/blog",
     languages: {
@@ -20,107 +20,231 @@ export const metadata = {
 
 export default function BlogPage() {
   const blogPosts = [
+    // Mehrwertsteuer (VAT) - 5 posts
     {
       id: 1,
-      title: "Mehrwertsteuer in Deutschland, Österreich und der Schweiz: Ein Vergleich",
-      excerpt:
-        "Erfahren Sie alles über die unterschiedlichen MwSt-Sätze in den DACH-Ländern und wie Sie diese korrekt berechnen.",
-      category: "Steuern",
+      title: "Mehrwertsteuer in Deutschland 2025: Alle Änderungen im Überblick",
+      excerpt: "Erfahren Sie alles über die neuen Mehrwertsteuer-Regelungen 2025. Alle wichtigen Änderungen, Auswirkungen und praktische Tipps für Unternehmen und Verbraucher.",
+      category: "Mehrwertsteuer",
       date: "2024-12-15",
-      readTime: "5 Min.",
+      readTime: "12 Min.",
       icon: Calculator,
       color: "primary",
-      slug: "mehrwertsteuer-deutschland-oesterreich-schweiz"
+      slug: "mehrwertsteuer-2025-alle-aenderungen"
     },
     {
       id: 2,
-      title: "Mehrwertsteuer berechnen: Methoden und Beispiele",
-      excerpt: "Lernen Sie verschiedene Methoden zur MwSt.-Berechnung kennen und sehen Sie praktische Beispiele.",
-      category: "Steuern",
-      date: "2024-12-15",
-      readTime: "6 Min.",
-      icon: Calculator,
-      color: "primary",
-      slug: "mehrwertsteuer-berechnung"
-    },
-    {
-      id: 3,
-      title: "Mehrwertsteuer für Unternehmer: Ein umfassender Leitfaden",
-      excerpt: "Alles was Unternehmer über MwSt., Vorsteuerabzug und korrekte Abrechnung wissen müssen.",
-      category: "Steuern",
+      title: "Wie berechnet man die Mehrwertsteuer richtig? (mit Beispielen)",
+      excerpt: "Lernen Sie Schritt für Schritt, wie Sie die Mehrwertsteuer korrekt berechnen. Mit praktischen Beispielen und Formeln für den Alltag.",
+      category: "Mehrwertsteuer",
       date: "2024-12-15",
       readTime: "10 Min.",
       icon: Calculator,
       color: "primary",
-      slug: "mehrwertsteuer-unternehmer"
+      slug: "mehrwertsteuer-berechnung-richtig"
+    },
+    {
+      id: 3,
+      title: "Mehrwertsteuer in Deutschland vs. Österreich vs. Schweiz: Ein Vergleich",
+      excerpt: "Vergleichen Sie die Mehrwertsteuer-Systeme der DACH-Region. Unterschiede, Gemeinsamkeiten und praktische Tipps für grenzüberschreitende Geschäfte.",
+      category: "Mehrwertsteuer",
+      date: "2024-12-15",
+      readTime: "10 Min.",
+      icon: Building2,
+      color: "primary",
+      slug: "mehrwertsteuer-dach-vergleich"
     },
     {
       id: 4,
-      title: "Mehrwertsteuer bei Exporten: Steuerfreie Ausfuhren",
-      excerpt: "Erfahren Sie alles über MwSt.-freie Exporte, Ausfuhrlieferungen und grenzüberschreitende Geschäfte.",
-      category: "Steuern",
+      title: "Die Geschichte der Mehrwertsteuer in Deutschland seit 1968",
+      excerpt: "Entdecken Sie die spannende Entwicklung der Mehrwertsteuer in Deutschland. Von der Einführung bis zu den aktuellen Regelungen.",
+      category: "Mehrwertsteuer",
       date: "2024-12-15",
       readTime: "8 Min.",
-      icon: Globe,
+      icon: Calculator,
       color: "primary",
-      slug: "mehrwertsteuer-export"
+      slug: "mehrwertsteuer-geschichte-deutschland"
     },
     {
       id: 5,
-      title: "Mehrwertsteuer bei Importen: Was Sie beachten müssen",
-      excerpt: "Alles über MwSt. bei Importen, Einfuhrumsatzsteuer und grenzüberschreitenden Geschäften.",
-      category: "Steuern",
+      title: "Mehrwertsteuer im Online-Handel: Was Shop-Betreiber wissen müssen",
+      excerpt: "Alles über Mehrwertsteuer im E-Commerce. Rechtliche Grundlagen, praktische Umsetzung und häufige Fehler vermeiden.",
+      category: "Mehrwertsteuer",
       date: "2024-12-15",
-      readTime: "7 Min.",
+      readTime: "9 Min.",
       icon: Globe,
       color: "primary",
-      slug: "mehrwertsteuer-import"
+      slug: "mehrwertsteuer-online-handel"
     },
-          {
-        id: 6,
-        title: "Mehrwertsteuer-Ausnahmen: Wann gilt welcher Satz?",
-        excerpt: "Erfahren Sie alles über MwSt.-Ausnahmen, ermäßigte Sätze und steuerfreie Leistungen.",
-        category: "Steuern",
-        date: "2024-12-15",
-        readTime: "8 Min.",
-        icon: Calculator,
-        color: "primary",
-        slug: "mehrwertsteuer-ausnahmen"
-      },
-      {
-        id: 7,
-        title: "Wie berechnet man Prozente richtig? Praktische Beispiele mit Prozentrechner",
-        excerpt: "Lernen Sie Prozentrechnung mit praktischen Beispielen. Formeln für Rabatt, Mehrwertsteuer, Trinkgeld und mehr.",
-        category: "Finanzen",
-        date: "2024-12-15",
-        readTime: "8 Min.",
-        icon: Calculator,
-        color: "secondary",
-        slug: "prozentrechner-anleitung"
-      },
-      {
-        id: 8,
-        title: "Arbeitstage 2025 in Deutschland, Österreich und der Schweiz - vollständiger Überblick",
-        excerpt: "Komplette Übersicht aller Arbeitstage 2025 für Deutschland, Österreich und Schweiz. Inklusive Feiertage und Planungstipps.",
-        category: "Planung",
-        date: "2024-12-15",
-        readTime: "12 Min.",
-        icon: Calendar,
-        color: "accent",
-        slug: "arbeitstage-2025-uebersicht"
-      },
-      {
-        id: 9,
-        title: "Inflation einfach erklärt: So verändert sich Ihre Kaufkraft",
-        excerpt: "Verstehen Sie Inflation: Ursachen, Auswirkungen und wie Sie Ihr Geld schützen. Mit historischen Daten und Beispielen.",
-        category: "Finanzen",
-        date: "2024-12-15",
-        readTime: "15 Min.",
-        icon: TrendingUp,
-        color: "primary",
-        slug: "inflation-einfach-erklaert"
-      }
-    ]
+    // Prozentrechner - 5 posts
+    {
+      id: 6,
+      title: "Prozentrechnung einfach erklärt: Formeln & Beispiele für den Alltag",
+      excerpt: "Verstehen Sie Prozentrechnung im Alltag. Von Rabatten über Mehrwertsteuer bis hin zu Zinsen - alles einfach erklärt mit Beispielen.",
+      category: "Prozentrechnung",
+      date: "2024-12-15",
+      readTime: "11 Min.",
+      icon: Percent,
+      color: "secondary",
+      slug: "prozentrechnung-einfach-erklaert"
+    },
+    {
+      id: 7,
+      title: "Rabatte richtig berechnen: So sparen Sie im Supermarkt wirklich",
+      excerpt: "Lernen Sie, wie Sie echte Rabatte erkennen und berechnen. Tipps für intelligentes Einkaufen und Geld sparen im Alltag.",
+      category: "Prozentrechnung",
+      date: "2024-12-15",
+      readTime: "8 Min.",
+      icon: Percent,
+      color: "secondary",
+      slug: "rabatte-richtig-berechnen"
+    },
+    {
+      id: 8,
+      title: "Prozentuale Preissteigerung verstehen: Ein Leitfaden für Verbraucher",
+      excerpt: "Verstehen Sie Preissteigerungen und deren Auswirkungen auf Ihr Budget. Wie Sie Preiserhöhungen berechnen und damit umgehen.",
+      category: "Prozentrechnung",
+      date: "2024-12-15",
+      readTime: "9 Min.",
+      icon: TrendingUp,
+      color: "secondary",
+      slug: "prozentuale-preissteigerung"
+    },
+    {
+      id: 9,
+      title: "Aufschläge und Skonto: So berechnen Unternehmen ihre Preise",
+      excerpt: "Erfahren Sie, wie Unternehmen ihre Preise kalkulieren. Von Aufschlägen über Skonto bis hin zu Gewinnmargen.",
+      category: "Prozentrechnung",
+      date: "2024-12-15",
+      readTime: "10 Min.",
+      icon: Percent,
+      color: "secondary",
+      slug: "aufschlaege-skonto-unternehmen"
+    },
+    {
+      id: 10,
+      title: "Prozentrechnung für Schüler: Einfache Beispiele zum Lernen",
+      excerpt: "Prozentrechnung leicht gemacht für Schüler. Mit einfachen Beispielen und Übungen zum besseren Verständnis der Mathematik.",
+      category: "Prozentrechnung",
+      date: "2024-12-15",
+      readTime: "7 Min.",
+      icon: Percent,
+      color: "secondary",
+      slug: "prozentrechnung-schueler"
+    },
+    // Arbeitstage - 5 posts
+    {
+      id: 11,
+      title: "Arbeitstage 2025 in Deutschland: Bundesländer im Vergleich",
+      excerpt: "Vollständige Übersicht aller Arbeitstage 2025 für alle deutschen Bundesländer. Inklusive Feiertage und Planungstipps.",
+      category: "Arbeitstage",
+      date: "2024-12-15",
+      readTime: "12 Min.",
+      icon: CalendarDays,
+      color: "accent",
+      slug: "arbeitstage-2025-deutschland"
+    },
+    {
+      id: 12,
+      title: "Arbeitstage 2026 mit allen Feiertagen in DACH-Region (Download-Kalender)",
+      excerpt: "Planen Sie Ihr Jahr 2026 optimal mit unserem Arbeitstage-Kalender. Alle Feiertage für Deutschland, Österreich und Schweiz.",
+      category: "Arbeitstage",
+      date: "2024-12-15",
+      readTime: "10 Min.",
+      icon: CalendarDays,
+      color: "accent",
+      slug: "arbeitstage-2026-dach-region"
+    },
+    {
+      id: 13,
+      title: "Wie viele Arbeitstage hat ein Jahr? Einfache Berechnung",
+      excerpt: "Lernen Sie, wie Sie die Anzahl der Arbeitstage in einem Jahr berechnen. Mit Formeln und praktischen Beispielen.",
+      category: "Arbeitstage",
+      date: "2024-12-15",
+      readTime: "8 Min.",
+      icon: CalendarDays,
+      color: "accent",
+      slug: "arbeitstage-berechnung"
+    },
+    {
+      id: 14,
+      title: "Feiertage und Brückentage 2025: So planen Sie Ihren Urlaub clever",
+      excerpt: "Optimieren Sie Ihren Urlaub 2025 mit Brückentagen. Alle Feiertage und clevere Urlaubsplanung für maximalen Erholungswert.",
+      category: "Arbeitstage",
+      date: "2024-12-15",
+      readTime: "9 Min.",
+      icon: CalendarDays,
+      color: "accent",
+      slug: "feiertage-brueckentage-2025"
+    },
+    {
+      id: 15,
+      title: "Unterschied zwischen Arbeitstagen, Werktagen und Kalendertagen erklärt",
+      excerpt: "Verstehen Sie die Unterschiede zwischen Arbeitstagen, Werktagen und Kalendertagen. Wichtige Begriffe für die Arbeitsplanung.",
+      category: "Arbeitstage",
+      date: "2024-12-15",
+      readTime: "7 Min.",
+      icon: CalendarDays,
+      color: "accent",
+      slug: "arbeitstage-werktage-kalendertage"
+    },
+    // Inflation - 5 posts
+    {
+      id: 16,
+      title: "Inflation einfach erklärt: Ursachen, Folgen & Beispiele",
+      excerpt: "Verstehen Sie Inflation und deren Auswirkungen auf Ihr Geld. Von Ursachen über Folgen bis hin zu praktischen Beispielen.",
+      category: "Inflation",
+      date: "2024-12-15",
+      readTime: "11 Min.",
+      icon: TrendingDown,
+      color: "primary",
+      slug: "inflation-einfach-erklaert"
+    },
+    {
+      id: 17,
+      title: "Inflation in Deutschland seit 1991: Eine historische Analyse",
+      excerpt: "Entdecken Sie die Entwicklung der Inflation in Deutschland über die letzten Jahrzehnte. Historische Daten und Trends.",
+      category: "Inflation",
+      date: "2024-12-15",
+      readTime: "10 Min.",
+      icon: TrendingDown,
+      color: "primary",
+      slug: "inflation-deutschland-seit-1991"
+    },
+    {
+      id: 18,
+      title: "Wie schützt man sein Geld vor Inflation? Praktische Tipps",
+      excerpt: "Lernen Sie effektive Strategien zum Schutz Ihres Geldes vor Inflation. Von Investitionen bis hin zu Alltagsstrategien.",
+      category: "Inflation",
+      date: "2024-12-15",
+      readTime: "12 Min.",
+      icon: TrendingDown,
+      color: "primary",
+      slug: "geld-schutz-inflation"
+    },
+    {
+      id: 19,
+      title: "Kaufkraftentwicklung in Deutschland: So hat sich 1 € verändert",
+      excerpt: "Verfolgen Sie die Kaufkraftentwicklung des Euros in Deutschland. Wie viel ist Ihr Geld heute noch wert?",
+      category: "Inflation",
+      date: "2024-12-15",
+      readTime: "9 Min.",
+      icon: TrendingDown,
+      color: "primary",
+      slug: "kaufkraftentwicklung-deutschland"
+    },
+    {
+      id: 20,
+      title: "Inflation 2025 Prognose: Was erwarten Experten?",
+      excerpt: "Blicken Sie in die Zukunft: Was sagen Experten zur Inflation 2025? Prognosen, Trends und Handlungsempfehlungen.",
+      category: "Inflation",
+      date: "2024-12-15",
+      readTime: "8 Min.",
+      icon: TrendingDown,
+      color: "primary",
+      slug: "inflation-2025-prognose"
+    }
+  ]
 
   
 

@@ -68,49 +68,6 @@
     <priority>0.6</priority>
   </url>
   
-  <!-- VAT Blog Posts -->
-  <url>
-    <loc>https://www.rechnerjetzt.de/blog/mehrwertsteuer-berechnung</loc>
-    <lastmod>2024-12-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.rechnerjetzt.de/blog/mehrwertsteuer-deutschland-oesterreich-schweiz</loc>
-    <lastmod>2024-12-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.rechnerjetzt.de/blog/mehrwertsteuer-export</loc>
-    <lastmod>2024-12-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.rechnerjetzt.de/blog/mehrwertsteuer-import</loc>
-    <lastmod>2024-12-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.rechnerjetzt.de/blog/mehrwertsteuer-unternehmer</loc>
-    <lastmod>2024-12-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.rechnerjetzt.de/blog/mehrwertsteuer-ausnahmen</loc>
-    <lastmod>2024-12-15</lastmod>
-        <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
   <!-- Calculator Pages -->
   <url>
     <loc>https://www.rechnerjetzt.de/prozentrechner</loc>
@@ -148,52 +105,145 @@
     <priority>0.8</priority>
   </url>
   
-  <!-- Calculator Blog Posts -->
+  <!-- NEW BLOG POSTS - Mehrwertsteuer (VAT) -->
   <url>
-    <loc>https://www.rechnerjetzt.de/blog/prozentrechner-anleitung</loc>
+    <loc>https://www.rechnerjetzt.de/blog/mehrwertsteuer-2025-alle-aenderungen</loc>
     <lastmod>2024-12-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://www.rechnerjetzt.de/blog/arbeitstage-2025-uebersicht</loc>
+    <loc>https://www.rechnerjetzt.de/blog/mehrwertsteuer-berechnung-richtig</loc>
     <lastmod>2024-12-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/mehrwertsteuer-dach-vergleich</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/mehrwertsteuer-geschichte-deutschland</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/mehrwertsteuer-online-handel</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- NEW BLOG POSTS - Prozentrechnung -->
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/prozentrechnung-einfach-erklaert</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/rabatte-richtig-berechnen</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/prozentuale-preissteigerung</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/aufschlaege-skonto-unternehmen</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/prozentrechnung-schueler</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- NEW BLOG POSTS - Arbeitstage -->
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/arbeitstage-2025-deutschland</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/arbeitstage-2026-dach-region</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/arbeitstage-berechnung</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/feiertage-brueckentage-2025</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/arbeitstage-werktage-kalendertage</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- NEW BLOG POSTS - Inflation -->
   <url>
     <loc>https://www.rechnerjetzt.de/blog/inflation-einfach-erklaert</loc>
     <lastmod>2024-12-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- New Niche Blog Posts -->
+  
   <url>
-    <loc>https://www.rechnerjetzt.de/blog/finanzrechner-deutschland</loc>
+    <loc>https://www.rechnerjetzt.de/blog/inflation-deutschland-seit-1991</loc>
     <lastmod>2024-12-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://www.rechnerjetzt.de/blog/steuerrechner-deutschland</loc>
+    <loc>https://www.rechnerjetzt.de/blog/geld-schutz-inflation</loc>
     <lastmod>2024-12-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://www.rechnerjetzt.de/blog/zeitrechner-deutschland</loc>
+    <loc>https://www.rechnerjetzt.de/blog/kaufkraftentwicklung-deutschland</loc>
     <lastmod>2024-12-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://www.rechnerjetzt.de/blog/rechner-tools-deutschland</loc>
+    <loc>https://www.rechnerjetzt.de/blog/inflation-2025-prognose</loc>
     <lastmod>2024-12-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
