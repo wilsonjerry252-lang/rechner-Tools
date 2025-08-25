@@ -390,7 +390,7 @@ export default function KaufkraftentwicklungDeutschlandPage() {
 
             <h3 className="text-xl font-bold text-foreground mb-3 mt-6">Wie kann ich die Kaufkraft meiner Ersparnisse berechnen?</h3>
             <p className="mb-6">
-              Sie können die Kaufkraftentwicklung mit unserem Inflation-Rechner berechnen. Er zeigt Ihnen, wie viel Ihr Geld in der Zukunft noch wert ist.
+              Sie können die Kaufkraftentwicklung mit unserem Inflationsrechner berechnen. Er zeigt Ihnen, wie viel Ihr Geld in der Zukunft noch wert ist.
             </p>
 
             <h3 className="text-xl font-bold text-foreground mb-3 mt-6">Ist der Kaufkraftverlust unvermeidlich?</h3>
@@ -401,19 +401,19 @@ export default function KaufkraftentwicklungDeutschlandPage() {
             <div className="bg-secondary/10 p-6 rounded-xl mb-6 border border-secondary/20">
               <h3 className="text-lg font-bold text-foreground mb-4">💡 Praxistipp:</h3>
               <p className="mb-4">
-                Nutzen Sie unseren <Link href="/inflation-rechner" className="text-primary hover:underline font-medium">Inflation-Rechner</Link> für eine schnelle und präzise Berechnung der Kaufkraftentwicklung Ihres Geldes. Er zeigt Ihnen, wie sich 1 Euro über die Jahre entwickelt hat und hilft Ihnen bei der langfristigen Finanzplanung.
+                Nutzen Sie unseren <Link href="/inflationsrechner" className="text-primary hover:underline font-medium">Inflationsrechner</Link> für eine schnelle und präzise Berechnung der Kaufkraftentwicklung Ihres Geldes. Er zeigt Ihnen, wie sich 1 Euro über die Jahre entwickelt hat und hilft Ihnen bei der langfristigen Finanzplanung.
               </p>
             </div>
 
             <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Fazit</h2>
             <p className="mb-6">
-              Die Kaufkraft des Euros hat sich seit 1999 erheblich verändert. Was damals 1 Euro wert war, ist heute nur noch etwa 62 Cent wert. Dieser Kaufkraftverlust betrifft alle Bereiche des Lebens und macht es umso wichtiger, aktiv gegen Inflation vorzugehen. Mit der richtigen Anlagestrategie können Sie den Kaufkraftverlust ausgleichen und Ihre finanzielle Zukunft sichern. Wichtig ist, dass Sie früh beginnen, Ihr Vermögen diversifizieren und eine langfristige Perspektive einnehmen. Nutzen Sie die praktischen Beispiele als Referenz und unseren Inflation-Rechner für eine präzise Berechnung der Kaufkraftentwicklung.
+              Die Kaufkraft des Euros hat sich seit 1999 erheblich verändert. Was damals 1 Euro wert war, ist heute nur noch etwa 62 Cent wert. Dieser Kaufkraftverlust betrifft alle Bereiche des Lebens und macht es umso wichtiger, aktiv gegen Inflation vorzugehen. Mit der richtigen Anlagestrategie können Sie den Kaufkraftverlust ausgleichen und Ihre finanzielle Zukunft sichern. Wichtig ist, dass Sie früh beginnen, Ihr Vermögen diversifizieren und eine langfristige Perspektive einnehmen. Nutzen Sie die praktischen Beispiele als Referenz und unseren Inflationsrechner für eine präzise Berechnung der Kaufkraftentwicklung.
             </p>
 
             <div className="bg-primary/5 p-6 rounded-xl mt-8 border border-primary/20">
               <h3 className="text-lg font-bold text-foreground mb-4">Weitere Informationen</h3>
               <p className="mb-4">
-                Entdecken Sie weitere nützliche Artikel zu Wirtschaft und Finanzen in unserem <Link href="/blog" className="text-primary hover:underline font-medium">Blog</Link> oder nutzen Sie direkt unseren <Link href="/inflation-rechner" className="text-primary hover:underline font-medium">Inflation-Rechner</Link> für Ihre Berechnungen.
+                Entdecken Sie weitere nützliche Artikel zu Wirtschaft und Finanzen in unserem <Link href="/blog" className="text-primary hover:underline font-medium">Blog</Link> oder nutzen Sie direkt unseren <Link href="/inflationsrechner" className="text-primary hover:underline font-medium">Inflationsrechner</Link> für Ihre Berechnungen.
               </p>
             </div>
           </div>

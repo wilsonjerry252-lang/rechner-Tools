@@ -414,7 +414,7 @@ export default function InflationDeutschlandSeit1991Page() {
             <div className="bg-secondary/10 p-6 rounded-xl mb-6 border border-secondary/20">
               <h3 className="text-lg font-bold text-foreground mb-4">💡 Praxistipp:</h3>
               <p className="mb-4">
-                Nutzen Sie unseren <Link href="/inflation-rechner" className="text-primary hover:underline font-medium">Inflation-Rechner</Link> für eine schnelle und präzise Berechnung der historischen Kaufkraftentwicklung Ihres Geldes. Er zeigt Ihnen, wie sich die Inflation seit 1991 auf Ihre Ersparnisse ausgewirkt hat.
+                Nutzen Sie unseren <Link href="/inflationsrechner" className="text-primary hover:underline font-medium">Inflationsrechner</Link> für eine schnelle und präzise Berechnung der historischen Kaufkraftentwicklung Ihres Geldes. Er zeigt Ihnen, wie sich die Inflation seit 1991 auf Ihre Ersparnisse ausgewirkt hat.
               </p>
             </div>
 
@@ -426,7 +426,7 @@ export default function InflationDeutschlandSeit1991Page() {
             <div className="bg-primary/5 p-6 rounded-xl mt-8 border border-primary/20">
               <h3 className="text-lg font-bold text-foreground mb-4">Weitere Informationen</h3>
               <p className="mb-4">
-                Entdecken Sie weitere nützliche Artikel zu Wirtschaft und Finanzen in unserem <Link href="/blog" className="text-primary hover:underline font-medium">Blog</Link> oder nutzen Sie direkt unseren <Link href="/inflation-rechner" className="text-primary hover:underline font-medium">Inflation-Rechner</Link> für Ihre historischen Berechnungen.
+                Entdecken Sie weitere nützliche Artikel zu Wirtschaft und Finanzen in unserem <Link href="/blog" className="text-primary hover:underline font-medium">Blog</Link> oder nutzen Sie direkt unseren <Link href="/inflationsrechner" className="text-primary hover:underline font-medium">Inflationsrechner</Link> für Ihre historischen Berechnungen.
               </p>
             </div>
           </div>
