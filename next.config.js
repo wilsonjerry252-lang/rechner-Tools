@@ -115,24 +115,40 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/mehrwertsteuer-rechner',
-        destination: '/',
-        permanent: true,
-      },
-      {
         source: '/mwst-rechner',
-        destination: '/',
+        destination: '/mehrwertsteuer-rechner',
         permanent: true,
       },
       {
         source: '/steuerrechner',
-        destination: '/',
+        destination: '/mehrwertsteuer-rechner',
         permanent: true,
       },
       // Fix 4xx errors - redirect old calculator URLs
       {
         source: '/vat-calculator',
-        destination: '/#vat',
+        destination: '/mehrwertsteuer-rechner',
+        permanent: true,
+      },
+      // Handle malformed URLs with _rsc parameter
+      {
+        source: '/mehrwertsteuer-rechner/:_rsc*',
+        destination: '/mehrwertsteuer-rechner',
+        permanent: true,
+      },
+      {
+        source: '/inflationsrechner/:_rsc*',
+        destination: '/inflationsrechner',
+        permanent: true,
+      },
+      {
+        source: '/prozentrechner/:_rsc*',
+        destination: '/prozentrechner',
+        permanent: true,
+      },
+      {
+        source: '/arbeitstage-rechner/:_rsc*',
+        destination: '/arbeitstage-rechner',
         permanent: true,
       },
     ]
