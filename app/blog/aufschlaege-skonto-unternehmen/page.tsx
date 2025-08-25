@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap, Buildi
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Aufschläge und Skonto: So berechnen Unternehmen ihre Preise",
+  title: "Aufschläge & Skonto: So berechnen Unternehmen Preise",
   description: "Lernen Sie, wie Unternehmen Aufschläge und Skonti berechnen. Praktische Beispiele für die Preisgestaltung im B2B-Bereich.",
   keywords: "aufschlag berechnen, skonto berechnen, unternehmen preise, b2b preisgestaltung, gewinnmarge, handelsspanne",
   openGraph: {
-    title: "Aufschläge und Skonto: So berechnen Unternehmen ihre Preise",
+    title: "Aufschläge & Skonto: So berechnen Unternehmen Preise",
     description: "Lernen Sie, wie Unternehmen Aufschläge und Skonti berechnen. Praktische Beispiele für die Preisgestaltung im B2B-Bereich.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",
@@ -59,7 +59,7 @@ export default function AufschlaegeSkontoUnternehmenPage() {
             </div>
             
             <h1 className="text-4xl font-bold font-serif text-foreground mb-4">
-              Aufschläge und Skonto: So berechnen Unternehmen ihre Preise
+              Aufschläge & Skonto: So berechnen Unternehmen Preise
             </h1>
             
             <div className="flex items-center gap-6 text-sm text-muted-foreground mb-6">

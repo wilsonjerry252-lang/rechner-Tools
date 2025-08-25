@@ -23,7 +23,7 @@ export default function BlogPage() {
     // Mehrwertsteuer (VAT) - 5 posts
     {
       id: 1,
-      title: "Mehrwertsteuer in Deutschland 2025: Alle Änderungen im Überblick",
+      title: "Mehrwertsteuer 2025 Deutschland: Alle Änderungen im Überblick",
       excerpt: "Erfahren Sie alles über die neuen Mehrwertsteuer-Regelungen 2025. Alle wichtigen Änderungen, Auswirkungen und praktische Tipps für Unternehmen und Verbraucher.",
       category: "Mehrwertsteuer",
       date: "2024-12-15",
@@ -34,7 +34,7 @@ export default function BlogPage() {
     },
     {
       id: 2,
-      title: "Wie berechnet man die Mehrwertsteuer richtig? (mit Beispielen)",
+      title: "Mehrwertsteuer richtig berechnen: Mit Beispielen",
       excerpt: "Lernen Sie Schritt für Schritt, wie Sie die Mehrwertsteuer korrekt berechnen. Mit praktischen Beispielen und Formeln für den Alltag.",
       category: "Mehrwertsteuer",
       date: "2024-12-15",
@@ -56,7 +56,7 @@ export default function BlogPage() {
     },
     {
       id: 4,
-      title: "Die Geschichte der Mehrwertsteuer in Deutschland seit 1968",
+      title: "Mehrwertsteuer Geschichte Deutschland: Entwicklung seit 1968",
       excerpt: "Entdecken Sie die spannende Entwicklung der Mehrwertsteuer in Deutschland. Von der Einführung bis zu den aktuellen Regelungen.",
       category: "Mehrwertsteuer",
       date: "2024-12-15",
@@ -112,7 +112,7 @@ export default function BlogPage() {
     },
     {
       id: 9,
-      title: "Aufschläge und Skonto: So berechnen Unternehmen ihre Preise",
+      title: "Aufschläge & Skonto: So berechnen Unternehmen Preise",
       excerpt: "Erfahren Sie, wie Unternehmen ihre Preise kalkulieren. Von Aufschlägen über Skonto bis hin zu Gewinnmargen.",
       category: "Prozentrechnung",
       date: "2024-12-15",

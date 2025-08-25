@@ -59,7 +59,7 @@ export default function MehrwertsteuerGeschichteDeutschlandPage() {
             </div>
             
             <h1 className="text-4xl font-bold font-serif text-foreground mb-4">
-              Die Geschichte der Mehrwertsteuer in Deutschland seit 1968
+              Mehrwertsteuer Geschichte Deutschland: Entwicklung seit 1968
             </h1>
             
             <div className="flex items-center gap-6 text-sm text-muted-foreground mb-6">

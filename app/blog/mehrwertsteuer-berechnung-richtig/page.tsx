@@ -3,11 +3,11 @@ import { ArrowLeft, Calendar, Clock, Calculator, TrendingUp, Shield, Zap, FileTe
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Mehrwertsteuer berechnen richtig: Methoden & Beispiele",
+  title: "Mehrwertsteuer richtig berechnen: Mit Beispielen",
   description: "Lernen Sie verschiedene Methoden zur MwSt.-Berechnung kennen und sehen Sie praktische Beispiele für Brutto-zu-Netto und Netto-zu-Brutto Berechnungen.",
   keywords: "mehrwertsteuer berechnen, mwst berechnung, brutto netto, steuerberechnung, mwst formel, steuerrechner",
   openGraph: {
-    title: "Mehrwertsteuer berechnen richtig: Methoden & Beispiele",
+    title: "Mehrwertsteuer richtig berechnen: Mit Beispielen",
     description: "Lernen Sie verschiedene Methoden zur MwSt.-Berechnung kennen und sehen Sie praktische Beispiele für Brutto-zu-Netto und Netto-zu-Brutto Berechnungen.",
     type: "article",
     publishedTime: "2024-12-15T10:00:00Z",
@@ -59,7 +59,7 @@ export default function MehrwertsteuerBerechnungRichtigPage() {
             </div>
             
             <h1 className="text-4xl font-bold font-serif text-foreground mb-4">
-              Wie berechnet man die Mehrwertsteuer richtig? (mit Beispielen)
+              Mehrwertsteuer richtig berechnen: Mit Beispielen
             </h1>
             
             <div className="flex items-center gap-6 text-sm text-muted-foreground mb-6">
