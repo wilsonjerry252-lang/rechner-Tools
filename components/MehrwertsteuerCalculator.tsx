@@ -1,8 +1,8 @@
 import Link from "next/link"
-import InflationCalculator from "@/components/InflationCalculator"
-import { TrendingUp, Calculator, Calendar, DollarSign, BarChart3 } from "lucide-react"
+import VATCalculator from "@/components/VATCalculator"
+import { ChevronRight, Home, Calculator, Euro, FileText, TrendingUp, Shield, Zap } from "lucide-react"
 
-export default function InflationCalculatorComponent() {
+export default function MehrwertsteuerCalculator() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-secondary/5 to-accent/5">
       {/* Sticky Header */}
@@ -30,25 +30,25 @@ export default function InflationCalculatorComponent() {
           <div className="mb-8">
             <div className="flex items-center gap-3 mb-4">
               <div className="p-2 rounded-lg bg-primary/10">
-                <TrendingUp className="h-5 w-5 text-primary" />
+                <Calculator className="h-5 w-5 text-primary" />
               </div>
               <span className="text-sm font-medium px-3 py-1 rounded-full bg-primary/10 text-primary">
-                Inflation
+                Steuern
               </span>
             </div>
             
             <h1 className="text-4xl font-bold font-serif text-foreground mb-4">
-              Online Inflationsrechner Deutschland
+              Online Mehrwertsteuer Rechner 2025
             </h1>
             
             <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
-              Berechnen Sie die Kaufkraftveränderung Ihres Geldes durch Inflation. 
-              Basierend auf historischen Inflationsraten des Statistischen Bundesamts.
+              Kostenloser Online Mehrwertsteuer-Rechner für Deutschland, Österreich und die Schweiz. 
+              Einfach, schnell und genau - berechnen Sie MwSt. von Netto zu Brutto und umgekehrt.
             </p>
           </div>
 
           {/* Calculator Component */}
-          <InflationCalculator />
+          <VATCalculator />
 
           {/* FAQ Section */}
           <div className="mt-12">
@@ -56,26 +56,23 @@ export default function InflationCalculatorComponent() {
             
             <div className="space-y-6">
               <div className="bg-muted/30 p-6 rounded-lg">
-                <h3 className="font-semibold text-foreground mb-3">Wie wird die Inflation berechnet?</h3>
+                <h3 className="font-semibold text-foreground mb-3">Wie berechne ich die Mehrwertsteuer von Netto zu Brutto?</h3>
                 <p className="text-muted-foreground">
-                  Die Berechnung basiert auf dem Verbraucherpreisindex (VPI) des Statistischen Bundesamts. 
-                  Jedes Jahr wird der Betrag mit der jeweiligen Inflationsrate multipliziert.
+                  Multiplizieren Sie den Nettobetrag mit (1 + MwSt.-Satz). Beispiel: 100€ × 1,19 = 119€ bei 19% MwSt. in Deutschland.
                 </p>
               </div>
               
               <div className="bg-muted/30 p-6 rounded-lg">
-                <h3 className="font-semibold text-foreground mb-3">Warum war die Inflation 2022 so hoch?</h3>
+                <h3 className="font-semibold text-foreground mb-3">Welche MwSt.-Sätze gelten in Deutschland, Österreich und der Schweiz?</h3>
                 <p className="text-muted-foreground">
-                  2022 erreichte die Inflation 6,9% - hauptsächlich durch Energiepreise, Lieferkettenprobleme 
-                  und die Auswirkungen des Ukraine-Kriegs.
+                  Deutschland: 19% (ermäßigt 7%), Österreich: 20% (ermäßigt 10%), Schweiz: 8.1% (ermäßigt 2.5%).
                 </p>
               </div>
               
               <div className="bg-muted/30 p-6 rounded-lg">
-                <h3 className="font-semibold text-foreground mb-3">Wie kann ich mich vor Inflation schützen?</h3>
+                <h3 className="font-semibold text-foreground mb-3">Wie berechne ich die MwSt. von Brutto zu Netto?</h3>
                 <p className="text-muted-foreground">
-                  Investitionen in Sachwerte, Aktien oder Immobilien können helfen, 
-                  da diese oft mit der Inflation steigen.
+                  Teilen Sie den Bruttobetrag durch (1 + MwSt.-Satz). Beispiel: 119€ ÷ 1,19 = 100€ bei 19% MwSt.
                 </p>
               </div>
             </div>
@@ -84,26 +81,26 @@ export default function InflationCalculatorComponent() {
           {/* Features Section */}
           <div className="mt-12 grid md:grid-cols-3 gap-6">
             <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl border border-blue-200">
-              <BarChart3 className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-              <h3 className="font-semibold text-foreground mb-2">Historische Daten</h3>
+              <Euro className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+              <h3 className="font-semibold text-foreground mb-2">Aktuelle Steuersätze</h3>
               <p className="text-sm text-muted-foreground">
-                Inflationsraten seit 1991 vom Statistischen Bundesamt
+                Alle aktuellen MwSt-Sätze für Deutschland, Österreich und die Schweiz
               </p>
             </div>
             
             <div className="text-center p-6 bg-gradient-to-br from-green-50 to-green-100 rounded-xl border border-green-200">
-              <Calendar className="h-12 w-12 text-green-600 mx-auto mb-4" />
-              <h3 className="font-semibold text-foreground mb-2">Flexible Zeiträume</h3>
+              <Shield className="h-12 w-12 text-green-600 mx-auto mb-4" />
+              <h3 className="font-semibold text-foreground mb-2">Datenschutz</h3>
               <p className="text-sm text-muted-foreground">
-                Berechnung für beliebige Zeiträume zwischen 1991 und heute
+                Ihre Eingaben werden nicht gespeichert oder weitergegeben
               </p>
             </div>
             
             <div className="text-center p-6 bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl border border-purple-200">
-              <DollarSign className="h-12 w-12 text-purple-600 mx-auto mb-4" />
-              <h3 className="font-semibold text-foreground mb-2">Kaufkraftvergleich</h3>
+              <Zap className="h-12 w-12 text-purple-600 mx-auto mb-4" />
+              <h3 className="font-semibold text-foreground mb-2">Schnell & Einfach</h3>
               <p className="text-sm text-muted-foreground">
-                Zeigt, wie sich Ihre Kaufkraft über die Zeit entwickelt hat
+                Sofortige Ergebnisse ohne Registrierung
               </p>
             </div>
           </div>

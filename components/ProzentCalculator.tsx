@@ -1,8 +1,8 @@
 import Link from "next/link"
-import InflationCalculator from "@/components/InflationCalculator"
-import { TrendingUp, Calculator, Calendar, DollarSign, BarChart3 } from "lucide-react"
+import PercentageCalculator from "@/components/PercentageCalculator"
+import { Calculator, Percent, TrendingUp, TrendingDown, DollarSign } from "lucide-react"
 
-export default function InflationCalculatorComponent() {
+export default function ProzentCalculator() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-secondary/5 to-accent/5">
       {/* Sticky Header */}
@@ -30,25 +30,25 @@ export default function InflationCalculatorComponent() {
           <div className="mb-8">
             <div className="flex items-center gap-3 mb-4">
               <div className="p-2 rounded-lg bg-primary/10">
-                <TrendingUp className="h-5 w-5 text-primary" />
+                <Percent className="h-5 w-5 text-primary" />
               </div>
               <span className="text-sm font-medium px-3 py-1 rounded-full bg-primary/10 text-primary">
-                Inflation
+                Prozentrechnung
               </span>
             </div>
             
             <h1 className="text-4xl font-bold font-serif text-foreground mb-4">
-              Online Inflationsrechner Deutschland
+              Online Prozentrechner
             </h1>
             
             <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
-              Berechnen Sie die Kaufkraftveränderung Ihres Geldes durch Inflation. 
-              Basierend auf historischen Inflationsraten des Statistischen Bundesamts.
+              Kostenloser Online Prozentrechner für Rabatte, Aufschläge und prozentuale Änderungen. 
+              Einfach, schnell und genau - Prozente berechnen für Deutschland, Österreich und die Schweiz.
             </p>
           </div>
 
           {/* Calculator Component */}
-          <InflationCalculator />
+          <PercentageCalculator />
 
           {/* FAQ Section */}
           <div className="mt-12">
@@ -56,26 +56,26 @@ export default function InflationCalculatorComponent() {
             
             <div className="space-y-6">
               <div className="bg-muted/30 p-6 rounded-lg">
-                <h3 className="font-semibold text-foreground mb-3">Wie wird die Inflation berechnet?</h3>
+                <h3 className="font-semibold text-foreground mb-3">Wie berechne ich 20% Rabatt?</h3>
                 <p className="text-muted-foreground">
-                  Die Berechnung basiert auf dem Verbraucherpreisindex (VPI) des Statistischen Bundesamts. 
-                  Jedes Jahr wird der Betrag mit der jeweiligen Inflationsrate multipliziert.
+                  Um 20% Rabatt zu berechnen, wählen Sie 'Rabatt berechnen', geben den Ursprungspreis ein und 20 als Rabattsatz. 
+                  Der Rechner zeigt Ihnen den reduzierten Preis und die Ersparnis an.
                 </p>
               </div>
               
               <div className="bg-muted/30 p-6 rounded-lg">
-                <h3 className="font-semibold text-foreground mb-3">Warum war die Inflation 2022 so hoch?</h3>
+                <h3 className="font-semibold text-foreground mb-3">Was ist der Unterschied zwischen Rabatt und Aufschlag?</h3>
                 <p className="text-muted-foreground">
-                  2022 erreichte die Inflation 6,9% - hauptsächlich durch Energiepreise, Lieferkettenprobleme 
-                  und die Auswirkungen des Ukraine-Kriegs.
+                  Rabatt reduziert den Preis um einen Prozentwert, Aufschlag erhöht ihn. Bei 20% Rabatt auf 100€ zahlen Sie 80€. 
+                  Bei 20% Aufschlag auf 100€ zahlen Sie 120€.
                 </p>
               </div>
               
               <div className="bg-muted/30 p-6 rounded-lg">
-                <h3 className="font-semibold text-foreground mb-3">Wie kann ich mich vor Inflation schützen?</h3>
+                <h3 className="font-semibold text-foreground mb-3">Wie berechne ich die Mehrwertsteuer mit dem Prozentrechner?</h3>
                 <p className="text-muted-foreground">
-                  Investitionen in Sachwerte, Aktien oder Immobilien können helfen, 
-                  da diese oft mit der Inflation steigen.
+                  Wählen Sie 'Prozent von einem Wert', geben den Nettobetrag ein und 19 (für Deutschland) als Prozentsatz. 
+                  Das Ergebnis ist die Mehrwertsteuer.
                 </p>
               </div>
             </div>
@@ -84,26 +84,26 @@ export default function InflationCalculatorComponent() {
           {/* Features Section */}
           <div className="mt-12 grid md:grid-cols-3 gap-6">
             <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl border border-blue-200">
-              <BarChart3 className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-              <h3 className="font-semibold text-foreground mb-2">Historische Daten</h3>
+              <TrendingDown className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+              <h3 className="font-semibold text-foreground mb-2">Rabatte berechnen</h3>
               <p className="text-sm text-muted-foreground">
-                Inflationsraten seit 1991 vom Statistischen Bundesamt
+                Einfache Berechnung von Rabatten und Preisnachlässen
               </p>
             </div>
             
             <div className="text-center p-6 bg-gradient-to-br from-green-50 to-green-100 rounded-xl border border-green-200">
-              <Calendar className="h-12 w-12 text-green-600 mx-auto mb-4" />
-              <h3 className="font-semibold text-foreground mb-2">Flexible Zeiträume</h3>
+              <TrendingUp className="h-12 w-12 text-green-600 mx-auto mb-4" />
+              <h3 className="font-semibold text-foreground mb-2">Aufschläge berechnen</h3>
               <p className="text-sm text-muted-foreground">
-                Berechnung für beliebige Zeiträume zwischen 1991 und heute
+                Berechnung von Aufschlägen und Preissteigerungen
               </p>
             </div>
             
             <div className="text-center p-6 bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl border border-purple-200">
               <DollarSign className="h-12 w-12 text-purple-600 mx-auto mb-4" />
-              <h3 className="font-semibold text-foreground mb-2">Kaufkraftvergleich</h3>
+              <h3 className="font-semibold text-foreground mb-2">Prozentuale Änderungen</h3>
               <p className="text-sm text-muted-foreground">
-                Zeigt, wie sich Ihre Kaufkraft über die Zeit entwickelt hat
+                Berechnung von prozentualen Wertänderungen
               </p>
             </div>
           </div>
