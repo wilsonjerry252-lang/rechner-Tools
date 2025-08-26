@@ -17,9 +17,6 @@ Allow: /prozentrechner
 Allow: /arbeitstage-rechner
 Allow: /inflationsrechner
 
-# Disallow problematic non-existent URLs
-Disallow: /blog/mehrwertsteuer-berechnung
-Disallow: /blog/mehrwertsteuer-deutschland-oesterreich-schweiz
 
 # Allow all blog posts
 Allow: /blog/mehrwertsteuer-export
