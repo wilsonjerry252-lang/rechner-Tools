@@ -55,6 +55,8 @@ export default function Header() {
                 height={48}
                 className="h-12 w-12 rounded-full shadow-md"
                 style={{ width: '48px', height: '48px' }}
+                priority
+                fetchPriority="high"
               />
               <div className="flex flex-col">
                 <h3 className="text-3xl font-black logo-text logo-gradient logo-glow tracking-tight">

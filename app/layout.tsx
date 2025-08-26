@@ -89,8 +89,7 @@ export default function RootLayout({
         {/* Google Site Verification */}
         <meta name="google-site-verification" content="wBPvzjewAkOEFBmY853_RdN9MbWQ1vy32T63vP3C47g" />
         
-        {/* Preload critical resources */}
-        <link rel="preload" href="/logo.png" as="image" type="image/png" />
+
         
         {/* Critical CSS for above-the-fold content */}
         <style dangerouslySetInnerHTML={{
