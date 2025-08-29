@@ -243,4 +243,40 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- NEW BLOG POSTS - 5 zusätzliche Artikel -->
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/steuererklaerung-2025-aenderungen-tipps</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/kreditrechner-zinsen-tilgung-berechnen</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/rendite-berechnen-investitionen-bewerten</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/gehaltsrechner-brutto-netto-einfach-erklaert</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/zinseszins-berechnen-8-weltwunder-mathematik</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>

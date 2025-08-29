@@ -16,18 +16,35 @@ Allow: /blog/*
 Allow: /prozentrechner
 Allow: /arbeitstage-rechner
 Allow: /inflationsrechner
+Allow: /mehrwertsteuer-rechner
 
 
 # Allow all blog posts
-Allow: /blog/mehrwertsteuer-export
-Allow: /blog/mehrwertsteuer-import
+Allow: /blog/mehrwertsteuer-2025-alle-aenderungen
 Allow: /blog/mehrwertsteuer-berechnung-richtig
 Allow: /blog/mehrwertsteuer-dach-vergleich
-Allow: /blog/mehrwertsteuer-unternehmer
-Allow: /blog/mehrwertsteuer-ausnahmen
+Allow: /blog/mehrwertsteuer-geschichte-deutschland
+Allow: /blog/mehrwertsteuer-online-handel
 Allow: /blog/prozentrechnung-einfach-erklaert
+Allow: /blog/rabatte-richtig-berechnen
+Allow: /blog/prozentuale-preissteigerung
+Allow: /blog/aufschlaege-skonto-unternehmen
+Allow: /blog/prozentrechnung-schueler
 Allow: /blog/arbeitstage-2025-deutschland
+Allow: /blog/arbeitstage-2026-dach-region
+Allow: /blog/arbeitstage-berechnung
+Allow: /blog/feiertage-brueckentage-2025
+Allow: /blog/arbeitstage-werktage-kalendertage
 Allow: /blog/inflation-einfach-erklaert
+Allow: /blog/inflation-deutschland-seit-1991
+Allow: /blog/geld-schutz-inflation
+Allow: /blog/kaufkraftentwicklung-deutschland
+Allow: /blog/inflation-2025-prognose
+Allow: /blog/steuererklaerung-2025-aenderungen-tipps
+Allow: /blog/kreditrechner-zinsen-tilgung-berechnen
+Allow: /blog/rendite-berechnen-investitionen-bewerten
+Allow: /blog/gehaltsrechner-brutto-netto-einfach-erklaert
+Allow: /blog/zinseszins-berechnen-8-weltwunder-mathematik
 
 # Sitemap
 Sitemap: https://www.rechnerjetzt.de/sitemap.xml

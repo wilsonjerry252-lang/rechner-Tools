@@ -7,7 +7,7 @@ import Image from "next/image"
 export const metadata = {
   title: "Blog - Rechner Tools | Steuern, Prozentrechnung & mehr",
   description:
-    "Entdecken Sie 20 hilfreiche Artikel zu Mehrwertsteuer, Prozentrechnung, Arbeitstagen und Inflation. Praktische Tipps und Ratgeber für den deutschsprachigen Raum.",
+    "Entdecken Sie 25 hilfreiche Artikel zu Mehrwertsteuer, Prozentrechnung, Arbeitstagen, Inflation, Steuern und Finanzen. Praktische Tipps und Ratgeber für den deutschsprachigen Raum.",
   keywords: "blog, ratgeber, mehrwertsteuer, prozentrechnung, arbeitstage, inflation, finanzen, tipps, steuern, deutschland",
   alternates: {
     canonical: "https://www.rechnerjetzt.de/blog",
@@ -243,6 +243,62 @@ export default function BlogPage() {
       icon: TrendingDown,
       color: "primary",
       slug: "inflation-2025-prognose"
+    },
+    // Neue Blog Posts - 5 zusätzliche Artikel
+    {
+      id: 21,
+      title: "Steuererklärung 2025: Alle Änderungen & Tipps",
+      excerpt: "Erfahren Sie alle wichtigen Änderungen für die Steuererklärung 2025. Praktische Tipps, neue Regeln und wie Sie Ihre Steuern optimal gestalten können.",
+      category: "Steuern",
+      date: "2024-12-15",
+      readTime: "12 Min.",
+      icon: Calculator,
+      color: "primary",
+      slug: "steuererklaerung-2025-aenderungen-tipps"
+    },
+    {
+      id: 22,
+      title: "Kreditrechner: Zinsen & Tilgung richtig berechnen",
+      excerpt: "Lernen Sie, wie Sie Kredite richtig berechnen. Verstehen Sie Zinsen, Tilgung und monatliche Raten mit unserem umfassenden Guide und praktischen Beispielen.",
+      category: "Finanzen",
+      date: "2024-12-15",
+      readTime: "10 Min.",
+      icon: Calculator,
+      color: "secondary",
+      slug: "kreditrechner-zinsen-tilgung-berechnen"
+    },
+    {
+      id: 23,
+      title: "Rendite berechnen: So bewerten Sie Ihre Investitionen",
+      excerpt: "Lernen Sie, wie Sie Renditen richtig berechnen und Ihre Investitionen bewerten. ROI, CAGR und andere wichtige Kennzahlen einfach erklärt mit praktischen Beispielen.",
+      category: "Investitionen",
+      date: "2024-12-15",
+      readTime: "11 Min.",
+      icon: TrendingUp,
+      color: "accent",
+      slug: "rendite-berechnen-investitionen-bewerten"
+    },
+    {
+      id: 24,
+      title: "Gehaltsrechner: Brutto zu Netto einfach erklärt",
+      excerpt: "Verstehen Sie, wie Ihr Bruttogehalt zu Ihrem Nettogehalt wird. Alle Abzüge, Steuern und Sozialabgaben einfach erklärt mit praktischen Beispielen.",
+      category: "Gehalt",
+      date: "2024-12-15",
+      readTime: "9 Min.",
+      icon: Calculator,
+      color: "primary",
+      slug: "gehaltsrechner-brutto-netto-einfach-erklaert"
+    },
+    {
+      id: 25,
+      title: "Zinseszins berechnen: Das 8. Weltwunder der Mathematik",
+      excerpt: "Entdecken Sie die Macht des Zinseszins! Lernen Sie, wie Sie Zinseszins berechnen und warum Albert Einstein ihn als 8. Weltwunder bezeichnete.",
+      category: "Mathematik",
+      date: "2024-12-15",
+      readTime: "13 Min.",
+      icon: Percent,
+      color: "secondary",
+      slug: "zinseszins-berechnen-8-weltwunder-mathematik"
     }
   ]
 
@@ -284,7 +340,7 @@ export default function BlogPage() {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold font-serif text-foreground mb-4">Blog & Ratgeber</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Entdecken Sie hilfreiche Artikel, Tipps und Ratgeber zu Steuern, Gesundheit und Finanzen. Praktisches Wissen
+            Entdecken Sie 25 hilfreiche Artikel, Tipps und Ratgeber zu Steuern, Finanzen, Mathematik und mehr. Praktisches Wissen
             für den deutschsprachigen Raum.
           </p>
         </div>
