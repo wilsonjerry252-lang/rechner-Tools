@@ -632,38 +632,7 @@ export default function MehrwertsteuerRechnerPage() {
             </div>
           </section>
 
-          {/* Related Blog Posts */}
-          <section className="py-12 px-4 bg-background">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
-                Mehrwertsteuer verstehen
-              </h2>
-              
-              <div className="grid md:grid-cols-2 gap-6">
-                <Link href="/blog/mehrwertsteuer-berechnung" className="group">
-                  <div className="bg-card p-6 rounded-lg border hover:shadow-lg transition-shadow">
-                    <h3 className="font-semibold text-foreground mb-2 group-hover:text-primary">
-                      MwSt. berechnen: Methoden und Beispiele
-                    </h3>
-                    <p className="text-sm text-muted-foreground">
-                      Lernen Sie verschiedene Methoden zur MwSt.-Berechnung kennen
-                    </p>
-                  </div>
-                </Link>
-                
-                <Link href="/blog/mehrwertsteuer-deutschland-oesterreich-schweiz" className="group">
-                  <div className="bg-card p-6 rounded-lg border hover:shadow-lg transition-shadow">
-                    <h3 className="font-semibold text-foreground mb-2 group-hover:text-primary">
-                      MwSt. in der DACH-Region
-                    </h3>
-                    <p className="text-sm text-muted-foreground">
-                      Überblick über MwSt.-Sätze und Regelungen in DE, AT, CH
-                    </p>
-                  </div>
-                </Link>
-              </div>
-            </div>
-          </section>
+
         </main>
 
         <Footer />
