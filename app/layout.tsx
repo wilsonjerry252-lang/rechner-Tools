@@ -71,8 +71,20 @@ export default function RootLayout({
   return (
     <html lang="de" className="scroll-smooth">
       <head>
-        <link rel="icon" href="/logo.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/logo.png" />
+        {/* Comprehensive Favicon Setup for Google Search Results */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        
+        {/* Multiple favicon sizes for better compatibility */}
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
+        <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
+        
+        {/* Legacy favicon for older browsers */}
+        <link rel="shortcut icon" href="/favicon.ico" />
         
         {/* Mobile performance optimizations */}
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover" />
@@ -120,6 +132,30 @@ export default function RootLayout({
         
         {/* Hreflang removed to prevent conflicts with page-specific implementations */}
         
+        {/* Brand and Organization Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Rechner Tools",
+              "url": "https://www.rechnerjetzt.de",
+              "logo": "https://www.rechnerjetzt.de/logo.png",
+              "description": "Kostenlose Online-Rechner für Mehrwertsteuer, Prozentrechnung, Arbeitstage und Inflation",
+              "foundingDate": "2024",
+              "sameAs": [
+                "https://www.rechnerjetzt.de"
+              ],
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "customer service",
+                "availableLanguage": ["German", "English"]
+              }
+            }),
+          }}
+        />
+
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-JTK284TTSM"></script>
         <script
