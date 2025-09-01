@@ -7,7 +7,7 @@ import Image from "next/image"
 export const metadata = {
   title: "Blog - Rechner Tools | Steuern, Prozentrechnung & mehr",
   description:
-    "Entdecken Sie 25 hilfreiche Artikel zu Mehrwertsteuer, Prozentrechnung, Arbeitstagen, Inflation, Steuern und Finanzen. Praktische Tipps und Ratgeber für den deutschsprachigen Raum.",
+    "Entdecken Sie 29 hilfreiche Artikel zu Mehrwertsteuer, Prozentrechnung, Arbeitstagen, Inflation, Steuern und Finanzen. Praktische Tipps und Ratgeber für den deutschsprachigen Raum.",
   keywords: "blog, ratgeber, mehrwertsteuer, prozentrechnung, arbeitstage, inflation, finanzen, tipps, steuern, deutschland",
   alternates: {
     canonical: "https://www.rechnerjetzt.de/blog",
@@ -299,6 +299,51 @@ export default function BlogPage() {
       icon: Percent,
       color: "secondary",
       slug: "zinseszins-berechnen-8-weltwunder-mathematik"
+    },
+    // NEW HIGH-QUALITY BLOG POSTS 2024
+    {
+      id: 26,
+      title: "Mehrwertsteuer vs. Umsatzsteuer: Der ultimative Vergleich 2024",
+      excerpt: "Erfahren Sie alles über Mehrwertsteuer und Umsatzsteuer in Deutschland, Österreich und der Schweiz. Kompletter Vergleich mit aktuellen Steuersätzen und praktischen Beispielen.",
+      category: "Mehrwertsteuer",
+      date: "2024-01-15",
+      readTime: "15 Min.",
+      icon: Calculator,
+      color: "primary",
+      slug: "mehrwertsteuer-vs-umsatzsteuer-vergleich-2024"
+    },
+    {
+      id: 27,
+      title: "MwSt-Sätze 2024: Alle Änderungen in der DACH-Region",
+      excerpt: "Aktuelle Mehrwertsteuersätze für Deutschland, Österreich und die Schweiz. Alle Änderungen 2024, Sonderregelungen und praktische Anwendungstipps für Unternehmen.",
+      category: "Mehrwertsteuer",
+      date: "2024-01-20",
+      readTime: "12 Min.",
+      icon: Calculator,
+      color: "primary",
+      slug: "mwst-saetze-2024-aenderungen-dach"
+    },
+    {
+      id: 28,
+      title: "E-Commerce Steuerpflicht: Online-Händler Guide 2024",
+      excerpt: "Vollständiger Leitfaden zur Steuerpflicht im Online-Handel. Umsatzsteuer, Kleinunternehmerregelung, Grenzwerte und praktische Umsetzung für E-Commerce-Unternehmen.",
+      category: "E-Commerce",
+      date: "2024-01-25",
+      readTime: "14 Min.",
+      icon: Globe,
+      color: "secondary",
+      slug: "e-commerce-steuerpflicht-online-haendler"
+    },
+    {
+      id: 29,
+      title: "Steuerrechner Vergleich: Die besten Tools für Unternehmen",
+      excerpt: "Vergleichen Sie die besten Steuerrechner und Buchhaltungstools für Unternehmen. Funktionen, Preise und Empfehlungen für verschiedene Unternehmensgrößen.",
+      category: "Software",
+      date: "2024-01-30",
+      readTime: "11 Min.",
+      icon: Calculator,
+      color: "accent",
+      slug: "steuerrechner-vergleich-beste-tools-unternehmen"
     }
   ]
 
@@ -340,7 +385,7 @@ export default function BlogPage() {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold font-serif text-foreground mb-4">Blog & Ratgeber</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Entdecken Sie 25 hilfreiche Artikel, Tipps und Ratgeber zu Steuern, Finanzen, Mathematik und mehr. Praktisches Wissen
+            Entdecken Sie 29 hilfreiche Artikel, Tipps und Ratgeber zu Steuern, Finanzen, Mathematik und mehr. Praktisches Wissen
             für den deutschsprachigen Raum.
           </p>
         </div>
