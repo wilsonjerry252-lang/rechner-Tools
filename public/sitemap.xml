@@ -279,4 +279,33 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- NEW HIGH-QUALITY BLOG POSTS 2024 -->
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/mehrwertsteuer-vs-umsatzsteuer-vergleich-2024</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/mwst-saetze-2024-aenderungen-dach</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/e-commerce-steuerpflicht-online-haendler</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.rechnerjetzt.de/blog/steuerrechner-vergleich-beste-tools-unternehmen</loc>
+    <lastmod>2024-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
 </urlset>

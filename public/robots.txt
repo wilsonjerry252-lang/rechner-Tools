@@ -46,6 +46,12 @@ Allow: /blog/rendite-berechnen-investitionen-bewerten
 Allow: /blog/gehaltsrechner-brutto-netto-einfach-erklaert
 Allow: /blog/zinseszins-berechnen-8-weltwunder-mathematik
 
+# NEW HIGH-QUALITY BLOG POSTS 2024
+Allow: /blog/mehrwertsteuer-vs-umsatzsteuer-vergleich-2024
+Allow: /blog/mwst-saetze-2024-aenderungen-dach
+Allow: /blog/e-commerce-steuerpflicht-online-haendler
+Allow: /blog/steuerrechner-vergleich-beste-tools-unternehmen
+
 # Sitemap
 Sitemap: https://www.rechnerjetzt.de/sitemap.xml
 

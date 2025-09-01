@@ -1,8 +1,8 @@
 import type React from "react"
 import type { Metadata } from "next"
 import Layout from "@/components/Layout"
-import Footer from "@/components/Footer"
 import Header from "@/components/Header"
+import Footer from "@/components/Footer"
 
 export const metadata: Metadata = {
   title: "Online-Rechner Tools - Kostenlose Rechner für DACH",
