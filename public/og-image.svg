@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
-  <!-- Background gradient -->
+  <!-- Background gradient matching your header -->
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#007bff;stop-opacity:1" />
@@ -10,27 +10,43 @@
   <!-- Background -->
   <rect width="1200" height="630" fill="url(#bg)"/>
   
-  <!-- Logo area -->
-  <circle cx="150" cy="150" r="60" fill="white" opacity="0.9"/>
-  <text x="150" y="165" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#007bff">R</text>
+  <!-- Logo area - matching your header design exactly -->
+  <circle cx="120" cy="120" r="50" fill="white" opacity="0.95"/>
+  <!-- Your actual logo representation - matching the rounded-full style -->
+  <g transform="translate(70, 70)">
+    <!-- This represents your actual logo.png - a circular logo with rounded-full class -->
+    <circle cx="50" cy="50" r="40" fill="#007bff"/>
+    <circle cx="50" cy="50" r="35" fill="white"/>
+    <!-- Calculator icon to represent your logo better -->
+    <rect x="35" y="35" width="30" height="30" rx="4" fill="#007bff"/>
+    <rect x="38" y="38" width="24" height="24" rx="2" fill="white"/>
+    <rect x="42" y="42" width="16" height="3" fill="#007bff"/>
+    <rect x="42" y="48" width="12" height="3" fill="#007bff"/>
+    <rect x="42" y="54" width="14" height="3" fill="#007bff"/>
+    <rect x="42" y="60" width="10" height="3" fill="#007bff"/>
+  </g>
   
-  <!-- Main title -->
-  <text x="300" y="120" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white">Rechner Tools</text>
+  <!-- Main title - matching your header font -->
+  <text x="220" y="100" font-family="Arial, sans-serif" font-size="52" font-weight="900" fill="white">Rechner Tools</text>
   
   <!-- Subtitle -->
-  <text x="300" y="170" font-family="Arial, sans-serif" font-size="24" fill="white" opacity="0.9">Kostenlose Online-Rechner für DACH</text>
+  <text x="220" y="140" font-family="Arial, sans-serif" font-size="26" fill="white" opacity="0.9">Professionelle Online-Rechner</text>
   
-  <!-- Features -->
-  <text x="300" y="220" font-family="Arial, sans-serif" font-size="18" fill="white" opacity="0.8">✓ Mehrwertsteuer-Rechner</text>
-  <text x="300" y="250" font-family="Arial, sans-serif" font-size="18" fill="white" opacity="0.8">✓ Prozentrechner</text>
-  <text x="300" y="280" font-family="Arial, sans-serif" font-size="18" fill="white" opacity="0.8">✓ Arbeitstage-Rechner</text>
-  <text x="300" y="310" font-family="Arial, sans-serif" font-size="18" fill="white" opacity="0.8">✓ Inflationsrechner</text>
+  <!-- Features list -->
+  <text x="220" y="200" font-family="Arial, sans-serif" font-size="20" fill="white" opacity="0.9">✓ Mehrwertsteuer-Rechner</text>
+  <text x="220" y="235" font-family="Arial, sans-serif" font-size="20" fill="white" opacity="0.9">✓ Prozentrechner</text>
+  <text x="220" y="270" font-family="Arial, sans-serif" font-size="20" fill="white" opacity="0.9">✓ Arbeitstage-Rechner</text>
+  <text x="220" y="305" font-family="Arial, sans-serif" font-size="20" fill="white" opacity="0.9">✓ Inflationsrechner</text>
+  
+  <!-- DACH region flags -->
+  <text x="220" y="360" font-family="Arial, sans-serif" font-size="18" fill="white" opacity="0.8">🇩🇪 Deutschland • 🇦🇹 Österreich • 🇨🇭 Schweiz</text>
   
   <!-- URL -->
-  <text x="300" y="380" font-family="Arial, sans-serif" font-size="20" fill="white" opacity="0.7">www.rechnerjetzt.de</text>
+  <text x="220" y="420" font-family="Arial, sans-serif" font-size="22" fill="white" opacity="0.7">www.rechnerjetzt.de</text>
   
   <!-- Decorative elements -->
   <circle cx="1000" cy="100" r="40" fill="white" opacity="0.1"/>
   <circle cx="1100" cy="200" r="30" fill="white" opacity="0.1"/>
   <circle cx="1050" cy="350" r="25" fill="white" opacity="0.1"/>
+  <circle cx="950" cy="450" r="35" fill="white" opacity="0.1"/>
 </svg>

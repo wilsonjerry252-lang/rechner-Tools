@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { margin: 0; padding: 0; }
+        .og-image {
+            width: 1200px;
+            height: 630px;
+            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            display: flex;
+            align-items: center;
+            padding: 40px;
+            font-family: Arial, sans-serif;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .logo img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+        .content {
+            flex: 1;
+        }
+        .title {
+            font-size: 52px;
+            font-weight: 900;
+            margin: 0 0 10px 0;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        .subtitle {
+            font-size: 26px;
+            margin: 0 0 30px 0;
+            opacity: 0.9;
+        }
+        .features {
+            font-size: 20px;
+            line-height: 1.6;
+            margin: 0 0 20px 0;
+        }
+        .region {
+            font-size: 18px;
+            opacity: 0.8;
+            margin: 0 0 20px 0;
+        }
+        .url {
+            font-size: 22px;
+            opacity: 0.7;
+        }
+        .decoration {
+            position: absolute;
+            background: white;
+            opacity: 0.1;
+            border-radius: 50%;
+        }
+        .dec1 { width: 80px; height: 80px; top: 50px; right: 200px; }
+        .dec2 { width: 60px; height: 60px; top: 150px; right: 100px; }
+        .dec3 { width: 50px; height: 50px; top: 300px; right: 150px; }
+        .dec4 { width: 70px; height: 70px; top: 400px; right: 250px; }
+    </style>
+</head>
+<body>
+    <div class="og-image">
+        <div class="decoration dec1"></div>
+        <div class="decoration dec2"></div>
+        <div class="decoration dec3"></div>
+        <div class="decoration dec4"></div>
+        
+        <div class="logo-section">
+            <div class="logo">
+                <img src="logo.png" alt="Rechner Tools Logo">
+            </div>
+            <div class="content">
+                <h1 class="title">Rechner Tools</h1>
+                <p class="subtitle">Professionelle Online-Rechner</p>
+                <div class="features">
+                    ✓ Mehrwertsteuer-Rechner<br>
+                    ✓ Prozentrechner<br>
+                    ✓ Arbeitstage-Rechner<br>
+                    ✓ Inflationsrechner
+                </div>
+                <div class="region">🇩🇪 Deutschland • 🇦🇹 Österreich • 🇨🇭 Schweiz</div>
+                <div class="url">www.rechnerjetzt.de</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
