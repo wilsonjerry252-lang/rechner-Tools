@@ -1,59 +1,26 @@
+# Homework Buddy Robot Rules
 User-agent: *
 Allow: /
 
-# Allow all important pages to be indexed
-Allow: /impressum
-Allow: /kontakt
-Allow: /ueber-uns
-Allow: /datenschutz
-Allow: /cookie-richtlinie
-Allow: /haftungsausschluss
-Allow: /nutzungsbedingungen
-Allow: /blog/
-Allow: /blog/*
+# Allow all main pages
+Allow: /
+Allow: /solve
+Allow: /lessons
+Allow: /lessons/*
+Allow: /practice
+Allow: /parents
+Allow: /about
+Allow: /privacy
+Allow: /terms
+Allow: /disclaimer
+Allow: /contact
 
-# Allow all calculator pages
-Allow: /prozentrechner
-Allow: /arbeitstage-rechner
-Allow: /inflationsrechner
-Allow: /mehrwertsteuer-rechner
+# Disallow search engine indexing of admin or internal paths (if any exist)
+Disallow: /_next/
+Disallow: /api/
 
+# Sitemap location
+Sitemap: https://homework-buddy.app/sitemap.xml
 
-# Allow all blog posts
-Allow: /blog/mehrwertsteuer-2025-alle-aenderungen
-Allow: /blog/mehrwertsteuer-berechnung-richtig
-Allow: /blog/mehrwertsteuer-dach-vergleich
-Allow: /blog/mehrwertsteuer-geschichte-deutschland
-Allow: /blog/mehrwertsteuer-online-handel
-Allow: /blog/prozentrechnung-einfach-erklaert
-Allow: /blog/rabatte-richtig-berechnen
-Allow: /blog/prozentuale-preissteigerung
-Allow: /blog/aufschlaege-skonto-unternehmen
-Allow: /blog/prozentrechnung-schueler
-Allow: /blog/arbeitstage-2025-deutschland
-Allow: /blog/arbeitstage-2026-dach-region
-Allow: /blog/arbeitstage-berechnung
-Allow: /blog/feiertage-brueckentage-2025
-Allow: /blog/arbeitstage-werktage-kalendertage
-Allow: /blog/inflation-einfach-erklaert
-Allow: /blog/inflation-deutschland-seit-1991
-Allow: /blog/geld-schutz-inflation
-Allow: /blog/kaufkraftentwicklung-deutschland
-Allow: /blog/inflation-2025-prognose
-Allow: /blog/steuererklaerung-2025-aenderungen-tipps
-Allow: /blog/kreditrechner-zinsen-tilgung-berechnen
-Allow: /blog/rendite-berechnen-investitionen-bewerten
-Allow: /blog/gehaltsrechner-brutto-netto-einfach-erklaert
-Allow: /blog/zinseszins-berechnen-8-weltwunder-mathematik
-
-# NEW HIGH-QUALITY BLOG POSTS 2024
-Allow: /blog/mehrwertsteuer-vs-umsatzsteuer-vergleich-2024
-Allow: /blog/mwst-saetze-2024-aenderungen-dach
-Allow: /blog/e-commerce-steuerpflicht-online-haendler
-Allow: /blog/steuerrechner-vergleich-beste-tools-unternehmen
-
-# Sitemap
-Sitemap: https://www.rechnerjetzt.de/sitemap.xml
-
-# Crawl delay (optional)
+# Crawl delay for politeness
 Crawl-delay: 1

@@ -1,0 +1,21 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circle background -->
+  <circle cx="100" cy="100" r="95" fill="#5B9BD5" stroke="#4A7FB3" stroke-width="2"/>
+  
+  <!-- Book shape -->
+  <path d="M 60 60 L 100 55 L 140 60 L 140 130 Q 100 140 60 130 Z" fill="#FFC107" opacity="0.9"/>
+  <path d="M 100 55 L 140 60 L 140 130 Q 100 140 100 140 Z" fill="#FFB300"/>
+  
+  <!-- Spine of book -->
+  <line x1="100" y1="55" x2="100" y2="140" stroke="#4A7FB3" stroke-width="2"/>
+  
+  <!-- Light bulb inside book (for learning) -->
+  <circle cx="100" cy="85" r="12" fill="#FFD700"/>
+  <path d="M 92 97 Q 92 100 95 102 L 105 102 Q 108 100 108 97" fill="#FFD700"/>
+  <rect x="98" y="102" width="4" height="8" fill="#FFD700"/>
+  
+  <!-- Stars around for achievement -->
+  <path d="M 50 50 L 53 58 L 62 58 L 55 63 L 58 72 L 50 67 L 42 72 L 45 63 L 38 58 L 47 58 Z" fill="#FFD700"/>
+  <path d="M 150 50 L 153 58 L 162 58 L 155 63 L 158 72 L 150 67 L 142 72 L 145 63 L 138 58 L 147 58 Z" fill="#FFD700"/>
+  <path d="M 100 35 L 103 43 L 112 43 L 105 48 L 108 57 L 100 52 L 92 57 L 95 48 L 88 43 L 97 43 Z" fill="#FFD700"/>
+</svg>
